@@ -1,0 +1,13 @@
+package chapter07;
+
+public class RetOb {
+    public static void main(String[] args) {
+        Test3 ob1 = new Test3(2);
+        Test3 ob2;
+         ob2 = ob1.incrByTen();
+         System.out.println("ob1.a: " + ob1.c);
+         System.out.println("ob2.a: " +ob2.c);
+         ob2 = ob2.incrByTen();
+         System.out.println("ob2.a after second increase in value" +ob2.c);
+    }
+}
