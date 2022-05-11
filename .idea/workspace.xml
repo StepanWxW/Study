@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="add new RPS v2.0">
-      <change afterPath="$PROJECT_DIR$/src/RPSv2/GameField.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kostya/Leg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kostya/People.java" afterDir="false" />
+    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="Commmit save Kostya nastroiki">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RPSv2/Field.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RPSv2/Field.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RPSv2/GameField.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RPSv2/GameField.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/RPSv2/GameLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RPSv2/GameLogic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RPSv2/GameRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RPSv2/GameRunner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652241966140</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Commmit save Kostya nastroiki">
+      <created>1652278228589</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1652278228589</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -142,7 +145,8 @@
     <MESSAGE value="Start" />
     <MESSAGE value="simple coomit" />
     <MESSAGE value="add new RPS v2.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="add new RPS v2.0" />
+    <MESSAGE value="Commmit save Kostya nastroiki" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commmit save Kostya nastroiki" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

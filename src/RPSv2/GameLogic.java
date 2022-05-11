@@ -1,15 +1,20 @@
 package RPSv2;
 
 import java.util.Random;
+import java.util.Scanner;
 
 public class GameLogic {
 
 
 
     public void start() {
+        Scanner scan = new Scanner(System.in);
+        GameField change = GameField.valueOf(scan.nextLine()); ////зачемто валуеоф>>> погуглил вроде
+                                                                // типа в нужнный формат переводит
+
         Field field = new Field();
         field.setComputer(random());
-        field.setHuman(значение твое);
+        field.setHuman(change);
         методВыборПобедителя(field.getHuman(), field.getComputer());
 
     }
