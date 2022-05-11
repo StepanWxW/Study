@@ -9,14 +9,19 @@ public class GameLogic {
 
     public void start() {
         Scanner scan = new Scanner(System.in);
-        GameField change = GameField.valueOf(scan.nextLine()); ////зачемто валуеоф>>> погуглил вроде
-                                                                // типа в нужнный формат переводит
+        GameField change = GameField.valueOf(scan.nextLine());
 
-        Field field = new Field();
-        field.setComputer(random());
-        field.setHuman(change);
-        методВыборПобедителя(field.getHuman(), field.getComputer());
+        for (GameField game : GameField.values())
+            if (game.name().equals(change)) {
 
+
+                Field field = new Field();
+                field.setComputer(random());
+                field.setHuman(change);
+                методВыборПобедителя(field.getHuman(), field.getComputer());
+
+            }
+        else System.out.println("Вы ввели не верное значение");
     }
     private void методВыборПобедителя(GameField твоеЗнач, GameField компЗнач) {
         //сравнение твоеЗнач с компЗнач
