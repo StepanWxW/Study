@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="simple coomit">
+    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="add new RPS v2.0">
+      <change afterPath="$PROJECT_DIR$/src/RPSv2/GameField.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kostya/Leg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kostya/People.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RPSv2/Field.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RPSv2/Field.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RPSv2/GameLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RPSv2/GameLogic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RPSv2/GameRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RPSv2/GameRunner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,6 +18,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -23,7 +30,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="28yYkYDGZfipFIKdHp6k9EOMkyL" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -37,7 +46,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.People">
     <configuration name="GameRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="RPS.GameRunner" />
       <module name="Study" />
@@ -51,8 +60,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="People" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kostya.People" />
+      <module name="Study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="kostya.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UseStatic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter07.UseStatic" />
+      <module name="Study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapter07.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.People" />
+        <item itemvalue="Application.UseStatic" />
         <item itemvalue="Application.GameRunner" />
       </list>
     </recent_temporary>
@@ -80,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652238402389</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add new RPS v2.0">
+      <created>1652241966140</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1652241966140</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -97,6 +141,19 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Start" />
     <MESSAGE value="simple coomit" />
-    <option name="LAST_COMMIT_MESSAGE" value="simple coomit" />
+    <MESSAGE value="add new RPS v2.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="add new RPS v2.0" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/chapter07/UseStatic.java</url>
+          <line>3</line>
+          <properties field="a" class="chapter07.UseStatic" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
