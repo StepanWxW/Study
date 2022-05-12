@@ -27,7 +27,7 @@ public class GameRunner {
 
            System.out.println("Computer answer: " + answer);
 
-           switch (user+answer) {
+           switch (user + answer) {
                case "RockRock":
                case "PaperPaper":
                case "ScissorsScissors":
