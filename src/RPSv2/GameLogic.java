@@ -3,22 +3,31 @@ package RPSv2;
 import java.util.Random;
 import java.util.Scanner;
 
+import static RPSv2.GameField.PAPER;
+
 public class GameLogic {
 
     Field field = new Field();
 
     public void start() {
-        System.out.println("It's game \"STONE\", \"SCISSORS\", \"PAPER\".\nMake you choice:");
+
+       for(;;) {
+        Hello();
         field.setHuman(getHumanChange());
         field.setComputer(getComputerChange());
-        System.out.println("Computer change: " +valueOf(getComputerChange()));
+        computerChange();
         winnerChange(field.getHuman(),field.getComputer());
+
+        }
+    }
+    private void Hello(){
+        System.out.println("It's game \"STONE\", \"SCISSORS\", \"PAPER\".\nMake you choice:");
+    }
+    private void computerChange(){
+        System.out.println("Computer change: " + field.getComputer());
     }
 
-    private GameField valueOf(GameField computerChange) {
 
-        return computerChange;
-    }
 
     private void winnerChange(GameField humanValue, GameField compValue) {
 
@@ -59,7 +68,12 @@ public class GameLogic {
    private GameField getComputerChange() {
        return GameField.values()[new Random().nextInt(GameField.values().length)];
    }
-
+//    private GameField check(){
+//        if (getHumanChange().equals(GameField.getValues())) {
+//
+//        }
+//        return checkHuman;
+//    }
     private GameField getHumanChange() {
         Scanner scan = new Scanner(System.in);
         return GameField.valueOf(scan.nextLine());

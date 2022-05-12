@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="add if&#10;and work on getComputerChange">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RPSv2/GameField.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RPSv2/GameField.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/RPSv2/GameLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RPSv2/GameLogic.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -168,7 +169,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652365150714</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="add if&#10;and work on getComputerChange">
+      <created>1652368187736</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1652368187736</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
