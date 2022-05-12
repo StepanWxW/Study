@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="save day">
+    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="add if&#10;and work on getComputerChange">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/RPSv2/GameLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RPSv2/GameLogic.java" afterDir="false" />
     </list>
@@ -161,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652363011353</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add if&#10;and work on getComputerChange">
+      <created>1652365150714</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1652365150714</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -183,7 +190,8 @@
     <MESSAGE value="add change in GameLogic" />
     <MESSAGE value="add if in gamelogic&#10;&#10;I go to sleep? and push" />
     <MESSAGE value="save day" />
-    <option name="LAST_COMMIT_MESSAGE" value="save day" />
+    <MESSAGE value="add if&#10;and work on getComputerChange" />
+    <option name="LAST_COMMIT_MESSAGE" value="add if&#10;and work on getComputerChange" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

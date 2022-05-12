@@ -3,48 +3,52 @@ package RPSv2;
 import java.util.Random;
 import java.util.Scanner;
 
-import static RPSv2.GameField.PAPER;
-
 public class GameLogic {
 
     Field field = new Field();
 
     public void start() {
-        System.out.println("It's game \"STONE\", \"SCISSORS\", \"PAPER\".\n Make you choice:");
+        System.out.println("It's game \"STONE\", \"SCISSORS\", \"PAPER\".\nMake you choice:");
         field.setHuman(getHumanChange());
         field.setComputer(getComputerChange());
+        System.out.println("Computer change: " +valueOf(getComputerChange()));
         winnerChange(field.getHuman(),field.getComputer());
     }
 
-    private void winnerChange(GameField humanValue, GameField compValue) {
-        //сравнение твоеЗнач с компЗнач
-        String winner = new String();
+    private GameField valueOf(GameField computerChange) {
 
-        if (humanValue == GameField.SCISSORS && compValue ==GameField.PAPER) {
+        return computerChange;
+    }
+
+    private void winnerChange(GameField humanValue, GameField compValue) {
+
+        String winner = null;
+
+        if (humanValue == GameField.SCISSORS && compValue == GameField.PAPER) {
             winner = "Human";
         }
-        if (humanValue == GameField.SCISSORS && compValue ==GameField.SCISSORS) {
+        if (humanValue == GameField.SCISSORS && compValue == GameField.SCISSORS) {
             winner = "не определен. Ничья.";
         }
-        if (humanValue == GameField.SCISSORS && compValue ==GameField.STONE) {
+        if (humanValue == GameField.SCISSORS && compValue == GameField.STONE) {
             winner = "Computer";
         }
-        if (humanValue == GameField.PAPER && compValue ==GameField.PAPER) {
+        if (humanValue == GameField.PAPER && compValue == GameField.PAPER) {
             winner = "не определен. Ничья.";
         }
-        if (humanValue == GameField.PAPER && compValue ==GameField.SCISSORS) {
+        if (humanValue == GameField.PAPER && compValue == GameField.SCISSORS) {
             winner = "Computer";
         }
-        if (humanValue == GameField.PAPER && compValue ==GameField.STONE) {
+        if (humanValue == GameField.PAPER && compValue == GameField.STONE) {
             winner = "Human";
         }
-        if (humanValue == GameField.STONE && compValue ==GameField.PAPER) {
+        if (humanValue == GameField.STONE && compValue == GameField.PAPER) {
             winner = "Computer";
         }
-        if (humanValue == GameField.STONE && compValue ==GameField.SCISSORS) {
+        if (humanValue == GameField.STONE && compValue == GameField.SCISSORS) {
             winner = "Human";
         }
-        if (humanValue == GameField.STONE && compValue ==GameField.STONE) {
+        if (humanValue == GameField.STONE && compValue == GameField.STONE) {
             winner = "не определен. Ничья.";
         }
 
@@ -52,13 +56,10 @@ public class GameLogic {
     }
 
 
-    private GameField getComputerChange() {
-        Random random1 = new Random();
-        int i = random1.nextInt(3);
-        GameField[] array = GameField.getValues();
+   private GameField getComputerChange() {
+       return GameField.values()[new Random().nextInt(GameField.values().length)];
+   }
 
-        return GameField.STONE;
-    }
     private GameField getHumanChange() {
         Scanner scan = new Scanner(System.in);
         return GameField.valueOf(scan.nextLine());
