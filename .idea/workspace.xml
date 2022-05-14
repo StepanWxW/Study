@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="add if&#10;and work on getComputerChange">
+    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="all work, but check not work&#10;Konstantin, equals also is false why??">
+      <change afterPath="$PROJECT_DIR$/src/chapter8/A1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter8/Box1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RPSv2/GameField.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RPSv2/GameField.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RPSv2/GameLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RPSv2/GameLogic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter8/refDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter8/refDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,13 +43,13 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.RPSv2.GameRunner">
-    <configuration name="GameRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RPS.GameRunner" />
+  <component name="RunManager" selected="Application.UseSuper">
+    <configuration name="DemoSuper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter8.DemoSuper" />
       <module name="Study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="RPS.*" />
+          <option name="PATTERN" value="chapter8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,12 +83,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UseStatic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter07.UseStatic" />
+    <configuration name="UseSuper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter8.UseSuper" />
       <module name="Study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter07.*" />
+          <option name="PATTERN" value="chapter8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="refDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter8.refDemo" />
+      <module name="Study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapter8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,10 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UseSuper" />
+        <item itemvalue="Application.DemoSuper" />
+        <item itemvalue="Application.refDemo" />
         <item itemvalue="Application.RPSv2.GameRunner" />
         <item itemvalue="Application.People" />
-        <item itemvalue="Application.UseStatic" />
-        <item itemvalue="Application.GameRunner" />
       </list>
     </recent_temporary>
   </component>
@@ -176,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652368187736</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="all work, but check not work&#10;Konstantin, equals also is false why??">
+      <created>1652373951999</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1652373951999</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -199,7 +221,8 @@
     <MESSAGE value="add if in gamelogic&#10;&#10;I go to sleep? and push" />
     <MESSAGE value="save day" />
     <MESSAGE value="add if&#10;and work on getComputerChange" />
-    <option name="LAST_COMMIT_MESSAGE" value="add if&#10;and work on getComputerChange" />
+    <MESSAGE value="all work, but check not work&#10;Konstantin, equals also is false why??" />
+    <option name="LAST_COMMIT_MESSAGE" value="all work, but check not work&#10;Konstantin, equals also is false why??" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

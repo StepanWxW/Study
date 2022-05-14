@@ -7,6 +7,13 @@ public class refDemo {
         double vol;
 
         vol = weightbox.volume();
-        System.out.println("");
+        System.out.println("Volume weightbox is: " + vol);
+        System.out.println("Weght weightbox is: " + weightbox.weight);
+        System.out.println();
+
+        plainbox = weightbox;
+        vol = plainbox.volume();
+        System.out.println("Volume plainbox is: " + vol);
+
     }
 }
