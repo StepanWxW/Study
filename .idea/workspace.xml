@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="Lesson 4 is done">
-      <change afterPath="$PROJECT_DIR$/src/addStudy/Lesson5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/addStudy/Lesson6.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +40,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Lesson5">
+  <component name="RunManager" selected="Application.Lesson6">
     <configuration name="Array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="addStudy.Array" />
       <module name="Study" />
@@ -60,19 +60,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="addStudy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FindArias" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter8.FindArias" />
-      <module name="Study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chapter8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,13 +93,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Lesson6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="addStudy.Lesson6" />
+      <module name="Study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="addStudy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Lesson6" />
         <item itemvalue="Application.Lesson5" />
         <item itemvalue="Application.Lesson4" />
         <item itemvalue="Application.Array2" />
         <item itemvalue="Application.Array" />
-        <item itemvalue="Application.FindArias" />
       </list>
     </recent_temporary>
   </component>
@@ -237,7 +237,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652617306541</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Lesson 4 is done">
+      <created>1652618083933</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1652618083933</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
