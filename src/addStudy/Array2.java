@@ -1,12 +1,14 @@
-package addStudy;
-
-public class Array {
+package addStudy
+// нот ворк
+public class Array2 {
     public static void main(String[] args) {
         int[] array = new int[]{ 3,2,3,1,5 };
         int j;
-        int n = 0;
+        int n = array[0];
+        j = n;
         for (int i = 0; i<array.length; i++) {
-            j = array[n];
+            if (j < n);
+            else  j = n;
             System.out.println(j);
             n++;
         }
@@ -14,3 +16,4 @@ public class Array {
 
     }
 }
+
