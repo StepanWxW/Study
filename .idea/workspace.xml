@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="add&#10;Study of Pestehin!!)&#10;First is done!!">
-      <change afterPath="$PROJECT_DIR$/src/addStudy/Array1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/addStudy/Array2.java" afterDir="false" />
+    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="work">
+      <change afterPath="$PROJECT_DIR$/src/chapter8/A2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter8/A3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter8/A4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter8/A5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter8/Figure.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/addStudy/Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/addStudy/Array.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/addStudy/Array2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/addStudy/Array2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,48 +46,9 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Array2">
-    <configuration name="Array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="addStudy.Array" />
-      <module name="Study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="addStudy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Array1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="addStudy.Array1" />
-      <module name="Study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="addStudy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Array2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="addStudy.Array2" />
-      <module name="Study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="addStudy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DemoShipment" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter8.DemoShipment" />
+  <component name="RunManager" selected="Application.FindArias">
+    <configuration name="CollingCons" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter8.CollingCons" />
       <module name="Study" />
       <extension name="coverage">
         <pattern>
@@ -96,8 +60,47 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UseSuper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter8.UseSuper" />
+    <configuration name="Dispatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter8.Dispatch" />
+      <module name="Study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapter8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindArias" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter8.FindArias" />
+      <module name="Study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapter8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Override" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter8.Override" />
+      <module name="Study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapter8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Override1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter8.Override1" />
       <module name="Study" />
       <extension name="coverage">
         <pattern>
@@ -111,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Array2" />
-        <item itemvalue="Application.Array1" />
-        <item itemvalue="Application.Array" />
-        <item itemvalue="Application.DemoShipment" />
-        <item itemvalue="Application.UseSuper" />
+        <item itemvalue="Application.FindArias" />
+        <item itemvalue="Application.Dispatch" />
+        <item itemvalue="Application.Override1" />
+        <item itemvalue="Application.Override" />
+        <item itemvalue="Application.CollingCons" />
       </list>
     </recent_temporary>
   </component>
@@ -212,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652546266083</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="work">
+      <created>1652585395403</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1652585395403</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -238,7 +248,8 @@
     <MESSAGE value="all work, but check not work&#10;Konstantin, equals also is false why??" />
     <MESSAGE value="study word super&#10;It's interesting)" />
     <MESSAGE value="add&#10;Study of Pestehin!!)&#10;First is done!!" />
-    <option name="LAST_COMMIT_MESSAGE" value="add&#10;Study of Pestehin!!)&#10;First is done!!" />
+    <MESSAGE value="work" />
+    <option name="LAST_COMMIT_MESSAGE" value="work" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -1,4 +1,4 @@
-package addStudy
+package addStudy;
 // нот ворк
 public class Array2 {
     public static void main(String[] args) {
