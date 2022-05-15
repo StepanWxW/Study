@@ -11,7 +11,6 @@ public class Array1 {
                 n--;
             }
 
-
         }
     }
 

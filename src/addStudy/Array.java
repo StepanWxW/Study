@@ -10,7 +10,10 @@ public class Array {
             System.out.println(j);
             n++;
         }
-
+            int[] array1 = new int[]{ 3,2,3,1,5,9,1 };
+            for ( int num : array1) {
+                System.out.println(num);
+            }
 
     }
 }
