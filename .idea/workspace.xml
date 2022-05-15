@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="work">
+    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="3 is done">
+      <change afterPath="$PROJECT_DIR$/src/addStudy/Lesson4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/addStudy/Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/addStudy/Array.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/addStudy/Array1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/addStudy/Array1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/addStudy/Array2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/addStudy/Array2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +41,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Array2">
+  <component name="RunManager" selected="Application.Lesson4">
     <configuration name="Array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="addStudy.Array" />
       <module name="Study" />
@@ -96,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Override1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter8.Override1" />
+    <configuration name="Lesson4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="addStudy.Lesson4" />
       <module name="Study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter8.*" />
+          <option name="PATTERN" value="addStudy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,11 +109,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Lesson4" />
         <item itemvalue="Application.Array2" />
         <item itemvalue="Application.Array" />
         <item itemvalue="Application.FindArias" />
         <item itemvalue="Application.Dispatch" />
-        <item itemvalue="Application.Override1" />
       </list>
     </recent_temporary>
   </component>
@@ -226,7 +224,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652601348332</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="3 is done">
+      <created>1652604762845</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1652604762845</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -253,7 +258,8 @@
     <MESSAGE value="study word super&#10;It's interesting)" />
     <MESSAGE value="add&#10;Study of Pestehin!!)&#10;First is done!!" />
     <MESSAGE value="work" />
-    <option name="LAST_COMMIT_MESSAGE" value="work" />
+    <MESSAGE value="3 is done" />
+    <option name="LAST_COMMIT_MESSAGE" value="3 is done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
