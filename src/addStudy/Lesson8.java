@@ -17,6 +17,8 @@ public class Lesson8 {
         d.str("I love dota and java, maybe...");
         F f = new F();
         f.str();
+
+//       System.out.println(f.Arrays.toString(str()));
     }
 }
     class A {
@@ -120,18 +122,21 @@ class D {
     }
 }
 class F {
-    void str() {
+    int str() {
         String str = "I love dota and java, maybe...";
         char[] chars = str.toCharArray();
         char e = 'e';
         char o = 'o';
         char a = 'a';
-
+        int x = 0;
         for (int i = 0; i < chars.length; i++) {
             if (chars[i] == a ) {
-                System.out.print(i);}
+                x = i;
+                System.out.print(i +" ");}
         }
-
+//        System.out.println(Arrays.toString(str()));
+       return x;
     }
+
 }
 
