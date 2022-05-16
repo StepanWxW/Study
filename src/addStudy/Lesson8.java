@@ -11,6 +11,10 @@ public class Lesson8 {
         b.str2();
         C c = new C();
         c.str();
+        E e = new E();
+        e.str();
+        D d = new D();
+        d.str("I love dota and java, maybe...");
     }
 }
     class A {
@@ -91,6 +95,26 @@ class C {
 
         }
         System.out.println(chars);
+    }
+}
+class E {
+    void str(){
+        String str = "I love dota and java, maybe...";
+        char[] chars = str.toCharArray();
+        for (int i = 0; i < chars.length; i++) {
+            char c = chars[i];
+            if (c == 'o') {
+                chars[i] = 'k';}
+            }
+        System.out.println(chars);
+    }
+}
+class D {
+    void str(String str){
+        System.out.println("Characters: " + str.length());
+
+        String[] array = str.split(" ");
+        System.out.println(array.length);
     }
 }
 
