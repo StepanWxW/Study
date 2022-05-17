@@ -1,5 +1,7 @@
 package addStudy;
 
+import java.util.Arrays;
+
 public class Lesson8 {
     public static void main(String[] args) {
         A a = new A();
@@ -122,21 +124,26 @@ class D {
     }
 }
 class F {
-    int str() {
-        String str = "I love dota and java, maybe...";
-        char[] chars = str.toCharArray();
-        char e = 'e';
-        char o = 'o';
-        char a = 'a';
-        int x = 0;
-        for (int i = 0; i < chars.length; i++) {
-            if (chars[i] == a ) {
-                x = i;
-                System.out.print(i +" ");}
-        }
-//        System.out.println(Arrays.toString(str()));
-       return x;
+    void str() {
+        int[] mas = new int[0]; {
+            String str = "I love dota and java, maybe...";
+            char[] chars = str.toCharArray();
+            char e = 'e';
+            char o = 'o';
+            char a = 'a';
+            int x = 0;
+            for (int i = 0; i < chars.length; i++) {
+                if (chars[i] == a) {
+                    System.out.print(i + " ");
+//                    mas [i] = i;
+
+                }
+//                return x;
+            }
+        
+
+        }System.out.println(Arrays.toString(mas));
+
     }
 
 }
-
