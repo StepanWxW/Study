@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="Question from lesson 9 my slef. Why ?&#10;If I change check true.">
+    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="fixed lesson8">
+      <change afterPath="$PROJECT_DIR$/src/chapter8/A6.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/addStudy/Lesson8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/addStudy/Lesson8.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,13 +41,13 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Lesson8">
-    <configuration name="Lesson6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="addStudy.Lesson6" />
+  <component name="RunManager" selected="Application.AbstractDemo">
+    <configuration name="AbstractDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter8.AbstractDemo" />
       <module name="Study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="addStudy.*" />
+          <option name="PATTERN" value="chapter8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,11 +109,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AbstractDemo" />
         <item itemvalue="Application.Lesson8" />
         <item itemvalue="Application.Lesson9myself" />
         <item itemvalue="Application.Lesson9" />
         <item itemvalue="Application.Lesson7" />
-        <item itemvalue="Application.Lesson6" />
       </list>
     </recent_temporary>
   </component>
@@ -322,7 +322,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652770716511</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="fixed lesson8">
+      <created>1652772883414</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1652772883414</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -361,7 +368,8 @@
     <MESSAGE value="I need your help from 8F lesson" />
     <MESSAGE value="Lesson 9 is complete" />
     <MESSAGE value="Question from lesson 9 my slef. Why ?&#10;If I change check true." />
-    <option name="LAST_COMMIT_MESSAGE" value="Question from lesson 9 my slef. Why ?&#10;If I change check true." />
+    <MESSAGE value="fixed lesson8" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed lesson8" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
