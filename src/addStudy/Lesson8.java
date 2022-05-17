@@ -4,34 +4,36 @@ import java.util.Arrays;
 
 public class Lesson8 {
     public static void main(String[] args) {
+        String fraze = "I love dota and java, maybe...";
         A a = new A();
         a.str();
-        a.str2("I love dota and java, maybe...");
+        a.str2(fraze);
 //        go.str3("I love dota and java, maybe...");
         B b = new B();
         b.str("I love dota and java, maybe...");
         b.str2();
         C c = new C();
-        c.str();
+        String x = c.str();
+        System.out.println(x);
         E e = new E();
         e.str();
         D d = new D();
         d.str("I love dota and java, maybe...");
         F f = new F();
-        f.str();
+        int[] y = f.str();
+        System.out.println(y);
 
 //       System.out.println(f.Arrays.toString(str()));
     }
 }
     class A {
-        void str() {
+        String str() {
             StringBuffer str1 = new StringBuffer("I love dota and java, maybe...");
             StringBuffer str2 = str1.reverse();
             System.out.println(str2);
+            return str2.toString();
         }
         void str2(String str) {
-
-
             String result ="";
             for (int i =0 ; i<str.length() ; i++){
                 result = str.charAt(i) +result;
@@ -88,7 +90,7 @@ class B {
     }
 }
 class C {
-    void str() {
+    String str() {
         String str = "I love dota and java, maybe...";
         char[] chars = str.toCharArray();
         for (int i = 0; i < chars.length; i++) {
@@ -101,6 +103,7 @@ class C {
 
         }
         System.out.println(chars);
+        return chars.toString();
     }
 }
 class E {
@@ -116,34 +119,35 @@ class E {
     }
 }
 class D {
-    void str(String str){
+    String[] str(String str){
         System.out.println("Characters: " + str.length());
 
         String[] array = str.split(" ");
         System.out.println(array.length);
+        return array;
     }
 }
 class F {
-    void str() {
-        int[] mas = new int[0]; {
+    int[] str() {
             String str = "I love dota and java, maybe...";
             char[] chars = str.toCharArray();
             char e = 'e';
             char o = 'o';
             char a = 'a';
-            int x = 0;
-            for (int i = 0; i < chars.length; i++) {
-                if (chars[i] == a) {
-                    System.out.print(i + " ");
-//                    mas [i] = i;
-
-                }
-//                return x;
+            int count = 0;
+        for (char aChar : chars) {
+            if (aChar == a) {
+                count++;
             }
-        
-
-        }System.out.println(Arrays.toString(mas));
-
-    }
-
+        }
+            int[] array = new int[count];
+            int x = 0;
+            for (char c : chars) {
+                if (c == a) {
+                    array[x] = c;
+                    x++;
+                }
+            }
+            return array;
+        }
 }
