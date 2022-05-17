@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="fixed lesson8">
-      <change afterPath="$PROJECT_DIR$/src/chapter8/A6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="chapter 8 work">
+      <change afterPath="$PROJECT_DIR$/src/chapter8/Figure1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -329,7 +328,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652772883414</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="chapter 8 work">
+      <created>1652782562835</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1652782562835</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -344,7 +350,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Start" />
     <MESSAGE value="simple coomit" />
     <MESSAGE value="add new RPS v2.0" />
     <MESSAGE value="Commmit save Kostya nastroiki" />
@@ -369,7 +374,8 @@
     <MESSAGE value="Lesson 9 is complete" />
     <MESSAGE value="Question from lesson 9 my slef. Why ?&#10;If I change check true." />
     <MESSAGE value="fixed lesson8" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed lesson8" />
+    <MESSAGE value="chapter 8 work" />
+    <option name="LAST_COMMIT_MESSAGE" value="chapter 8 work" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
