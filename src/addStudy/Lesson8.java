@@ -19,9 +19,10 @@ public class Lesson8 {
         e.str();
         D d = new D();
         d.str("I love dota and java, maybe...");
+
         F f = new F();
         int[] y = f.str();
-        System.out.println(y);
+        System.out.println(Arrays.toString(y));
 
 //       System.out.println(f.Arrays.toString(str()));
     }
@@ -142,12 +143,13 @@ class F {
         }
             int[] array = new int[count];
             int x = 0;
-            for (char c : chars) {
-                if (c == a) {
-                    array[x] = c;
+            for (int i = 0; i<chars.length; i++) {
+                if (chars[i] == a) {
+                    array[x] = i;
                     x++;
                 }
             }
+        System.out.println(Arrays.toString(array));
             return array;
         }
 }
