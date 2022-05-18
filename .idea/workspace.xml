@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="chapter 9 work">
-      <change afterPath="$PROJECT_DIR$/src/chapter9/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter9/AnotherClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter9/Callback.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter9/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter9/TestIFAce.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter9/TestIface2.java" afterDir="false" />
+    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="chapter 9 work and save">
+      <change afterPath="$PROJECT_DIR$/src/chapter9/DynStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter9/FixedStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter9/IfTest3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter9/IntStack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,22 +45,9 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.NestedIFDemo">
-    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter9.p1.Demo" />
-      <module name="Study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chapter9.p1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NestedIFDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter9.NestedIFDemo" />
+  <component name="RunManager" selected="Application.IfTest2">
+    <configuration name="IfTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter9.IfTest" />
       <module name="Study" />
       <extension name="coverage">
         <pattern>
@@ -74,8 +59,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestBalance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter9.TestBalance" />
+    <configuration name="IfTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter9.IfTest2" />
+      <module name="Study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapter9.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NestedIFDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter9.NestedIFDemo" />
       <module name="Study" />
       <extension name="coverage">
         <pattern>
@@ -115,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IfTest2" />
+        <item itemvalue="Application.IfTest" />
         <item itemvalue="Application.NestedIFDemo" />
         <item itemvalue="Application.TestIface2" />
         <item itemvalue="Application.TestIFAce" />
-        <item itemvalue="Application.Demo" />
-        <item itemvalue="Application.TestBalance" />
       </list>
     </recent_temporary>
   </component>
@@ -370,7 +368,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652846532924</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="chapter 9 work and save">
+      <created>1652848619011</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1652848619011</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -385,7 +390,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Commmit save Kostya nastroiki" />
     <MESSAGE value="add change in GameLogic" />
     <MESSAGE value="add if in gamelogic&#10;&#10;I go to sleep? and push" />
     <MESSAGE value="save day" />
@@ -410,7 +414,8 @@
     <MESSAGE value="chapter 8 work" />
     <MESSAGE value="chapter 8 work&#10;add abstract" />
     <MESSAGE value="chapter 9 work" />
-    <option name="LAST_COMMIT_MESSAGE" value="chapter 9 work" />
+    <MESSAGE value="chapter 9 work and save" />
+    <option name="LAST_COMMIT_MESSAGE" value="chapter 9 work and save" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
