@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="chapter 9 &#10;add SharedContacts">
-      <change afterPath="$PROJECT_DIR$/src/chapter9/A1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter9/B.java" afterDir="false" />
+    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="chapter 9 &#10;add many)">
+      <change afterPath="$PROJECT_DIR$/src/chapter9/DefaultMethodDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter9/MyIf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter9/MyIfImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,8 +16,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -42,9 +44,22 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.IfExtend">
+  <component name="RunManager" selected="Application.DefaultMethodDemo">
     <configuration name="AskMe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chapter9.AskMe" />
+      <module name="Study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapter9.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DefaultMethodDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter9.DefaultMethodDemo" />
       <module name="Study" />
       <extension name="coverage">
         <pattern>
@@ -95,26 +110,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NestedIFDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter9.NestedIFDemo" />
-      <module name="Study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chapter9.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DefaultMethodDemo" />
         <item itemvalue="Application.IfExtend" />
         <item itemvalue="Application.AskMe" />
         <item itemvalue="Application.IfTest2" />
         <item itemvalue="Application.IfTest" />
-        <item itemvalue="Application.NestedIFDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -386,7 +388,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652855675227</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="chapter 9 &#10;add many)">
+      <created>1652856198536</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1652856198536</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -401,7 +410,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="save day" />
     <MESSAGE value="add if&#10;and work on getComputerChange" />
     <MESSAGE value="all work, but check not work&#10;Konstantin, equals also is false why??" />
     <MESSAGE value="study word super&#10;It's interesting)" />
@@ -426,7 +434,8 @@
     <MESSAGE value="chapter 9 work and save" />
     <MESSAGE value="chapter 9 work &#10;Save and push!" />
     <MESSAGE value="chapter 9 &#10;add SharedContacts" />
-    <option name="LAST_COMMIT_MESSAGE" value="chapter 9 &#10;add SharedContacts" />
+    <MESSAGE value="chapter 9 &#10;add many)" />
+    <option name="LAST_COMMIT_MESSAGE" value="chapter 9 &#10;add many)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
