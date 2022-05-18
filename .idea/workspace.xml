@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="chapter 8 work&#10;add abstract">
-      <change afterPath="$PROJECT_DIR$/src/chapter9/mypack/AccountBalance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter9/p1/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter9/p1/Protection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter9/p2/OtherPackage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter9/p2/Protection2.java" afterDir="false" />
+    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="chapter 9 work">
+      <change afterPath="$PROJECT_DIR$/src/chapter9/TestBalance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter9/mypack/Balance.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter9/mypack/AccountBalance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter9/mypack/AccountBalance.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +43,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.chapter9.p2.Demo">
+  <component name="RunManager" selected="Application.Demo">
     <configuration name="AbstractDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chapter8.AbstractDemo" />
       <module name="Study" />
@@ -85,12 +83,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lesson8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="addStudy.Lesson8" />
+    <configuration name="TestBalance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter9.TestBalance" />
       <module name="Study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="addStudy.*" />
+          <option name="PATTERN" value="chapter9.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,11 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.chapter9.p2.Demo" />
         <item itemvalue="Application.Demo" />
+        <item itemvalue="Application.TestBalance" />
+        <item itemvalue="Application.chapter9.p2.Demo" />
         <item itemvalue="Application.AccountBalance" />
         <item itemvalue="Application.AbstractDemo" />
-        <item itemvalue="Application.Lesson8" />
       </list>
     </recent_temporary>
   </component>
@@ -354,7 +352,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652783490082</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="chapter 9 work">
+      <created>1652843990059</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1652843990059</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -369,7 +374,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add new RPS v2.0" />
     <MESSAGE value="Commmit save Kostya nastroiki" />
     <MESSAGE value="add change in GameLogic" />
     <MESSAGE value="add if in gamelogic&#10;&#10;I go to sleep? and push" />
@@ -394,7 +398,8 @@
     <MESSAGE value="fixed lesson8" />
     <MESSAGE value="chapter 8 work" />
     <MESSAGE value="chapter 8 work&#10;add abstract" />
-    <option name="LAST_COMMIT_MESSAGE" value="chapter 8 work&#10;add abstract" />
+    <MESSAGE value="chapter 9 work" />
+    <option name="LAST_COMMIT_MESSAGE" value="chapter 9 work" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
