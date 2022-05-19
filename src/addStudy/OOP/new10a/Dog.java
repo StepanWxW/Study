@@ -1,13 +1,15 @@
 package addStudy.OOP.new10a;
 
 public class Dog extends Animal {
-    private static String name;
-    public Dog(String vote, int age, String name) {
-        super(vote, age);
+    private String name;
+    Dog(String name) {
+        super();
         this.name = name;
+        System.out.println("Dog have name: " + name);
     }
+
     @Override
-    public String toString() {
-        return super.toString() + " Name dog is: " + name;
+    void vote() {
+        System.out.println("GAV!");;
     }
 }

@@ -16,7 +16,7 @@ class Auto {
         radius = r;
     }
 
-    Auto() {
+      Auto() {
         name = "Lexus";
         radius = 16;
         maxSpeed = 165.6;

@@ -1,33 +1,32 @@
 package addStudy.OOP.new10a;
 
-public class Animal {
-    private String nameclass;
-    private String vote;
-    private int age;
+class Animal {
+     private String nameclass;
+     private static String voice;
+     private static String head;
+     private static int age;
+    static {
+        voice = "animal vioce.";
+        head = "one";
+        age = 10;
 
-    Animal(String vote, int age) {
-        this.nameclass = getClass().getSimpleName();
-        this.vote = vote;
-        this.age = age;
     }
 
-    public int getAge() {
-        return age;
+    public static String getHead() {return head;}
+    public static void setHead(String head) {Animal.head = head;}
+    public static int getAge() {return age;}
+    public static void setAge(int age) {Animal.age = age;}
+
+
+    Animal() {
+            nameclass = getClass().getSimpleName();
+           this.head = head;
+           this.age = age;
+           System.out.println("Name class is: " + nameclass + "\nAnimal have is: " + head + " head, and age is: " + age + ".");
+         }
+         void vote(){
+             System.out.println("Voice animal: " + voice);
+         }
     }
 
-    public void setAge(int age) {
-        this.age = age;
-    }
 
-    @Override
-    public String toString() {
-        return "nameclass='" + nameclass + '\'' +
-                ", vote='" + vote + '\'' +
-                ", age=" + age;
-    }
-
-    void vote() {
-        System.out.println(nameclass + " say: " +vote);
-    }
-
-}
