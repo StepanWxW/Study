@@ -2,9 +2,8 @@ package addStudy.OOP.b;
 
 import java.util.Arrays;
 
-public class BublleSort implements Sort {
+public class BublleSort extends Start implements Sort {
     Start start = new Start();
-    start.array();
 
     BublleSort() {
 
