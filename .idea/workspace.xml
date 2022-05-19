@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="chapter 9 is Complete!">
-      <change afterPath="$PROJECT_DIR$/src/addStudy/OOP/Auto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/addStudy/OOP/Lada.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/addStudy/OOP/Mersedes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/addStudy/OOP/Nissan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/addStudy/OOP/Starter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/addStudy/OOP/Toyota.java" afterDir="false" />
+    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="Work on 10b">
+      <change afterPath="$PROJECT_DIR$/src/addStudy/OOP/Mercedes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/addStudy/OOP/b/BublleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/addStudy/OOP/b/QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/addStudy/OOP/b/SelectSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/addStudy/OOP/b/Sort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/addStudy/OOP/b/Start.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/addStudy/OOP/Mersedes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/addStudy/OOP/Toyota.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/addStudy/OOP/Toyota.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,16 +40,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "create.test.in.the.same.root": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
-  <component name="RunManager" selected="Application.Starter">
+}]]></component>
+  <component name="RunManager" selected="Application.Main">
     <configuration name="AskMe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chapter9.AskMe" />
       <module name="Study" />
@@ -87,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IfTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter9.IfTest2" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="addStudy.OOP.b.Main" />
       <module name="Study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter9.*" />
+          <option name="PATTERN" value="addStudy.OOP.b.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Starter" />
         <item itemvalue="Application.DefaultMethodDemo" />
         <item itemvalue="Application.IfExtend" />
         <item itemvalue="Application.AskMe" />
-        <item itemvalue="Application.IfTest2" />
       </list>
     </recent_temporary>
   </component>
@@ -405,7 +408,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652857875156</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="work on 10a.&#10;Why Merсedes is java?">
+      <created>1652880288747</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1652880288747</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -420,8 +430,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="all work, but check not work&#10;Konstantin, equals also is false why??" />
-    <MESSAGE value="study word super&#10;It's interesting)" />
     <MESSAGE value="add&#10;Study of Pestehin!!)&#10;First is done!!" />
     <MESSAGE value="work" />
     <MESSAGE value="3 is done" />
@@ -445,7 +453,9 @@
     <MESSAGE value="chapter 9 &#10;add SharedContacts" />
     <MESSAGE value="chapter 9 &#10;add many)" />
     <MESSAGE value="chapter 9 is Complete!" />
-    <option name="LAST_COMMIT_MESSAGE" value="chapter 9 is Complete!" />
+    <MESSAGE value="work on 10a.&#10;Why Merсedes is java?" />
+    <MESSAGE value="Work on 10b" />
+    <option name="LAST_COMMIT_MESSAGE" value="Work on 10b" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
