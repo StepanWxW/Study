@@ -4,7 +4,7 @@ public class Cow extends Animal {
     private static String name;
     public Cow(String vote, int age, String name) {
         super(vote, age);
-        Cow.name = name;
+        this.name = name;
     }
 
     @Override

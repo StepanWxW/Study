@@ -1,18 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="save !! &#10;And start with write list">
-      <change afterPath="$PROJECT_DIR$/src/addStudy/OOP/new10a/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/addStudy/OOP/new10a/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/addStudy/OOP/new10a/Cow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/addStudy/OOP/new10a/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/addStudy/OOP/new10a/Start.java" afterDir="false" />
+    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="10a v1.0 save">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/addStudy/OOP/b/BublleSort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/addStudy/OOP/b/QuickSort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/addStudy/OOP/b/SelectSort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/addStudy/OOP/b/Sort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/addStudy/OOP/b/Start.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/addStudy/OOP/new10a/Cow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/addStudy/OOP/new10a/Cow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/addStudy/OOP/new10a/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/addStudy/OOP/new10a/Dog.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -431,7 +423,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652938205623</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="10a v1.0 save">
+      <created>1652949331455</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1652949331455</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -446,7 +445,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="3 is done" />
     <MESSAGE value="Lesson 4 is done" />
     <MESSAGE value="Lesson 6 is done" />
     <MESSAGE value="Lesson 6 is patch&#10;Lesson 7 is done" />
@@ -471,7 +469,8 @@
     <MESSAGE value="Work on 10b" />
     <MESSAGE value="Array from start, go class BublleSort" />
     <MESSAGE value="save !! &#10;And start with write list" />
-    <option name="LAST_COMMIT_MESSAGE" value="save !! &#10;And start with write list" />
+    <MESSAGE value="10a v1.0 save" />
+    <option name="LAST_COMMIT_MESSAGE" value="10a v1.0 save" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
