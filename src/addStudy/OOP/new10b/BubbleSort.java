@@ -2,8 +2,9 @@ package addStudy.OOP.new10b;
 
 import java.util.Arrays;
 
-public class BubbleSort extends Start implements Sort{
+public class BubbleSort implements Sort{
     String name;
+
     @Override
     public int[] sort(int[] array) {
         boolean check = false;

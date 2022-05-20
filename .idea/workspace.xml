@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="10b mistake start.java line 7 &quot;(int[] array)&quot;" />
+    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="10b mistake corrected">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/addStudy/OOP/new10b/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/addStudy/OOP/new10b/BubbleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/addStudy/OOP/new10b/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/addStudy/OOP/new10b/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/addStudy/OOP/new10b/SelectSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/addStudy/OOP/new10b/SelectSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/addStudy/OOP/new10b/Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/addStudy/OOP/new10b/Sort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/addStudy/OOP/new10b/Start.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/addStudy/OOP/new10b/Start.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,22 +47,9 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Start">
+  <component name="RunManager" selected="Application.addStudy.OOP.new10b.Start">
     <configuration name="DefaultMethodDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chapter9.DefaultMethodDemo" />
-      <module name="Study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chapter9.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IfExtend" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter9.IfExtend" />
       <module name="Study" />
       <extension name="coverage">
         <pattern>
@@ -106,13 +100,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="addStudy.OOP.new10b.Start" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="addStudy.OOP.new10b.Start" />
+      <module name="Study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="addStudy.OOP.new10b.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.addStudy.OOP.new10b.Start" />
         <item itemvalue="Application.Start" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Starter" />
         <item itemvalue="Application.DefaultMethodDemo" />
-        <item itemvalue="Application.IfExtend" />
       </list>
     </recent_temporary>
   </component>
@@ -124,13 +131,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1652190441046</updated>
-    </task>
-    <task id="LOCAL-00001" summary="Start">
-      <created>1652191324092</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1652191324092</updated>
     </task>
     <task id="LOCAL-00002" summary="simple coomit">
       <created>1652238402389</created>
@@ -468,7 +468,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653037254218</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="10b mistake corrected">
+      <created>1653037403613</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1653037403613</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -483,7 +490,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="lesson 8 save, but work else" />
     <MESSAGE value="I think about 8F" />
     <MESSAGE value="I need your help from 8F lesson" />
     <MESSAGE value="Lesson 9 is complete" />
@@ -508,7 +514,8 @@
     <MESSAGE value="10b 4eta delay" />
     <MESSAGE value="10b 4eta work" />
     <MESSAGE value="10b mistake start.java line 7 &quot;(int[] array)&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="10b mistake start.java line 7 &quot;(int[] array)&quot;" />
+    <MESSAGE value="10b mistake corrected" />
+    <option name="LAST_COMMIT_MESSAGE" value="10b mistake corrected" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
