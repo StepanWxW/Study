@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="10b 4eta delay">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="10b 4eta work">
+      <change beforePath="$PROJECT_DIR$/src/addStudy/Lesson9myself.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/addStudy/Lesson9myself.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/addStudy/OOP/new10b/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/addStudy/OOP/new10b/BubbleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/addStudy/OOP/new10b/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/addStudy/OOP/new10b/QuickSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/addStudy/OOP/new10b/SelectSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/addStudy/OOP/new10b/SelectSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/addStudy/OOP/new10b/Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/addStudy/OOP/new10b/Sort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/addStudy/OOP/new10b/Start.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/addStudy/OOP/new10b/Start.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -461,7 +458,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653032458005</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="10b 4eta work">
+      <created>1653036327455</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1653036327455</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -476,7 +480,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Now Lesson 7 is done 100%" />
     <MESSAGE value="Start lesson 8" />
     <MESSAGE value="lesson 8 save, but work else" />
     <MESSAGE value="I think about 8F" />
@@ -501,7 +504,8 @@
     <MESSAGE value="10a new version&#10;but toString:&#10;Result of 'Object.toString()' is ignored" />
     <MESSAGE value="10a complete" />
     <MESSAGE value="10b 4eta delay" />
-    <option name="LAST_COMMIT_MESSAGE" value="10b 4eta delay" />
+    <MESSAGE value="10b 4eta work" />
+    <option name="LAST_COMMIT_MESSAGE" value="10b 4eta work" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
