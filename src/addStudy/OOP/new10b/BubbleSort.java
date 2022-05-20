@@ -1,10 +1,15 @@
 package addStudy.OOP.new10b;
 
 public class BubbleSort extends Start implements Sort{
-
+    String name;
     @Override
     public int[] sort(int[] array) {
-        return Sort.super.sort(array);
+        return new int[0];
+    }
+
+    @Override
+    public String getName() {
+        return null;
     }
 }
 
