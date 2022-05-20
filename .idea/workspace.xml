@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="10a v1.2 save">
+    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="10a new version&#10;but toString:&#10;Result of 'Object.toString()' is ignored">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/addStudy/OOP/Auto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/addStudy/OOP/Auto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/addStudy/OOP/new10a/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/addStudy/OOP/new10a/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/addStudy/OOP/new10a/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/addStudy/OOP/new10a/Cat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/addStudy/OOP/new10a/Cow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/addStudy/OOP/new10a/Cow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/addStudy/OOP/new10a/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/addStudy/OOP/new10a/Dog.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/addStudy/OOP/new10a/Start.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/addStudy/OOP/new10a/Start.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -441,7 +438,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652950180816</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="10a new version&#10;but toString:&#10;Result of 'Object.toString()' is ignored">
+      <created>1652978963913</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1652978963913</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -456,7 +460,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Lesson 6 is done" />
     <MESSAGE value="Lesson 6 is patch&#10;Lesson 7 is done" />
     <MESSAGE value="Now Lesson 7 is done" />
     <MESSAGE value="Now Lesson 7 is done 100%" />
@@ -481,7 +484,8 @@
     <MESSAGE value="save !! &#10;And start with write list" />
     <MESSAGE value="10a v1.0 save" />
     <MESSAGE value="10a v1.2 save" />
-    <option name="LAST_COMMIT_MESSAGE" value="10a v1.2 save" />
+    <MESSAGE value="10a new version&#10;but toString:&#10;Result of 'Object.toString()' is ignored" />
+    <option name="LAST_COMMIT_MESSAGE" value="10a new version&#10;but toString:&#10;Result of 'Object.toString()' is ignored" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
