@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="10b save for next step">
-      <change afterPath="$PROJECT_DIR$/src/addStudy/OOP/new10c/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/addStudy/OOP/new10c/QuickSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/addStudy/OOP/new10c/SelectSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/addStudy/OOP/new10c/Sort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/addStudy/OOP/new10c/Start.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/addStudy/OOP/new10c/Time.java" afterDir="false" />
+    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="10c I don't know!">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/addStudy/OOP/new10a/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/addStudy/OOP/new10a/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/addStudy/OOP/new10a/Start.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/addStudy/OOP/new10a/Start.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/addStudy/OOP/new10c/Time.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/addStudy/OOP/new10c/Time.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +55,7 @@
       <recent name="addStudy.OOP.new10c" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.addStudy.OOP.new10c.Start">
+  <component name="RunManager" selected="Application.Start">
     <configuration name="BlackBox" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.BlackBox" />
       <module name="Study" />
@@ -126,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Start" />
         <item itemvalue="Application.addStudy.OOP.new10c.Start" />
         <item itemvalue="Application.addStudy.OOP.new10b.Start" />
         <item itemvalue="Application.BlackBox" />
         <item itemvalue="Application.test" />
-        <item itemvalue="Application.Start" />
       </list>
     </recent_temporary>
   </component>
@@ -142,13 +139,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1652190441046</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Commmit save Kostya nastroiki">
-      <created>1652278228589</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1652278228589</updated>
     </task>
     <task id="LOCAL-00005" summary="add change in GameLogic">
       <created>1652280646051</created>
@@ -486,7 +476,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653213411235</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="10c I don't know!">
+      <created>1653221164606</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1653221164606</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -501,7 +498,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Lesson 9 is complete" />
     <MESSAGE value="Question from lesson 9 my slef. Why ?&#10;If I change check true." />
     <MESSAGE value="fixed lesson8" />
     <MESSAGE value="chapter 8 work" />
@@ -526,7 +522,8 @@
     <MESSAGE value="10b mistake corrected" />
     <MESSAGE value="10b complete?" />
     <MESSAGE value="10b save for next step" />
-    <option name="LAST_COMMIT_MESSAGE" value="10b save for next step" />
+    <MESSAGE value="10c I don't know!" />
+    <option name="LAST_COMMIT_MESSAGE" value="10c I don't know!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
