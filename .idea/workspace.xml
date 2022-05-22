@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="10b mistake corrected">
+    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="10b complete?">
+      <change afterPath="$PROJECT_DIR$/src/main/BlackBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/DemoBlackBox.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/addStudy/OOP/new10b/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/addStudy/OOP/new10b/BubbleSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/addStudy/OOP/new10b/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/addStudy/OOP/new10b/QuickSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/addStudy/OOP/new10b/SelectSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/addStudy/OOP/new10b/SelectSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/addStudy/OOP/new10b/Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/addStudy/OOP/new10b/Sort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/addStudy/OOP/new10b/Start.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/addStudy/OOP/new10b/Start.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,12 +48,12 @@
   }
 }</component>
   <component name="RunManager" selected="Application.addStudy.OOP.new10b.Start">
-    <configuration name="DefaultMethodDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter9.DefaultMethodDemo" />
+    <configuration name="BlackBox" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.BlackBox" />
       <module name="Study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter9.*" />
+          <option name="PATTERN" value="main.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,19 +87,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Starter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="addStudy.OOP.Starter" />
-      <module name="Study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="addStudy.OOP.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="addStudy.OOP.new10b.Start" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="addStudy.OOP.new10b.Start" />
       <module name="Study" />
@@ -113,13 +100,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.test" />
+      <module name="Study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.addStudy.OOP.new10b.Start" />
+        <item itemvalue="Application.BlackBox" />
+        <item itemvalue="Application.test" />
         <item itemvalue="Application.Start" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Starter" />
-        <item itemvalue="Application.DefaultMethodDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -131,13 +131,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1652190441046</updated>
-    </task>
-    <task id="LOCAL-00002" summary="simple coomit">
-      <created>1652238402389</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1652238402389</updated>
     </task>
     <task id="LOCAL-00003" summary="add new RPS v2.0">
       <created>1652241966140</created>
@@ -475,7 +468,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653037403613</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="10b complete?">
+      <created>1653047114510</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1653047114510</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -490,7 +490,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="I think about 8F" />
     <MESSAGE value="I need your help from 8F lesson" />
     <MESSAGE value="Lesson 9 is complete" />
     <MESSAGE value="Question from lesson 9 my slef. Why ?&#10;If I change check true." />
@@ -515,7 +514,8 @@
     <MESSAGE value="10b 4eta work" />
     <MESSAGE value="10b mistake start.java line 7 &quot;(int[] array)&quot;" />
     <MESSAGE value="10b mistake corrected" />
-    <option name="LAST_COMMIT_MESSAGE" value="10b mistake corrected" />
+    <MESSAGE value="10b complete?" />
+    <option name="LAST_COMMIT_MESSAGE" value="10b complete?" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

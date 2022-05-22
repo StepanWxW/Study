@@ -42,12 +42,8 @@ public class QuickSort implements Sort{
 
     @Override
     public String getName() {
-            name ="Quick";
+        name ="Quick";
         return name;
     }
 
 }
-
-
-
-
