@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="10b complete?">
-      <change afterPath="$PROJECT_DIR$/src/main/BlackBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/DemoBlackBox.java" afterDir="false" />
+    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="10b save for next step">
+      <change afterPath="$PROJECT_DIR$/src/addStudy/OOP/new10c/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/addStudy/OOP/new10c/QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/addStudy/OOP/new10c/SelectSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/addStudy/OOP/new10c/Sort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/addStudy/OOP/new10c/Start.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/addStudy/OOP/new10c/Time.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/addStudy/OOP/new10b/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/addStudy/OOP/new10b/BubbleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/addStudy/OOP/new10b/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/addStudy/OOP/new10b/QuickSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/addStudy/OOP/new10b/Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/addStudy/OOP/new10b/Sort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,36 +38,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "create.test.in.the.same.root": "true",
+    "last_opened_file_path": "C:/JavaCore1/Study/src/addStudy/OOP/new10c",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
-  <component name="RunManager" selected="Application.addStudy.OOP.new10b.Start">
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\JavaCore1\Study\src\addStudy\OOP\new10c" />
+      <recent name="C:\JavaCore1\Study\src\addStudy\OOP" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="addStudy.OOP.new10c" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.addStudy.OOP.new10c.Start">
     <configuration name="BlackBox" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.BlackBox" />
       <module name="Study" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="main.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="addStudy.OOP.b.Main" />
-      <module name="Study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="addStudy.OOP.b.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,6 +98,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="addStudy.OOP.new10c.Start" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="addStudy.OOP.new10c.Start" />
+      <module name="Study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="addStudy.OOP.new10c.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.test" />
       <module name="Study" />
@@ -115,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.addStudy.OOP.new10c.Start" />
         <item itemvalue="Application.addStudy.OOP.new10b.Start" />
         <item itemvalue="Application.BlackBox" />
         <item itemvalue="Application.test" />
         <item itemvalue="Application.Start" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -131,13 +142,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1652190441046</updated>
-    </task>
-    <task id="LOCAL-00003" summary="add new RPS v2.0">
-      <created>1652241966140</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1652241966140</updated>
     </task>
     <task id="LOCAL-00004" summary="Commmit save Kostya nastroiki">
       <created>1652278228589</created>
@@ -475,7 +479,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653047114510</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="10b save for next step">
+      <created>1653213411219</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1653213411235</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -490,7 +501,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="I need your help from 8F lesson" />
     <MESSAGE value="Lesson 9 is complete" />
     <MESSAGE value="Question from lesson 9 my slef. Why ?&#10;If I change check true." />
     <MESSAGE value="fixed lesson8" />
@@ -515,7 +525,8 @@
     <MESSAGE value="10b mistake start.java line 7 &quot;(int[] array)&quot;" />
     <MESSAGE value="10b mistake corrected" />
     <MESSAGE value="10b complete?" />
-    <option name="LAST_COMMIT_MESSAGE" value="10b complete?" />
+    <MESSAGE value="10b save for next step" />
+    <option name="LAST_COMMIT_MESSAGE" value="10b save for next step" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
