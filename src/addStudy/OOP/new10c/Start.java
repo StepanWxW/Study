@@ -11,7 +11,7 @@ public class Start {
         Sort select = new SelectSort();
         Time time = new Time();
         time.stasticTime(bubble, random.random());
-//        time.stasticTime(quick, random.random());
+        time.stasticTime(quick, random.random());
         time.stasticTime(select, random.random());
     }
 }
