@@ -10,7 +10,7 @@ public class ParceDemo {
         String str = null;
         int i;
         int sum =0;
-        System.out.println("Введите число, 0 - для выхода.");
+        System.out.println("Введите число, 0 - для выхода: ");
         do {
             br.readLine();
             try {

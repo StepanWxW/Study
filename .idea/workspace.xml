@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="10c have a mistacke from class Start 14 line.">
-      <change afterPath="$PROJECT_DIR$/src/chapter18/ParceDemo.java" afterDir="false" />
+    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="Start chapter9">
+      <change afterPath="$PROJECT_DIR$/src/chapter18/StringConversion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/addStudy/OOP/new10c/Start.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/addStudy/OOP/new10c/Start.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter18/ParceDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter18/ParceDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,20 +54,7 @@
       <recent name="addStudy.OOP.new10c" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ParceDemo">
-    <configuration name="BlackBox" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.BlackBox" />
-      <module name="Study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.StringConversion">
     <configuration name="ParceDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chapter18.ParceDemo" />
       <module name="Study" />
@@ -87,6 +74,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="addStudy.OOP.new10a.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringConversion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter18.StringConversion" />
+      <module name="Study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapter18.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StringConversion" />
         <item itemvalue="Application.ParceDemo" />
         <item itemvalue="Application.addStudy.OOP.new10c.Start" />
         <item itemvalue="Application.addStudy.OOP.new10b.Start" />
         <item itemvalue="Application.Start" />
-        <item itemvalue="Application.BlackBox" />
       </list>
     </recent_temporary>
   </component>
@@ -138,13 +138,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1652190441046</updated>
-    </task>
-    <task id="LOCAL-00007" summary="save day">
-      <created>1652363011353</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1652363011353</updated>
     </task>
     <task id="LOCAL-00008" summary="add if&#10;and work on getComputerChange">
       <created>1652365150714</created>
@@ -482,7 +475,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653303627857</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="Start chapter9">
+      <created>1653314302047</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1653314302047</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -497,7 +497,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="chapter 8 work" />
     <MESSAGE value="chapter 8 work&#10;add abstract" />
     <MESSAGE value="chapter 9 work" />
     <MESSAGE value="chapter 9 work and save" />
@@ -522,7 +521,8 @@
     <MESSAGE value="10c I don't know!" />
     <MESSAGE value="commit)" />
     <MESSAGE value="10c have a mistacke from class Start 14 line." />
-    <option name="LAST_COMMIT_MESSAGE" value="10c have a mistacke from class Start 14 line." />
+    <MESSAGE value="Start chapter9" />
+    <option name="LAST_COMMIT_MESSAGE" value="Start chapter9" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
