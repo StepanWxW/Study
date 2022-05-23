@@ -17,7 +17,7 @@ public class SelectSort implements Sort {
             temp = array[min];
             array[min] = array[i];
             array[i] = temp;
-        }System.out.println(Arrays.toString(array));
+        }System.out.println("Select");
         return array;
     }
 

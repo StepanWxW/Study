@@ -1,5 +1,7 @@
 package addStudy.OOP.new10b;
 
+
+
 import java.util.Arrays;
 
 public class Start {
@@ -8,8 +10,8 @@ public class Start {
         Sort bubble = new BubbleSort();
         bubble.sort(array);
         bubble.getName();
-        QuickSort quick = new QuickSort();
-        quick.sort(array,0,6);
+        Sort quick = new QuickSort();
+        quick.sort(array);
         System.out.println(Arrays.toString(array));
         Sort select = new SelectSort();
         select.sort(array);

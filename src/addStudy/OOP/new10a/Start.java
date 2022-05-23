@@ -7,12 +7,11 @@ public class Start {
         System.out.println(dog.toString());
         Animal cow = new Cow();
         Animal cat = new Cat();
-        animal(dog);
-        animal(cow);
-        animal(cat);
+
+
 
     }
-    public static void animal(Animal animal) {
+    public void animal(Animal animal) {
         animal.vote();
     }
 }

@@ -20,7 +20,7 @@ public class BubbleSort implements Sort {
                 }
 
             }
-        }System.out.println(Arrays.toString(array));
+        }System.out.println("Bubble");
         return array;
     }
     @Override

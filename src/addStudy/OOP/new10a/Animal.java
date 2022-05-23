@@ -7,7 +7,7 @@ class Animal {
     private String voice;
     private String head;
     private int age;
-    static {
+     {
         out.println("static block");
     }
     {

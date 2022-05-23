@@ -7,10 +7,10 @@ public class QuickSort implements Sort{
 
     @Override
     public int[] sort(int[] array) {
-        return new int[0];
+        return sort1(array, 0, array.length);
     }
 
-    public int[] sort(int[] array, int leftBorder, int rightBorder) {
+    public int[] sort1(int[] array, int leftBorder, int rightBorder) {
         int leftMarker = leftBorder;
         int rightMarker = rightBorder;
         int pivot = array[(leftMarker + rightMarker) / 2];
@@ -32,12 +32,14 @@ public class QuickSort implements Sort{
             }
         } while (leftMarker <= rightMarker);
         if (leftMarker < rightBorder) {
-            sort(array, leftMarker, rightBorder);
+            sort1(array, leftMarker, rightBorder);
         }
         if (leftBorder < rightMarker) {
-            sort(array, leftBorder, rightMarker);
+            sort1(array, leftBorder, rightMarker);
         }
+        System.out.println("Quick");
         return array;
+
     }
 
     @Override

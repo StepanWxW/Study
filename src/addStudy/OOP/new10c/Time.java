@@ -1,29 +1,13 @@
 package addStudy.OOP.new10c;
 
-//public class Time implements Sort  {
-//
-//
-//    int[] array = new int[]{12, 30, 45, 64, 12, 323, 11};
-//
-//
-//    public void stasticTime()
-//    {
-//        long startTime = System.currentTimeMillis();
-//        sort();
-//        long endTime = System.currentTimeMillis();
-//        System.out.println("Total execution time: " + (endTime-startTime) + "ms");
-//    }
-//    BubbleSort b = new BubbleSort();
-//
-//    b.sort(array);
-//    public void exTime(b.sort(array))
-//
-//    {
-//        long startTime = System.nanoTime();
-//        methodToTime();
-//        long endTime = System.nanoTime();
-//
-//        long duration = (endTime - startTime);
-//    }
-//}
+public class Time  {
+    public void stasticTime(Sort sortTime, int[] array) {
+        long startTime = System.nanoTime();
+        sortTime.sort(array);
+        long endTime = System.nanoTime();
+        long output = (endTime- startTime);
+        double outputInSecond = (double) output / 1000000000;
+        System.out.println("Total execution time: " + (outputInSecond) + " секунды.");
+    }
+}
 
