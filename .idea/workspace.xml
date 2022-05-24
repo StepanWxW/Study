@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="add StringConversion&#10;ParcelDemo always is error, work catch.&#10;Why?">
+    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="Fixed bug 10c">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/addStudy/OOP/new10c/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/addStudy/OOP/new10c/QuickSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/addStudy/OOP/new10c/Random.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/addStudy/OOP/new10c/Start.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/addStudy/OOP/new10c/Start.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter18/ParceDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter18/ParceDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +53,7 @@
       <recent name="addStudy.OOP.new10c" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.addStudy.OOP.new10c.Start">
+  <component name="RunManager" selected="Application.ParceDemo">
     <configuration name="ParceDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chapter18.ParceDemo" />
       <module name="Study" />
@@ -123,9 +121,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ParceDemo" />
         <item itemvalue="Application.addStudy.OOP.new10c.Start" />
         <item itemvalue="Application.StringConversion" />
-        <item itemvalue="Application.ParceDemo" />
         <item itemvalue="Application.addStudy.OOP.new10b.Start" />
         <item itemvalue="Application.Start" />
       </list>
@@ -139,13 +137,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1652190441046</updated>
-    </task>
-    <task id="LOCAL-00009" summary="add if&#10;and work on getComputerChange">
-      <created>1652368187736</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1652368187736</updated>
     </task>
     <task id="LOCAL-00010" summary="all work, but check not work&#10;Konstantin, equals also is false why??">
       <created>1652373951999</created>
@@ -483,7 +474,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653321802012</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="Fixed bug 10c">
+      <created>1653363044923</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1653363044923</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -498,7 +496,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="chapter 9 work" />
     <MESSAGE value="chapter 9 work and save" />
     <MESSAGE value="chapter 9 work &#10;Save and push!" />
     <MESSAGE value="chapter 9 &#10;add SharedContacts" />
@@ -523,7 +520,8 @@
     <MESSAGE value="10c have a mistacke from class Start 14 line." />
     <MESSAGE value="Start chapter9" />
     <MESSAGE value="add StringConversion&#10;ParcelDemo always is error, work catch.&#10;Why?" />
-    <option name="LAST_COMMIT_MESSAGE" value="add StringConversion&#10;ParcelDemo always is error, work catch.&#10;Why?" />
+    <MESSAGE value="Fixed bug 10c" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed bug 10c" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
