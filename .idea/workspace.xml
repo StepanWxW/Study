@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="add IsDemo&#10;add MemoryDemo">
-      <change afterPath="$PROJECT_DIR$/src/chapter18/ExecDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter18/ExecDemoFini.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter18/VerDemo.java" afterDir="false" />
+    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="MISTAKE &#10;VerDemo &#10;Line 5&#10;Runtime.Version (Version is red)">
+      <change afterPath="$PROJECT_DIR$/src/chapter18/ACDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter18/Elapsed.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter18/PBDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter18/ShowUserDir.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter18/TestClone.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter18/VerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter18/VerDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,9 +58,9 @@
       <recent name="addStudy.OOP.new10c" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ExecDemoFini">
-    <configuration name="ExecDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter18.ExecDemo" />
+  <component name="RunManager" selected="Application.DemoClone">
+    <configuration name="ACDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter18.ACDemo" />
       <module name="Study" />
       <extension name="coverage">
         <pattern>
@@ -69,8 +72,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExecDemoFini" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter18.ExecDemoFini" />
+    <configuration name="DemoClone" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter18.DemoClone" />
       <module name="Study" />
       <extension name="coverage">
         <pattern>
@@ -82,8 +85,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IsDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter18.IsDemo" />
+    <configuration name="Elapsed" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter18.Elapsed" />
       <module name="Study" />
       <extension name="coverage">
         <pattern>
@@ -95,8 +98,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MemoryDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter18.MemoryDemo" />
+    <configuration name="PBDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter18.PBDemo" />
       <module name="Study" />
       <extension name="coverage">
         <pattern>
@@ -108,8 +111,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ParceDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter18.ParceDemo" />
+    <configuration name="ShowUserDir" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter18.ShowUserDir" />
       <module name="Study" />
       <extension name="coverage">
         <pattern>
@@ -123,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ExecDemoFini" />
-        <item itemvalue="Application.ExecDemo" />
-        <item itemvalue="Application.MemoryDemo" />
-        <item itemvalue="Application.IsDemo" />
-        <item itemvalue="Application.ParceDemo" />
+        <item itemvalue="Application.DemoClone" />
+        <item itemvalue="Application.ShowUserDir" />
+        <item itemvalue="Application.ACDemo" />
+        <item itemvalue="Application.Elapsed" />
+        <item itemvalue="Application.PBDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -139,13 +142,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1652190441046</updated>
-    </task>
-    <task id="LOCAL-00012" summary="add&#10;Study of Pestehin!!)&#10;First is done!!">
-      <created>1652546266083</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1652546266083</updated>
     </task>
     <task id="LOCAL-00013" summary="work">
       <created>1652585395403</created>
@@ -483,7 +479,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653367595965</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="MISTAKE &#10;VerDemo &#10;Line 5&#10;Runtime.Version (Version is red)">
+      <created>1653370480148</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1653370480148</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -498,7 +501,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="chapter 9 &#10;add SharedContacts" />
     <MESSAGE value="chapter 9 &#10;add many)" />
     <MESSAGE value="chapter 9 is Complete!" />
     <MESSAGE value="work on 10a.&#10;Why Merсedes is java?" />
@@ -523,7 +525,8 @@
     <MESSAGE value="Fixed bug 10c" />
     <MESSAGE value="Fixed bug ParceDemo" />
     <MESSAGE value="add IsDemo&#10;add MemoryDemo" />
-    <option name="LAST_COMMIT_MESSAGE" value="add IsDemo&#10;add MemoryDemo" />
+    <MESSAGE value="MISTAKE &#10;VerDemo &#10;Line 5&#10;Runtime.Version (Version is red)" />
+    <option name="LAST_COMMIT_MESSAGE" value="MISTAKE &#10;VerDemo &#10;Line 5&#10;Runtime.Version (Version is red)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
