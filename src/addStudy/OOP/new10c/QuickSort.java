@@ -4,7 +4,7 @@ package addStudy.OOP.new10c;
 
         @Override
         public int[] sort(int[] array) {
-            return sort1(array, 0, array.length);
+            return sort1(array, 0, array.length-1);
         }
 
         public int[] sort1(int[] array, int leftBorder, int rightBorder) {

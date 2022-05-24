@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="Start chapter9">
-      <change afterPath="$PROJECT_DIR$/src/chapter18/StringConversion.java" afterDir="false" />
+    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="add StringConversion&#10;ParcelDemo always is error, work catch.&#10;Why?">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter18/ParceDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter18/ParceDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/addStudy/OOP/new10c/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/addStudy/OOP/new10c/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/addStudy/OOP/new10c/Random.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/addStudy/OOP/new10c/Start.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/addStudy/OOP/new10c/Start.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +55,7 @@
       <recent name="addStudy.OOP.new10c" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StringConversion">
+  <component name="RunManager" selected="Application.addStudy.OOP.new10c.Start">
     <configuration name="ParceDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chapter18.ParceDemo" />
       <module name="Study" />
@@ -122,9 +123,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.addStudy.OOP.new10c.Start" />
         <item itemvalue="Application.StringConversion" />
         <item itemvalue="Application.ParceDemo" />
-        <item itemvalue="Application.addStudy.OOP.new10c.Start" />
         <item itemvalue="Application.addStudy.OOP.new10b.Start" />
         <item itemvalue="Application.Start" />
       </list>
@@ -138,13 +139,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1652190441046</updated>
-    </task>
-    <task id="LOCAL-00008" summary="add if&#10;and work on getComputerChange">
-      <created>1652365150714</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1652365150714</updated>
     </task>
     <task id="LOCAL-00009" summary="add if&#10;and work on getComputerChange">
       <created>1652368187736</created>
@@ -482,7 +476,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653314302047</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="add StringConversion&#10;ParcelDemo always is error, work catch.&#10;Why?">
+      <created>1653321802012</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1653321802012</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -497,7 +498,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="chapter 8 work&#10;add abstract" />
     <MESSAGE value="chapter 9 work" />
     <MESSAGE value="chapter 9 work and save" />
     <MESSAGE value="chapter 9 work &#10;Save and push!" />
@@ -522,7 +522,8 @@
     <MESSAGE value="commit)" />
     <MESSAGE value="10c have a mistacke from class Start 14 line." />
     <MESSAGE value="Start chapter9" />
-    <option name="LAST_COMMIT_MESSAGE" value="Start chapter9" />
+    <MESSAGE value="add StringConversion&#10;ParcelDemo always is error, work catch.&#10;Why?" />
+    <option name="LAST_COMMIT_MESSAGE" value="add StringConversion&#10;ParcelDemo always is error, work catch.&#10;Why?" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
