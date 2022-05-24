@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="MISTAKE &#10;VerDemo &#10;Line 5&#10;Runtime.Version (Version is red)">
-      <change afterPath="$PROJECT_DIR$/src/chapter18/ACDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter18/Elapsed.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter18/PBDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter18/ShowUserDir.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter18/TestClone.java" afterDir="false" />
+    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="add many">
+      <change afterPath="$PROJECT_DIR$/src/chapter18/Angles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter18/TestClone1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter18/X.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter18/VerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter18/VerDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,9 +55,9 @@
       <recent name="addStudy.OOP.new10c" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DemoClone">
-    <configuration name="ACDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter18.ACDemo" />
+  <component name="RunManager" selected="Application.Angles">
+    <configuration name="Angles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter18.Angles" />
       <module name="Study" />
       <extension name="coverage">
         <pattern>
@@ -85,8 +82,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Elapsed" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter18.Elapsed" />
+    <configuration name="DemoClone1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter18.DemoClone1" />
       <module name="Study" />
       <extension name="coverage">
         <pattern>
@@ -98,8 +95,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PBDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter18.PBDemo" />
+    <configuration name="RTTI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter18.RTTI" />
       <module name="Study" />
       <extension name="coverage">
         <pattern>
@@ -126,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Angles" />
+        <item itemvalue="Application.RTTI" />
+        <item itemvalue="Application.DemoClone1" />
         <item itemvalue="Application.DemoClone" />
         <item itemvalue="Application.ShowUserDir" />
-        <item itemvalue="Application.ACDemo" />
-        <item itemvalue="Application.Elapsed" />
-        <item itemvalue="Application.PBDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -142,13 +139,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1652190441046</updated>
-    </task>
-    <task id="LOCAL-00013" summary="work">
-      <created>1652585395403</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1652585395403</updated>
     </task>
     <task id="LOCAL-00014" summary="work">
       <created>1652601348332</created>
@@ -486,7 +476,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653370480148</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="add many">
+      <created>1653373197526</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1653373197527</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -501,7 +498,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="chapter 9 &#10;add many)" />
     <MESSAGE value="chapter 9 is Complete!" />
     <MESSAGE value="work on 10a.&#10;Why Merсedes is java?" />
     <MESSAGE value="Work on 10b" />
@@ -526,7 +522,8 @@
     <MESSAGE value="Fixed bug ParceDemo" />
     <MESSAGE value="add IsDemo&#10;add MemoryDemo" />
     <MESSAGE value="MISTAKE &#10;VerDemo &#10;Line 5&#10;Runtime.Version (Version is red)" />
-    <option name="LAST_COMMIT_MESSAGE" value="MISTAKE &#10;VerDemo &#10;Line 5&#10;Runtime.Version (Version is red)" />
+    <MESSAGE value="add many" />
+    <option name="LAST_COMMIT_MESSAGE" value="add many" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
