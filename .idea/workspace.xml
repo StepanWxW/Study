@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="Fixed bug 10c">
+    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="Fixed bug ParceDemo">
+      <change afterPath="$PROJECT_DIR$/src/chapter18/IsDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter18/MemoryDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter18/ParceDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter18/ParceDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +54,33 @@
       <recent name="addStudy.OOP.new10c" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ParceDemo">
+  <component name="RunManager" selected="Application.MemoryDemo">
+    <configuration name="IsDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter18.IsDemo" />
+      <module name="Study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapter18.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MemoryDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter18.MemoryDemo" />
+      <module name="Study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapter18.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ParceDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chapter18.ParceDemo" />
       <module name="Study" />
@@ -67,38 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Start" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="addStudy.OOP.new10a.Start" />
-      <module name="Study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="addStudy.OOP.new10a.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="StringConversion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chapter18.StringConversion" />
       <module name="Study" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="chapter18.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="addStudy.OOP.new10b.Start" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="addStudy.OOP.new10b.Start" />
-      <module name="Study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="addStudy.OOP.new10b.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MemoryDemo" />
+        <item itemvalue="Application.IsDemo" />
         <item itemvalue="Application.ParceDemo" />
         <item itemvalue="Application.addStudy.OOP.new10c.Start" />
         <item itemvalue="Application.StringConversion" />
-        <item itemvalue="Application.addStudy.OOP.new10b.Start" />
-        <item itemvalue="Application.Start" />
       </list>
     </recent_temporary>
   </component>
@@ -137,13 +138,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1652190441046</updated>
-    </task>
-    <task id="LOCAL-00010" summary="all work, but check not work&#10;Konstantin, equals also is false why??">
-      <created>1652373951999</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1652373951999</updated>
     </task>
     <task id="LOCAL-00011" summary="study word super&#10;It's interesting)">
       <created>1652539520126</created>
@@ -481,7 +475,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653363044923</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="Fixed bug ParceDemo">
+      <created>1653364308609</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1653364308609</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -496,7 +497,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="chapter 9 work and save" />
     <MESSAGE value="chapter 9 work &#10;Save and push!" />
     <MESSAGE value="chapter 9 &#10;add SharedContacts" />
     <MESSAGE value="chapter 9 &#10;add many)" />
@@ -521,7 +521,8 @@
     <MESSAGE value="Start chapter9" />
     <MESSAGE value="add StringConversion&#10;ParcelDemo always is error, work catch.&#10;Why?" />
     <MESSAGE value="Fixed bug 10c" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed bug 10c" />
+    <MESSAGE value="Fixed bug ParceDemo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed bug ParceDemo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
