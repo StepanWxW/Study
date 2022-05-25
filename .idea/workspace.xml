@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="work work work">
-      <change afterPath="$PROJECT_DIR$/src/chapter19/ArrayListDemo.java" afterDir="false" />
+    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="add ArrayListDemo&#10;start chapter 19">
+      <change afterPath="$PROJECT_DIR$/src/chapter19/ArrayListToArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +53,7 @@
       <recent name="addStudy.OOP.new10c" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ArrayListDemo">
+  <component name="RunManager" selected="Application.ArrayListToArray">
     <configuration name="Angles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chapter18.Angles" />
       <module name="Study" />
@@ -80,12 +80,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoClone" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter18.DemoClone" />
+    <configuration name="ArrayListToArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter19.ArrayListToArray" />
       <module name="Study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter18.*" />
+          <option name="PATTERN" value="chapter19.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArrayListToArray" />
         <item itemvalue="Application.ArrayListDemo" />
         <item itemvalue="Application.Angles" />
         <item itemvalue="Application.RTTI" />
         <item itemvalue="Application.DemoClone1" />
-        <item itemvalue="Application.DemoClone" />
       </list>
     </recent_temporary>
   </component>
@@ -137,13 +137,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1652190441046</updated>
-    </task>
-    <task id="LOCAL-00015" summary="3 is done">
-      <created>1652604762845</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1652604762845</updated>
     </task>
     <task id="LOCAL-00016" summary="Lesson 4 is done">
       <created>1652617306541</created>
@@ -481,7 +474,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653376225999</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="add ArrayListDemo&#10;start chapter 19">
+      <created>1653462732254</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1653462732254</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -496,7 +496,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="work on 10a.&#10;Why Merсedes is java?" />
     <MESSAGE value="Work on 10b" />
     <MESSAGE value="Array from start, go class BublleSort" />
     <MESSAGE value="save !! &#10;And start with write list" />
@@ -521,7 +520,8 @@
     <MESSAGE value="MISTAKE &#10;VerDemo &#10;Line 5&#10;Runtime.Version (Version is red)" />
     <MESSAGE value="add many" />
     <MESSAGE value="work work work" />
-    <option name="LAST_COMMIT_MESSAGE" value="work work work" />
+    <MESSAGE value="add ArrayListDemo&#10;start chapter 19" />
+    <option name="LAST_COMMIT_MESSAGE" value="add ArrayListDemo&#10;start chapter 19" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
