@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="add &#10;start chapter 19">
-      <change afterPath="$PROJECT_DIR$/src/chapter19/LinkedListDemo.java" afterDir="false" />
+    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="LinkedListDemo">
+      <change afterPath="$PROJECT_DIR$/src/chapter19/HashSetDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +53,7 @@
       <recent name="addStudy.OOP.new10c" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LinkedListDemo">
+  <component name="RunManager" selected="Application.HashSetDemo">
     <configuration name="Angles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chapter18.Angles" />
       <module name="Study" />
@@ -93,6 +93,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HashSetDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter19.HashSetDemo" />
+      <module name="Study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapter19.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LinkedListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chapter19.LinkedListDemo" />
       <module name="Study" />
@@ -106,26 +119,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RTTI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter18.RTTI" />
-      <module name="Study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chapter18.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HashSetDemo" />
         <item itemvalue="Application.LinkedListDemo" />
         <item itemvalue="Application.ArrayListToArray" />
         <item itemvalue="Application.ArrayListDemo" />
         <item itemvalue="Application.Angles" />
-        <item itemvalue="Application.RTTI" />
       </list>
     </recent_temporary>
   </component>
@@ -137,13 +137,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1652190441046</updated>
-    </task>
-    <task id="LOCAL-00017" summary="Lesson 4 is done">
-      <created>1652618083933</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1652618083933</updated>
     </task>
     <task id="LOCAL-00018" summary="Lesson 6 is done">
       <created>1652618436367</created>
@@ -481,7 +474,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653466612583</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="LinkedListDemo">
+      <created>1653468090279</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1653468090279</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -496,7 +496,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Array from start, go class BublleSort" />
     <MESSAGE value="save !! &#10;And start with write list" />
     <MESSAGE value="10a v1.0 save" />
     <MESSAGE value="10a v1.2 save" />
@@ -521,7 +520,8 @@
     <MESSAGE value="work work work" />
     <MESSAGE value="add ArrayListDemo&#10;start chapter 19" />
     <MESSAGE value="add &#10;start chapter 19" />
-    <option name="LAST_COMMIT_MESSAGE" value="add &#10;start chapter 19" />
+    <MESSAGE value="LinkedListDemo" />
+    <option name="LAST_COMMIT_MESSAGE" value="LinkedListDemo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
