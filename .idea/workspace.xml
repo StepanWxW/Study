@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="add ArrayDequeDemo + TreeSetDemo">
-      <change afterPath="$PROJECT_DIR$/src/chapter19/IteratorDemo.java" afterDir="false" />
+    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="add IteratorDemo">
+      <change afterPath="$PROJECT_DIR$/src/chapter19/ForEachDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter19/SpliteratorDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,9 +54,9 @@
       <recent name="addStudy.OOP.new10c" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.IteratorDemo">
-    <configuration name="ArrayListToArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter19.ArrayListToArray" />
+  <component name="RunManager" selected="Application.SpliteratorDemo">
+    <configuration name="ForEachDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter19.ForEachDemo" />
       <module name="Study" />
       <extension name="coverage">
         <pattern>
@@ -93,8 +94,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter19.LinkedListDemo" />
+    <configuration name="SpliteratorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter19.SpliteratorDemo" />
       <module name="Study" />
       <extension name="coverage">
         <pattern>
@@ -121,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SpliteratorDemo" />
+        <item itemvalue="Application.ForEachDemo" />
         <item itemvalue="Application.IteratorDemo" />
         <item itemvalue="Application.TreeSetDemo" />
         <item itemvalue="Application.HashSetDemo" />
-        <item itemvalue="Application.LinkedListDemo" />
-        <item itemvalue="Application.ArrayListToArray" />
       </list>
     </recent_temporary>
   </component>
@@ -137,13 +138,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1652190441046</updated>
-    </task>
-    <task id="LOCAL-00020" summary="Now Lesson 7 is done">
-      <created>1652629887446</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1652629887446</updated>
     </task>
     <task id="LOCAL-00021" summary="Now Lesson 7 is done 100%">
       <created>1652630867594</created>
@@ -481,7 +475,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653488844511</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="add IteratorDemo">
+      <created>1653544369800</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1653544369802</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -496,7 +497,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="10a v1.2 save" />
     <MESSAGE value="10a new version&#10;but toString:&#10;Result of 'Object.toString()' is ignored" />
     <MESSAGE value="10a complete" />
     <MESSAGE value="10b 4eta delay" />
@@ -521,7 +521,8 @@
     <MESSAGE value="LinkedListDemo" />
     <MESSAGE value="add HashSet" />
     <MESSAGE value="add ArrayDequeDemo + TreeSetDemo" />
-    <option name="LAST_COMMIT_MESSAGE" value="add ArrayDequeDemo + TreeSetDemo" />
+    <MESSAGE value="add IteratorDemo" />
+    <option name="LAST_COMMIT_MESSAGE" value="add IteratorDemo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
