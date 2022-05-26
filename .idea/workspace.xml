@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="add HashSet">
-      <change afterPath="$PROJECT_DIR$/src/chapter19/ArrayDequeDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter19/TreeSetDemo.java" afterDir="false" />
+    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="add ArrayDequeDemo + TreeSetDemo">
+      <change afterPath="$PROJECT_DIR$/src/chapter19/IteratorDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,20 +53,7 @@
       <recent name="addStudy.OOP.new10c" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TreeSetDemo">
-    <configuration name="ArrayListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter19.ArrayListDemo" />
-      <module name="Study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chapter19.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.IteratorDemo">
     <configuration name="ArrayListToArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chapter19.ArrayListToArray" />
       <module name="Study" />
@@ -83,6 +69,19 @@
     </configuration>
     <configuration name="HashSetDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chapter19.HashSetDemo" />
+      <module name="Study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapter19.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IteratorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter19.IteratorDemo" />
       <module name="Study" />
       <extension name="coverage">
         <pattern>
@@ -122,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IteratorDemo" />
         <item itemvalue="Application.TreeSetDemo" />
         <item itemvalue="Application.HashSetDemo" />
         <item itemvalue="Application.LinkedListDemo" />
         <item itemvalue="Application.ArrayListToArray" />
-        <item itemvalue="Application.ArrayListDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -138,13 +137,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1652190441046</updated>
-    </task>
-    <task id="LOCAL-00019" summary="Lesson 6 is patch&#10;Lesson 7 is done">
-      <created>1652628996584</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1652628996584</updated>
     </task>
     <task id="LOCAL-00020" summary="Now Lesson 7 is done">
       <created>1652629887446</created>
@@ -482,7 +474,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653468891267</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="add ArrayDequeDemo + TreeSetDemo">
+      <created>1653488844511</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1653488844511</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -497,7 +496,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="10a v1.0 save" />
     <MESSAGE value="10a v1.2 save" />
     <MESSAGE value="10a new version&#10;but toString:&#10;Result of 'Object.toString()' is ignored" />
     <MESSAGE value="10a complete" />
@@ -522,7 +520,8 @@
     <MESSAGE value="add &#10;start chapter 19" />
     <MESSAGE value="LinkedListDemo" />
     <MESSAGE value="add HashSet" />
-    <option name="LAST_COMMIT_MESSAGE" value="add HashSet" />
+    <MESSAGE value="add ArrayDequeDemo + TreeSetDemo" />
+    <option name="LAST_COMMIT_MESSAGE" value="add ArrayDequeDemo + TreeSetDemo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
