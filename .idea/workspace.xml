@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="add TreeMapDemo">
-      <change afterPath="$PROJECT_DIR$/src/chapter19/CompDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter19/MyComp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter19/TComp.java" afterDir="false" />
+    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="add CompDemo and MyComp">
+      <change afterPath="$PROJECT_DIR$/src/chapter19/AlgoritmsDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter19/CompLastNames.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter19/TComp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter19/TComp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +55,20 @@
       <recent name="addStudy.OOP.new10c" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CompDemo2">
+  <component name="RunManager" selected="Application.AlgoritmsDemo">
+    <configuration name="AlgoritmsDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter19.AlgoritmsDemo" />
+      <module name="Study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapter19.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CompDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chapter19.CompDemo" />
       <module name="Study" />
@@ -82,8 +95,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HashMapDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter19.HashMapDemo" />
+    <configuration name="TreeMapDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter19.TreeMapDemo2" />
       <module name="Study" />
       <extension name="coverage">
         <pattern>
@@ -95,21 +108,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MailList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter19.MailList" />
-      <module name="Study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chapter19.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TreeMapDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter19.TreeMapDemo" />
+    <configuration name="TreeMapDemo2A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter19.TreeMapDemo2A" />
       <module name="Study" />
       <extension name="coverage">
         <pattern>
@@ -123,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AlgoritmsDemo" />
+        <item itemvalue="Application.TreeMapDemo2A" />
+        <item itemvalue="Application.TreeMapDemo2" />
         <item itemvalue="Application.CompDemo2" />
         <item itemvalue="Application.CompDemo" />
-        <item itemvalue="Application.TreeMapDemo" />
-        <item itemvalue="Application.HashMapDemo" />
-        <item itemvalue="Application.MailList" />
       </list>
     </recent_temporary>
   </component>
@@ -139,20 +139,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1652190441046</updated>
-    </task>
-    <task id="LOCAL-00024" summary="lesson 8 save, but work else">
-      <created>1652696723380</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1652696723380</updated>
-    </task>
-    <task id="LOCAL-00025" summary="I think about 8F">
-      <created>1652697445947</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1652697445947</updated>
     </task>
     <task id="LOCAL-00026" summary="I need your help from 8F lesson">
       <created>1652718840641</created>
@@ -483,7 +469,21 @@
       <option name="project" value="LOCAL" />
       <updated>1653560794924</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="add CompDemo and MyComp">
+      <created>1653576018877</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1653576018877</updated>
+    </task>
+    <task id="LOCAL-00074" summary="add CompDemo and MyComp">
+      <created>1653576119586</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1653576119586</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -498,7 +498,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="10b 4eta work" />
     <MESSAGE value="10b mistake start.java line 7 &quot;(int[] array)&quot;" />
     <MESSAGE value="10b mistake corrected" />
     <MESSAGE value="10b complete?" />
@@ -523,7 +522,8 @@
     <MESSAGE value="add ForEachDemo and SpliteratorDemo" />
     <MESSAGE value="add Address&#10;add HashMapDemo" />
     <MESSAGE value="add TreeMapDemo" />
-    <option name="LAST_COMMIT_MESSAGE" value="add TreeMapDemo" />
+    <MESSAGE value="add CompDemo and MyComp" />
+    <option name="LAST_COMMIT_MESSAGE" value="add CompDemo and MyComp" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
