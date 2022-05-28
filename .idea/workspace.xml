@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="add HtDemo">
-      <change afterPath="$PROJECT_DIR$/src/chapter19/HtDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter19/Phonebook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter19/PropDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter19/PropDemoDef.java" afterDir="false" />
+    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="chapter19 is complete">
+      <change afterPath="$PROJECT_DIR$/src/chapter19/study/Array.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,20 +53,7 @@
       <recent name="addStudy.OOP.new10c" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Phonebook">
-    <configuration name="HtDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter19.HtDemo" />
-      <module name="Study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chapter19.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.start">
     <configuration name="HtDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chapter19.HtDemo2" />
       <module name="Study" />
@@ -122,13 +106,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="start" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter19.study.start" />
+      <module name="Study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapter19.study.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.start" />
         <item itemvalue="Application.Phonebook" />
         <item itemvalue="Application.PropDemoDef" />
         <item itemvalue="Application.PropDemo" />
         <item itemvalue="Application.HtDemo2" />
-        <item itemvalue="Application.HtDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -140,13 +137,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1652190441046</updated>
-    </task>
-    <task id="LOCAL-00029" summary="fixed lesson8">
-      <created>1652772883414</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1652772883414</updated>
     </task>
     <task id="LOCAL-00030" summary="chapter 8 work">
       <created>1652782562835</created>
@@ -484,7 +474,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653719866331</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="chapter19 is complete">
+      <created>1653726561989</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1653726561989</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -499,7 +496,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="10b save for next step" />
     <MESSAGE value="10c I don't know!" />
     <MESSAGE value="commit)" />
     <MESSAGE value="10c have a mistacke from class Start 14 line." />
@@ -524,7 +520,8 @@
     <MESSAGE value="work" />
     <MESSAGE value="add&#10;ArraysDemo, StackDemo, VectorDemo" />
     <MESSAGE value="add HtDemo" />
-    <option name="LAST_COMMIT_MESSAGE" value="add HtDemo" />
+    <MESSAGE value="chapter19 is complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="chapter19 is complete" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -539,6 +536,11 @@
           <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
           <option name="timeStamp" value="2" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/chapter19/study/Array.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
