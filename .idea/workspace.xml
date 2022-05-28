@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="add&#10;ArraysDemo, StackDemo, VectorDemo">
-      <change afterPath="$PROJECT_DIR$/src/chapter19/HtDemo.java" afterDir="false" />
+    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="add HtDemo">
+      <change afterPath="$PROJECT_DIR$/src/chapter19/HtDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter19/Phonebook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter19/PropDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter19/PropDemoDef.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,20 +56,7 @@
       <recent name="addStudy.OOP.new10c" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HtDemo">
-    <configuration name="ArraysDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter19.ArraysDemo" />
-      <module name="Study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chapter19.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Phonebook">
     <configuration name="HtDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chapter19.HtDemo" />
       <module name="Study" />
@@ -80,8 +70,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter19.LinkedListDemo" />
+    <configuration name="HtDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter19.HtDemo2" />
       <module name="Study" />
       <extension name="coverage">
         <pattern>
@@ -93,8 +83,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StackDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter19.StackDemo" />
+    <configuration name="Phonebook" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter19.Phonebook" />
       <module name="Study" />
       <extension name="coverage">
         <pattern>
@@ -106,8 +96,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VectorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter19.VectorDemo" />
+    <configuration name="PropDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter19.PropDemo" />
+      <module name="Study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapter19.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PropDemoDef" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter19.PropDemoDef" />
       <module name="Study" />
       <extension name="coverage">
         <pattern>
@@ -121,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Phonebook" />
+        <item itemvalue="Application.PropDemoDef" />
+        <item itemvalue="Application.PropDemo" />
+        <item itemvalue="Application.HtDemo2" />
         <item itemvalue="Application.HtDemo" />
-        <item itemvalue="Application.StackDemo" />
-        <item itemvalue="Application.VectorDemo" />
-        <item itemvalue="Application.ArraysDemo" />
-        <item itemvalue="Application.LinkedListDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -137,13 +140,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1652190441046</updated>
-    </task>
-    <task id="LOCAL-00028" summary="Question from lesson 9 my slef. Why ?&#10;If I change check true.">
-      <created>1652770716511</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1652770716511</updated>
     </task>
     <task id="LOCAL-00029" summary="fixed lesson8">
       <created>1652772883414</created>
@@ -481,7 +477,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653649823650</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="add HtDemo">
+      <created>1653719866331</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1653719866331</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -496,7 +499,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="10b complete?" />
     <MESSAGE value="10b save for next step" />
     <MESSAGE value="10c I don't know!" />
     <MESSAGE value="commit)" />
@@ -521,7 +523,8 @@
     <MESSAGE value="add CompDemo and MyComp" />
     <MESSAGE value="work" />
     <MESSAGE value="add&#10;ArraysDemo, StackDemo, VectorDemo" />
-    <option name="LAST_COMMIT_MESSAGE" value="add&#10;ArraysDemo, StackDemo, VectorDemo" />
+    <MESSAGE value="add HtDemo" />
+    <option name="LAST_COMMIT_MESSAGE" value="add HtDemo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
