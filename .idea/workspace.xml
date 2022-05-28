@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="work">
-      <change afterPath="$PROJECT_DIR$/src/chapter19/ArraysDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter19/StackDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter19/VectorDemo.java" afterDir="false" />
+    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="add&#10;ArraysDemo, StackDemo, VectorDemo">
+      <change afterPath="$PROJECT_DIR$/src/chapter19/HtDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,9 +53,9 @@
       <recent name="addStudy.OOP.new10c" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StackDemo">
-    <configuration name="AlgoritmsDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter19.AlgoritmsDemo" />
+  <component name="RunManager" selected="Application.HtDemo">
+    <configuration name="ArraysDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter19.ArraysDemo" />
       <module name="Study" />
       <extension name="coverage">
         <pattern>
@@ -69,8 +67,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArraysDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter19.ArraysDemo" />
+    <configuration name="HtDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter19.HtDemo" />
       <module name="Study" />
       <extension name="coverage">
         <pattern>
@@ -123,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HtDemo" />
         <item itemvalue="Application.StackDemo" />
         <item itemvalue="Application.VectorDemo" />
         <item itemvalue="Application.ArraysDemo" />
         <item itemvalue="Application.LinkedListDemo" />
-        <item itemvalue="Application.AlgoritmsDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -139,13 +137,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1652190441046</updated>
-    </task>
-    <task id="LOCAL-00027" summary="Lesson 9 is complete">
-      <created>1652755663799</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1652755663799</updated>
     </task>
     <task id="LOCAL-00028" summary="Question from lesson 9 my slef. Why ?&#10;If I change check true.">
       <created>1652770716511</created>
@@ -483,7 +474,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653631756204</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="add&#10;ArraysDemo, StackDemo, VectorDemo">
+      <created>1653649823650</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1653649823650</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -498,7 +496,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="10b mistake corrected" />
     <MESSAGE value="10b complete?" />
     <MESSAGE value="10b save for next step" />
     <MESSAGE value="10c I don't know!" />
@@ -523,7 +520,8 @@
     <MESSAGE value="add TreeMapDemo" />
     <MESSAGE value="add CompDemo and MyComp" />
     <MESSAGE value="work" />
-    <option name="LAST_COMMIT_MESSAGE" value="work" />
+    <MESSAGE value="add&#10;ArraysDemo, StackDemo, VectorDemo" />
+    <option name="LAST_COMMIT_MESSAGE" value="add&#10;ArraysDemo, StackDemo, VectorDemo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
