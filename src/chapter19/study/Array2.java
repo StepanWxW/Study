@@ -4,8 +4,6 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 public class Array2 {
-
-
     int[] search(int num, ArrayList<Integer> listIn) {
         int[] arrayForReturn = new int[2];
         for (int i = 0; i < listIn.size() - 1; i++) {
@@ -28,7 +26,6 @@ class start1 {
         list.add(6);
         list.add(8);
         list.add(15);
-
         Array2 start = new Array2();
         int[] a = start.search(25, list);
         System.out.println(Arrays.toString(a));
