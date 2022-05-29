@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="study &#10;lesson 1 is with Collection in Array2">
-      <change afterPath="$PROJECT_DIR$/src/chapter19/study/StudyTwo.java" afterDir="false" />
+    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="study &#10;lesson 2 is complete!">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter19/study/Array2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter19/study/Array2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter19/study/StudyTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter19/study/StudyTwo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,13 +137,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1652190441046</updated>
-    </task>
-    <task id="LOCAL-00032" summary="chapter 8 work&#10;add abstract">
-      <created>1652783490082</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1652783490082</updated>
     </task>
     <task id="LOCAL-00033" summary="chapter 9 work">
       <created>1652843990059</created>
@@ -482,7 +474,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653804369104</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="study &#10;lesson 2 is complete!">
+      <created>1653808017994</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1653808017994</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -497,7 +496,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="10c have a mistacke from class Start 14 line." />
     <MESSAGE value="Start chapter9" />
     <MESSAGE value="add StringConversion&#10;ParcelDemo always is error, work catch.&#10;Why?" />
     <MESSAGE value="Fixed bug 10c" />
@@ -522,7 +520,8 @@
     <MESSAGE value="chapter19 is complete" />
     <MESSAGE value="study &#10;lesson 1 is done!!!&#10;It is Winner!" />
     <MESSAGE value="study &#10;lesson 1 is with Collection in Array2" />
-    <option name="LAST_COMMIT_MESSAGE" value="study &#10;lesson 1 is with Collection in Array2" />
+    <MESSAGE value="study &#10;lesson 2 is complete!" />
+    <option name="LAST_COMMIT_MESSAGE" value="study &#10;lesson 2 is complete!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
