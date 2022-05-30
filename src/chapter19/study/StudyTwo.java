@@ -6,22 +6,24 @@ public class StudyTwo {
     int num;
     void search(HashSet<IntNumber> hashIn) {
         Iterator<IntNumber> itr = hashIn.iterator();
-        while (itr.hasNext())
-
-
-
-
-        for (int i = 0; i < hashIn.size(); i++) {
-            for (int y = i + 1; y < hashIn.size(); y++) {
-                if (hashIn.get(i) == hashIn.get(y)) {
-                    num = hashIn.get(i);
-                    counter++;
-                    tf = true;
-                    break;
-                }
-            }
+        while (itr.hasNext()) {
+            IntNumber element = itr.next();
         }
-        System.out.println(hashIn);
+
+
+
+
+//        for (int i = 0; i < hashIn.size(); i++) {
+//            for (int y = i + 1; y < hashIn.size(); y++) {
+//                if (hashIn.get(i) == hashIn.get(y)) {
+//                    num = hashIn.get(i);
+//                    counter++;
+//                    tf = true;
+//                    break;
+//                }
+//            }
+//        }
+//        System.out.println(hashIn);
         if (tf == true) {
             System.out.println("Result = " + tf + "\nЧисло " + num + " повторяется " + counter + " раза.");
         } else System.out.println("Result = " + tf + "\nДубликатов нет.");

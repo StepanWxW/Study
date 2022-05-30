@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="study &#10;lesson 2 is complete!">
+    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="study &#10;lesson 2 think about work2 with Hashset">
+      <change afterPath="$PROJECT_DIR$/src/chapter19/study/Lesson3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/chapter19/study/StudyTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter19/study/StudyTwo.java" afterDir="false" />
     </list>
@@ -53,13 +54,13 @@
       <recent name="addStudy.OOP.new10c" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StudyTwoStart">
-    <configuration name="Phonebook" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter19.Phonebook" />
+  <component name="RunManager" selected="Application.Lesson3">
+    <configuration name="Lesson3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter19.study.Lesson3" />
       <module name="Study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter19.*" />
+          <option name="PATTERN" value="chapter19.study.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -67,8 +68,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PropDemoDef" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter19.PropDemoDef" />
+    <configuration name="Phonebook" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter19.Phonebook" />
       <module name="Study" />
       <extension name="coverage">
         <pattern>
@@ -121,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Lesson3" />
         <item itemvalue="Application.StudyTwoStart" />
         <item itemvalue="Application.start1" />
         <item itemvalue="Application.start" />
         <item itemvalue="Application.Phonebook" />
-        <item itemvalue="Application.PropDemoDef" />
       </list>
     </recent_temporary>
   </component>
@@ -137,13 +138,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1652190441046</updated>
-    </task>
-    <task id="LOCAL-00033" summary="chapter 9 work">
-      <created>1652843990059</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1652843990059</updated>
     </task>
     <task id="LOCAL-00034" summary="chapter 9 work">
       <created>1652846532924</created>
@@ -481,7 +475,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653808017994</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="study &#10;lesson 2 think about work2 with Hashset">
+      <created>1653840504418</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1653840504434</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -496,7 +497,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Start chapter9" />
     <MESSAGE value="add StringConversion&#10;ParcelDemo always is error, work catch.&#10;Why?" />
     <MESSAGE value="Fixed bug 10c" />
     <MESSAGE value="Fixed bug ParceDemo" />
@@ -521,7 +521,8 @@
     <MESSAGE value="study &#10;lesson 1 is done!!!&#10;It is Winner!" />
     <MESSAGE value="study &#10;lesson 1 is with Collection in Array2" />
     <MESSAGE value="study &#10;lesson 2 is complete!" />
-    <option name="LAST_COMMIT_MESSAGE" value="study &#10;lesson 2 is complete!" />
+    <MESSAGE value="study &#10;lesson 2 think about work2 with Hashset" />
+    <option name="LAST_COMMIT_MESSAGE" value="study &#10;lesson 2 think about work2 with Hashset" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
