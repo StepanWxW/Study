@@ -1,7 +1,7 @@
 package chapter19.study;
 import java.util.*;
-public class Lesson2v2 {
-    void search(List<Integer> listIn) {
+public class Lesson2v3 {
+    void search(Set<Integer> listIn) {
         int sizeList = listIn.size();
         HashSet<Integer> hs = new HashSet<>(listIn);
         int sizeHs = hs.size();
@@ -11,9 +11,9 @@ public class Lesson2v2 {
 
     }
 }
-class start2 {
+class start3 {
     public static void main(String[] args) {
-        List<Integer> list = new ArrayList<Integer>();
+        Set<Integer> list = new HashSet<>();
         list.add(1);
         list.add(4);
         list.add(10);
@@ -21,7 +21,7 @@ class start2 {
         list.add(6);
         list.add(3);
         list.add(15);
-        Lesson2v2 start = new Lesson2v2();
+        Lesson2v3 start = new Lesson2v3();
         start.search(list);
     }
 }

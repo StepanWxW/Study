@@ -1,12 +1,25 @@
 package chapter19.study;
 import java.util.*;
 public class StudyTwo {
-    void search(TreeSet<IntNumber> hashIn) {
-//        System.out.println(hashIn);
-//        if (tf == true) {
-//            System.out.println("Result = " + tf + "\nЧисло " + num + " повторяется " + counter + " раза.");
-//        } else System.out.println("Result = " + tf + "\nДубликатов нет.");
-    }
+//    void search(HashSet<IntNumber> hashIn) {
+//        Set<String> duplicates = new HashSet<>();
+//        for (int i = 0; i < data.length; i++)
+//        {
+//            if (duplicates.contains(data[i]))
+//            {
+//                continue;
+//            }
+//            for (int j = i + 1; j < data.length; j++)
+//            {
+//                if (data[i].equals(data[j]))
+//                {
+//                    duplicates.add(data[i]);
+//                    break;
+//                }
+//            }
+//        }
+//        System.out.println(duplicates.size());
+//    }
 }
 class IntNumber {
     int num;
@@ -39,7 +52,7 @@ class StudyTwoStart {
         IntNumber in8 = new IntNumber(7);
         IntNumber in9 = new IntNumber(3);
         IntNumber in10 = new IntNumber(10);
-        TreeSet<IntNumber> ts = new TreeSet<>();
+        HashSet<IntNumber> ts = new HashSet<>();
         ts.add(in1);
         ts.add(in2);
         ts.add(in3);
@@ -52,7 +65,7 @@ class StudyTwoStart {
         ts.add(in10);
         System.out.println(ts);
         StudyTwo st = new StudyTwo();
-        st.search(ts);
+//        st.search(ts);
 
     }
 }
