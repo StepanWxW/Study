@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="Lesson2 with Hashset">
-      <change afterPath="$PROJECT_DIR$/src/chapter19/study/Lesson2v3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter19/study/Lesson3HashMap.java" afterDir="false" />
+    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="Lesson3 hashmap 40 min&#10;is done!">
+      <change afterPath="$PROJECT_DIR$/src/chapter19/pripubprodef/extend/SeeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter19/pripubprodef/test/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter19/study/Lesson2v2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter19/study/Lesson2v2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter19/study/StudyTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter19/study/StudyTwo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,13 +138,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1652190441046</updated>
-    </task>
-    <task id="LOCAL-00037" summary="chapter 9 &#10;add SharedContacts">
-      <created>1652855675227</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1652855675227</updated>
     </task>
     <task id="LOCAL-00038" summary="chapter 9 &#10;add many)">
       <created>1652856198536</created>
@@ -484,7 +475,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653914577388</updated>
     </task>
-    <option name="localTasksCounter" value="86" />
+    <task id="LOCAL-00086" summary="Lesson3 hashmap 40 min&#10;is done!">
+      <created>1653999722934</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1653999722950</updated>
+    </task>
+    <option name="localTasksCounter" value="87" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -499,7 +497,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add IsDemo&#10;add MemoryDemo" />
     <MESSAGE value="MISTAKE &#10;VerDemo &#10;Line 5&#10;Runtime.Version (Version is red)" />
     <MESSAGE value="add many" />
     <MESSAGE value="work work work" />
@@ -524,7 +521,8 @@
     <MESSAGE value="study &#10;lesson 3" />
     <MESSAGE value="study work on 2" />
     <MESSAGE value="Lesson2 with Hashset" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lesson2 with Hashset" />
+    <MESSAGE value="Lesson3 hashmap 40 min&#10;is done!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lesson3 hashmap 40 min&#10;is done!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
