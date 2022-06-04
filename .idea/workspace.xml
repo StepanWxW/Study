@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="Lesson3 hashmap 40 min&#10;is done!">
-      <change afterPath="$PROJECT_DIR$/src/chapter19/pripubprodef/extend/SeeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter19/pripubprodef/test/Test.java" afterDir="false" />
+    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="why protected see only &quot;public&quot;. Without public not see((">
+      <change afterPath="$PROJECT_DIR$/src/chapter10/Ex0.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter10/Exc1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter10/Exc2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter10/HandleError.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter10/MultipleCatches.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,13 +57,13 @@
       <recent name="addStudy.OOP.new10c" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.starterHM">
-    <configuration name="Lesson3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter19.study.Lesson3" />
+  <component name="RunManager" selected="Application.MultipleCatches">
+    <configuration name="Ex0" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter10.Ex0" />
       <module name="Study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter19.study.*" />
+          <option name="PATTERN" value="chapter10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -68,12 +71,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudyTwoStart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter19.study.StudyTwoStart" />
+    <configuration name="Exc1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter10.Exc1" />
       <module name="Study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter19.study.*" />
+          <option name="PATTERN" value="chapter10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,12 +84,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="start1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter19.study.start1" />
+    <configuration name="Exc2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter10.Exc2" />
       <module name="Study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter19.study.*" />
+          <option name="PATTERN" value="chapter10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="start2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter19.study.start2" />
+    <configuration name="HandleError" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter10.HandleError" />
       <module name="Study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter19.study.*" />
+          <option name="PATTERN" value="chapter10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="starterHM" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter19.study.starterHM" />
+    <configuration name="MultipleCatches" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter10.MultipleCatches" />
       <module name="Study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter19.study.*" />
+          <option name="PATTERN" value="chapter10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.starterHM" />
-        <item itemvalue="Application.StudyTwoStart" />
-        <item itemvalue="Application.start2" />
-        <item itemvalue="Application.Lesson3" />
-        <item itemvalue="Application.start1" />
+        <item itemvalue="Application.MultipleCatches" />
+        <item itemvalue="Application.HandleError" />
+        <item itemvalue="Application.Exc2" />
+        <item itemvalue="Application.Exc1" />
+        <item itemvalue="Application.Ex0" />
       </list>
     </recent_temporary>
   </component>
@@ -138,13 +141,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1652190441046</updated>
-    </task>
-    <task id="LOCAL-00038" summary="chapter 9 &#10;add many)">
-      <created>1652856198536</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1652856198536</updated>
     </task>
     <task id="LOCAL-00039" summary="chapter 9 is Complete!">
       <created>1652857875156</created>
@@ -482,7 +478,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653999722950</updated>
     </task>
-    <option name="localTasksCounter" value="87" />
+    <task id="LOCAL-00087" summary="why protected see only &quot;public&quot;. Without public not see((">
+      <created>1654160765902</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1654160765902</updated>
+    </task>
+    <option name="localTasksCounter" value="88" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -497,7 +500,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="MISTAKE &#10;VerDemo &#10;Line 5&#10;Runtime.Version (Version is red)" />
     <MESSAGE value="add many" />
     <MESSAGE value="work work work" />
     <MESSAGE value="add ArrayListDemo&#10;start chapter 19" />
@@ -522,7 +524,8 @@
     <MESSAGE value="study work on 2" />
     <MESSAGE value="Lesson2 with Hashset" />
     <MESSAGE value="Lesson3 hashmap 40 min&#10;is done!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lesson3 hashmap 40 min&#10;is done!" />
+    <MESSAGE value="why protected see only &quot;public&quot;. Without public not see((" />
+    <option name="LAST_COMMIT_MESSAGE" value="why protected see only &quot;public&quot;. Without public not see((" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
