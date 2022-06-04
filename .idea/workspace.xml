@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="why protected see only &quot;public&quot;. Without public not see((">
-      <change afterPath="$PROJECT_DIR$/src/chapter10/Ex0.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter10/Exc1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter10/Exc2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter10/HandleError.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter10/MultipleCatches.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="start chapter10">
+      <change afterPath="$PROJECT_DIR$/src/chapter10/SuperSubCatch.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,20 +52,7 @@
       <recent name="addStudy.OOP.new10c" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MultipleCatches">
-    <configuration name="Ex0" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter10.Ex0" />
-      <module name="Study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chapter10.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.SuperSubCatch">
     <configuration name="Exc1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chapter10.Exc1" />
       <module name="Study" />
@@ -123,13 +105,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SuperSubCatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter10.SuperSubCatch" />
+      <module name="Study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapter10.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SuperSubCatch" />
         <item itemvalue="Application.MultipleCatches" />
         <item itemvalue="Application.HandleError" />
         <item itemvalue="Application.Exc2" />
         <item itemvalue="Application.Exc1" />
-        <item itemvalue="Application.Ex0" />
       </list>
     </recent_temporary>
   </component>
@@ -141,13 +136,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1652190441046</updated>
-    </task>
-    <task id="LOCAL-00039" summary="chapter 9 is Complete!">
-      <created>1652857875156</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1652857875156</updated>
     </task>
     <task id="LOCAL-00040" summary="work on 10a.&#10;Why Merсedes is java?">
       <created>1652880288747</created>
@@ -485,7 +473,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654160765902</updated>
     </task>
-    <option name="localTasksCounter" value="88" />
+    <task id="LOCAL-00088" summary="start chapter10">
+      <created>1654331110759</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1654331110769</updated>
+    </task>
+    <option name="localTasksCounter" value="89" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -500,7 +495,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add many" />
     <MESSAGE value="work work work" />
     <MESSAGE value="add ArrayListDemo&#10;start chapter 19" />
     <MESSAGE value="add &#10;start chapter 19" />
@@ -525,7 +519,8 @@
     <MESSAGE value="Lesson2 with Hashset" />
     <MESSAGE value="Lesson3 hashmap 40 min&#10;is done!" />
     <MESSAGE value="why protected see only &quot;public&quot;. Without public not see((" />
-    <option name="LAST_COMMIT_MESSAGE" value="why protected see only &quot;public&quot;. Without public not see((" />
+    <MESSAGE value="start chapter10" />
+    <option name="LAST_COMMIT_MESSAGE" value="start chapter10" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
