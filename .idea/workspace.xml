@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="start chapter10">
-      <change afterPath="$PROJECT_DIR$/src/chapter10/MethNestTry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter10/NestTry.java" afterDir="false" />
+    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="add NestTry and MathNestTry">
+      <change afterPath="$PROJECT_DIR$/src/chapter10/ChainExcDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter10/FinallyDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter10/MultiCatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter10/MyException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter10/ThrowsDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter10/TrowsDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,17 +38,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "create.test.in.the.same.root": "true",
-    "last_opened_file_path": "C:/JavaCore1/Study",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/JavaCore1/Study&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\JavaCore1\Study\src\addStudy\OOP\new10c" />
@@ -54,9 +58,9 @@
       <recent name="addStudy.OOP.new10c" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MethNestTry">
-    <configuration name="HandleError" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter10.HandleError" />
+  <component name="RunManager" selected="Application.MultiCatch">
+    <configuration name="ChainExcDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter10.ChainExcDemo" />
       <module name="Study" />
       <extension name="coverage">
         <pattern>
@@ -68,8 +72,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MethNestTry" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter10.MethNestTry" />
+    <configuration name="ExceptionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter10.ExceptionDemo" />
       <module name="Study" />
       <extension name="coverage">
         <pattern>
@@ -81,8 +85,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MultipleCatches" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter10.MultipleCatches" />
+    <configuration name="FinallyDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter10.FinallyDemo" />
       <module name="Study" />
       <extension name="coverage">
         <pattern>
@@ -94,8 +98,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NestTry" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter10.NestTry" />
+    <configuration name="MultiCatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter10.MultiCatch" />
       <module name="Study" />
       <extension name="coverage">
         <pattern>
@@ -107,8 +111,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SuperSubCatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter10.SuperSubCatch" />
+    <configuration name="ThrowsDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter10.ThrowsDemo" />
       <module name="Study" />
       <extension name="coverage">
         <pattern>
@@ -122,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MethNestTry" />
-        <item itemvalue="Application.NestTry" />
-        <item itemvalue="Application.SuperSubCatch" />
-        <item itemvalue="Application.MultipleCatches" />
-        <item itemvalue="Application.HandleError" />
+        <item itemvalue="Application.MultiCatch" />
+        <item itemvalue="Application.ChainExcDemo" />
+        <item itemvalue="Application.ExceptionDemo" />
+        <item itemvalue="Application.FinallyDemo" />
+        <item itemvalue="Application.ThrowsDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -138,13 +142,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1652190441046</updated>
-    </task>
-    <task id="LOCAL-00041" summary="Array from start, go class BublleSort">
-      <created>1652934932006</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1652934932006</updated>
     </task>
     <task id="LOCAL-00042" summary="save !! &#10;And start with write list">
       <created>1652938205623</created>
@@ -482,7 +479,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654331456817</updated>
     </task>
-    <option name="localTasksCounter" value="90" />
+    <task id="LOCAL-00090" summary="add NestTry and MathNestTry">
+      <created>1654339538004</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1654339538004</updated>
+    </task>
+    <option name="localTasksCounter" value="91" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -497,7 +501,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="work work work" />
     <MESSAGE value="add ArrayListDemo&#10;start chapter 19" />
     <MESSAGE value="add &#10;start chapter 19" />
     <MESSAGE value="LinkedListDemo" />
@@ -522,7 +525,8 @@
     <MESSAGE value="Lesson3 hashmap 40 min&#10;is done!" />
     <MESSAGE value="why protected see only &quot;public&quot;. Without public not see((" />
     <MESSAGE value="start chapter10" />
-    <option name="LAST_COMMIT_MESSAGE" value="start chapter10" />
+    <MESSAGE value="add NestTry and MathNestTry" />
+    <option name="LAST_COMMIT_MESSAGE" value="add NestTry and MathNestTry" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
