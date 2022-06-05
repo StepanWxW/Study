@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="add NestTry and MathNestTry">
-      <change afterPath="$PROJECT_DIR$/src/chapter10/ChainExcDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter10/FinallyDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter10/MultiCatch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter10/MyException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter10/ThrowsDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter10/TrowsDemo.java" afterDir="false" />
+    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="chapter 10 is complete">
+      <change afterPath="$PROJECT_DIR$/src/chapter13/BRRead.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter13/BRReadLine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter13/TinyEdit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,17 +35,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/JavaCore1/Study&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "create.test.in.the.same.root": "true",
+    "last_opened_file_path": "C:/JavaCore1/CRUDv1",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\JavaCore1\Study\src\addStudy\OOP\new10c" />
@@ -58,35 +55,35 @@
       <recent name="addStudy.OOP.new10c" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MultiCatch">
+  <component name="RunManager" selected="Application.TinyEdit">
+    <configuration name="BRRead" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter13.BRRead" />
+      <module name="Study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapter13.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BRReadLine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter13.BRReadLine" />
+      <module name="Study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapter13.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ChainExcDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chapter10.ChainExcDemo" />
-      <module name="Study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chapter10.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ExceptionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter10.ExceptionDemo" />
-      <module name="Study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chapter10.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FinallyDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter10.FinallyDemo" />
       <module name="Study" />
       <extension name="coverage">
         <pattern>
@@ -111,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThrowsDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter10.ThrowsDemo" />
+    <configuration name="TinyEdit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter13.TinyEdit" />
       <module name="Study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter10.*" />
+          <option name="PATTERN" value="chapter13.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TinyEdit" />
+        <item itemvalue="Application.BRReadLine" />
+        <item itemvalue="Application.BRRead" />
         <item itemvalue="Application.MultiCatch" />
         <item itemvalue="Application.ChainExcDemo" />
-        <item itemvalue="Application.ExceptionDemo" />
-        <item itemvalue="Application.FinallyDemo" />
-        <item itemvalue="Application.ThrowsDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -142,13 +139,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1652190441046</updated>
-    </task>
-    <task id="LOCAL-00042" summary="save !! &#10;And start with write list">
-      <created>1652938205623</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1652938205623</updated>
     </task>
     <task id="LOCAL-00043" summary="10a v1.0 save">
       <created>1652949331455</created>
@@ -486,7 +476,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654339538004</updated>
     </task>
-    <option name="localTasksCounter" value="91" />
+    <task id="LOCAL-00091" summary="chapter 10 is complete">
+      <created>1654414646364</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1654414646364</updated>
+    </task>
+    <option name="localTasksCounter" value="92" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -501,7 +498,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add ArrayListDemo&#10;start chapter 19" />
     <MESSAGE value="add &#10;start chapter 19" />
     <MESSAGE value="LinkedListDemo" />
     <MESSAGE value="add HashSet" />
@@ -526,7 +522,8 @@
     <MESSAGE value="why protected see only &quot;public&quot;. Without public not see((" />
     <MESSAGE value="start chapter10" />
     <MESSAGE value="add NestTry and MathNestTry" />
-    <option name="LAST_COMMIT_MESSAGE" value="add NestTry and MathNestTry" />
+    <MESSAGE value="chapter 10 is complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="chapter 10 is complete" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
