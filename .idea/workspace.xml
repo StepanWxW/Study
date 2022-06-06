@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="chapter 10 is complete">
-      <change afterPath="$PROJECT_DIR$/src/chapter13/BRRead.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter13/BRReadLine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter13/TinyEdit.java" afterDir="false" />
+    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="start is chapter 13">
+      <change afterPath="$PROJECT_DIR$/src/chapter13/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter13/AssertDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter13/CopyFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter13/CopyFile1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter13/Hypot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter13/PrintWriterDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter13/ShowFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter13/WriteDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter19/pripubprodef/extend/SeeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter19/pripubprodef/extend/SeeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter19/pripubprodef/test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter19/pripubprodef/test/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,17 +42,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "create.test.in.the.same.root": "true",
-    "last_opened_file_path": "C:/JavaCore1/CRUDv1",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/JavaCore1/CRUDv1&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\JavaCore1\Study\src\addStudy\OOP\new10c" />
@@ -55,9 +62,9 @@
       <recent name="addStudy.OOP.new10c" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TinyEdit">
-    <configuration name="BRRead" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter13.BRRead" />
+  <component name="RunManager" selected="Application.Hypot">
+    <configuration name="AssertDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter13.AssertDemo" />
       <module name="Study" />
       <extension name="coverage">
         <pattern>
@@ -69,8 +76,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BRReadLine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter13.BRReadLine" />
+    <configuration name="CopyFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter13.CopyFile" />
       <module name="Study" />
       <extension name="coverage">
         <pattern>
@@ -82,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ChainExcDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter10.ChainExcDemo" />
+    <configuration name="CopyFile1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter13.CopyFile1" />
       <module name="Study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter10.*" />
+          <option name="PATTERN" value="chapter13.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MultiCatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter10.MultiCatch" />
+    <configuration name="Hypot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter13.Hypot" />
       <module name="Study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter10.*" />
+          <option name="PATTERN" value="chapter13.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,8 +115,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TinyEdit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter13.TinyEdit" />
+    <configuration name="InstanceOf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter13.InstanceOf" />
       <module name="Study" />
       <extension name="coverage">
         <pattern>
@@ -123,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TinyEdit" />
-        <item itemvalue="Application.BRReadLine" />
-        <item itemvalue="Application.BRRead" />
-        <item itemvalue="Application.MultiCatch" />
-        <item itemvalue="Application.ChainExcDemo" />
+        <item itemvalue="Application.Hypot" />
+        <item itemvalue="Application.AssertDemo" />
+        <item itemvalue="Application.InstanceOf" />
+        <item itemvalue="Application.CopyFile1" />
+        <item itemvalue="Application.CopyFile" />
       </list>
     </recent_temporary>
   </component>
@@ -139,13 +146,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1652190441046</updated>
-    </task>
-    <task id="LOCAL-00043" summary="10a v1.0 save">
-      <created>1652949331455</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1652949331455</updated>
     </task>
     <task id="LOCAL-00044" summary="10a v1.2 save">
       <created>1652950180816</created>
@@ -483,7 +483,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654414646364</updated>
     </task>
-    <option name="localTasksCounter" value="92" />
+    <task id="LOCAL-00092" summary="start is chapter 13">
+      <created>1654444999274</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1654444999274</updated>
+    </task>
+    <option name="localTasksCounter" value="93" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -498,7 +505,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add &#10;start chapter 19" />
     <MESSAGE value="LinkedListDemo" />
     <MESSAGE value="add HashSet" />
     <MESSAGE value="add ArrayDequeDemo + TreeSetDemo" />
@@ -523,7 +529,8 @@
     <MESSAGE value="start chapter10" />
     <MESSAGE value="add NestTry and MathNestTry" />
     <MESSAGE value="chapter 10 is complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="chapter 10 is complete" />
+    <MESSAGE value="start is chapter 13" />
+    <option name="LAST_COMMIT_MESSAGE" value="start is chapter 13" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
