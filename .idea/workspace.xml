@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="start is chapter 15">
-      <change afterPath="$PROJECT_DIR$/src/chapter15/NumericTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter15/NumericTest2.java" afterDir="false" />
+    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="work on chapter 15">
+      <change afterPath="$PROJECT_DIR$/src/chapter15/NumericFunc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter15/SomeFunc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter15/StringFunc.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,13 +55,13 @@
       <recent name="addStudy.OOP.new10c" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LambdaDemo3">
-    <configuration name="AssertDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter13.AssertDemo" />
+  <component name="RunManager" selected="Application.GenericFunctionalInterfaceDemo">
+    <configuration name="BlockLambdaDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter15.BlockLambdaDemo" />
       <module name="Study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter13.*" />
+          <option name="PATTERN" value="chapter15.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -68,12 +69,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Hypot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter13.Hypot" />
+    <configuration name="BlockLambdaDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter15.BlockLambdaDemo2" />
       <module name="Study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter13.*" />
+          <option name="PATTERN" value="chapter15.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,8 +82,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LambdaDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter15.LambdaDemo" />
+    <configuration name="GenericFunctionalInterfaceDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter15.GenericFunctionalInterfaceDemo" />
       <module name="Study" />
       <extension name="coverage">
         <pattern>
@@ -122,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GenericFunctionalInterfaceDemo" />
+        <item itemvalue="Application.BlockLambdaDemo2" />
+        <item itemvalue="Application.BlockLambdaDemo" />
         <item itemvalue="Application.LambdaDemo3" />
         <item itemvalue="Application.LambdaDemo2" />
-        <item itemvalue="Application.LambdaDemo" />
-        <item itemvalue="Application.Hypot" />
-        <item itemvalue="Application.AssertDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -138,13 +139,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1652190441046</updated>
-    </task>
-    <task id="LOCAL-00046" summary="10a complete">
-      <created>1653025730948</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1653025730948</updated>
     </task>
     <task id="LOCAL-00047" summary="10b 4eta delay">
       <created>1653032458005</created>
@@ -482,7 +476,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654509780864</updated>
     </task>
-    <option name="localTasksCounter" value="95" />
+    <task id="LOCAL-00095" summary="work on chapter 15">
+      <created>1654524905368</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1654524905368</updated>
+    </task>
+    <option name="localTasksCounter" value="96" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -497,7 +498,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add ArrayDequeDemo + TreeSetDemo" />
     <MESSAGE value="add IteratorDemo" />
     <MESSAGE value="add ForEachDemo and SpliteratorDemo" />
     <MESSAGE value="add Address&#10;add HashMapDemo" />
@@ -522,7 +522,8 @@
     <MESSAGE value="start is chapter 13" />
     <MESSAGE value="chapter 13 is complete" />
     <MESSAGE value="start is chapter 15" />
-    <option name="LAST_COMMIT_MESSAGE" value="start is chapter 15" />
+    <MESSAGE value="work on chapter 15" />
+    <option name="LAST_COMMIT_MESSAGE" value="work on chapter 15" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
