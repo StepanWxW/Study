@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="work on chapter 15">
-      <change afterPath="$PROJECT_DIR$/src/chapter15/DoubleNumericArrayFunc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter15/StringFunc1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter15/StringFunc2.java" afterDir="false" />
+    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="Work work work)">
+      <change afterPath="$PROJECT_DIR$/src/chapter15/StringFunc3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter15/StringFunc2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter15/StringFunc2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +15,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -139,13 +138,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1652190441046</updated>
-    </task>
-    <task id="LOCAL-00048" summary="10b 4eta work">
-      <created>1653036327455</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1653036327455</updated>
     </task>
     <task id="LOCAL-00049" summary="10b mistake start.java line 7 &quot;(int[] array)&quot;">
       <created>1653037254218</created>
@@ -483,7 +475,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654579451209</updated>
     </task>
-    <option name="localTasksCounter" value="97" />
+    <task id="LOCAL-00097" summary="Work work work)">
+      <created>1654602355086</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1654602355086</updated>
+    </task>
+    <option name="localTasksCounter" value="98" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -498,7 +497,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add IteratorDemo" />
     <MESSAGE value="add ForEachDemo and SpliteratorDemo" />
     <MESSAGE value="add Address&#10;add HashMapDemo" />
     <MESSAGE value="add TreeMapDemo" />
@@ -523,7 +521,8 @@
     <MESSAGE value="chapter 13 is complete" />
     <MESSAGE value="start is chapter 15" />
     <MESSAGE value="work on chapter 15" />
-    <option name="LAST_COMMIT_MESSAGE" value="work on chapter 15" />
+    <MESSAGE value="Work work work)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Work work work)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
