@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="Work work work)">
-      <change afterPath="$PROJECT_DIR$/src/chapter15/StringFunc3.java" afterDir="false" />
+    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="Night commit">
+      <change afterPath="$PROJECT_DIR$/src/chapter15/MyClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter15/MyFunc4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter15/MyFunc5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter15/MyFunc6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter15/MyFunc7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter15/UseFunctionInterfaceDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter15/StringFunc2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter15/StringFunc2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,9 +58,9 @@
       <recent name="addStudy.OOP.new10c" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MethodRefDemo">
-    <configuration name="BlockLambdaDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter15.BlockLambdaDemo2" />
+  <component name="RunManager" selected="Application.UseFunctionInterfaceDemo">
+    <configuration name="ConstructorRefDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter15.ConstructorRefDemo" />
       <module name="Study" />
       <extension name="coverage">
         <pattern>
@@ -68,8 +72,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GenericFunctionalInterfaceDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter15.GenericFunctionalInterfaceDemo" />
+    <configuration name="ConstructorRefDemo3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter15.ConstructorRefDemo3" />
       <module name="Study" />
       <extension name="coverage">
         <pattern>
@@ -81,8 +85,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LambdaAsArgumentsDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter15.LambdaAsArgumentsDemo" />
+    <configuration name="GenericMethodRefDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter15.GenericMethodRefDemo" />
       <module name="Study" />
       <extension name="coverage">
         <pattern>
@@ -94,8 +98,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LambdaExceptionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter15.LambdaExceptionDemo" />
+    <configuration name="UseFunctionInterfaceDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter15.UseFunctionInterfaceDemo" />
       <module name="Study" />
       <extension name="coverage">
         <pattern>
@@ -107,8 +111,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MethodRefDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter15.MethodRefDemo" />
+    <configuration name="UseMethodRef" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter15.UseMethodRef" />
       <module name="Study" />
       <extension name="coverage">
         <pattern>
@@ -122,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MethodRefDemo" />
-        <item itemvalue="Application.LambdaExceptionDemo" />
-        <item itemvalue="Application.LambdaAsArgumentsDemo" />
-        <item itemvalue="Application.GenericFunctionalInterfaceDemo" />
-        <item itemvalue="Application.BlockLambdaDemo2" />
+        <item itemvalue="Application.UseFunctionInterfaceDemo" />
+        <item itemvalue="Application.ConstructorRefDemo3" />
+        <item itemvalue="Application.ConstructorRefDemo" />
+        <item itemvalue="Application.UseMethodRef" />
+        <item itemvalue="Application.GenericMethodRefDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -138,13 +142,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1652190441046</updated>
-    </task>
-    <task id="LOCAL-00049" summary="10b mistake start.java line 7 &quot;(int[] array)&quot;">
-      <created>1653037254218</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1653037254218</updated>
     </task>
     <task id="LOCAL-00050" summary="10b mistake corrected">
       <created>1653037403613</created>
@@ -482,7 +479,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654602355086</updated>
     </task>
-    <option name="localTasksCounter" value="98" />
+    <task id="LOCAL-00098" summary="Night commit">
+      <created>1654616644482</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1654616644484</updated>
+    </task>
+    <option name="localTasksCounter" value="99" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -497,7 +501,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add ForEachDemo and SpliteratorDemo" />
     <MESSAGE value="add Address&#10;add HashMapDemo" />
     <MESSAGE value="add TreeMapDemo" />
     <MESSAGE value="add CompDemo and MyComp" />
@@ -522,7 +525,8 @@
     <MESSAGE value="start is chapter 15" />
     <MESSAGE value="work on chapter 15" />
     <MESSAGE value="Work work work)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Work work work)" />
+    <MESSAGE value="Night commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Night commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -537,6 +541,11 @@
           <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
           <option name="timeStamp" value="2" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/chapter15/MyClass.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
