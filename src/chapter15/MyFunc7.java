@@ -39,6 +39,6 @@ class ConstructorRefDemo3 {
 
         MyFunc7<My2Class, String> myClassString = My2Class::new;
         My2Class mc2 = myClassFactory(myClassString, "String");
-        System.out.println("Значение string в объекте mc равно: " +mc2.getStr());
+        System.out.println("Значение string в объекте mc равно: " + mc2.getStr());
     }
 }

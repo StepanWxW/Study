@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="Night commit">
-      <change afterPath="$PROJECT_DIR$/src/chapter15/MyClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter15/MyFunc4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter15/MyFunc5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter15/MyFunc6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter15/MyFunc7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter15/UseFunctionInterfaceDemo.java" afterDir="false" />
+    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="chapter 15 is complete">
+      <change afterPath="$PROJECT_DIR$/file1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/file2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/file3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter20/ByteArrayInputStreamReset.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter20/COPYRIGHT" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter20/DirList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter20/FileDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter20/FileInputStreamDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter20/FileOutputStreamDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter20/OnlyExt.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter15/MyFunc7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter15/MyFunc7.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,10 +45,11 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/JavaCore1/CRUDv1&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/JavaCore1/Study&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
@@ -58,13 +64,13 @@
       <recent name="addStudy.OOP.new10c" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.UseFunctionInterfaceDemo">
-    <configuration name="ConstructorRefDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter15.ConstructorRefDemo" />
+  <component name="RunManager" selected="Application.ByteArrayInputStreamReset">
+    <configuration name="ByteArrayInputStreamReset" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter20.ByteArrayInputStreamReset" />
       <module name="Study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter15.*" />
+          <option name="PATTERN" value="chapter20.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -72,12 +78,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConstructorRefDemo3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter15.ConstructorRefDemo3" />
+    <configuration name="DirList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter20.DirList" />
       <module name="Study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter15.*" />
+          <option name="PATTERN" value="chapter20.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GenericMethodRefDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter15.GenericMethodRefDemo" />
+    <configuration name="FileDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter20.FileDemo" />
       <module name="Study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter15.*" />
+          <option name="PATTERN" value="chapter20.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UseFunctionInterfaceDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter15.UseFunctionInterfaceDemo" />
+    <configuration name="FileInputStreamDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter20.FileInputStreamDemo" />
       <module name="Study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter15.*" />
+          <option name="PATTERN" value="chapter20.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,12 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UseMethodRef" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter15.UseMethodRef" />
+    <configuration name="FileOutputStreamDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter20.FileOutputStreamDemo" />
       <module name="Study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter15.*" />
+          <option name="PATTERN" value="chapter20.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.UseFunctionInterfaceDemo" />
-        <item itemvalue="Application.ConstructorRefDemo3" />
-        <item itemvalue="Application.ConstructorRefDemo" />
-        <item itemvalue="Application.UseMethodRef" />
-        <item itemvalue="Application.GenericMethodRefDemo" />
+        <item itemvalue="Application.ByteArrayInputStreamReset" />
+        <item itemvalue="Application.FileDemo" />
+        <item itemvalue="Application.DirList" />
+        <item itemvalue="Application.FileOutputStreamDemo" />
+        <item itemvalue="Application.FileInputStreamDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -142,13 +148,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1652190441046</updated>
-    </task>
-    <task id="LOCAL-00050" summary="10b mistake corrected">
-      <created>1653037403613</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1653037403613</updated>
     </task>
     <task id="LOCAL-00051" summary="10b complete?">
       <created>1653047114510</created>
@@ -486,7 +485,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654616644484</updated>
     </task>
-    <option name="localTasksCounter" value="99" />
+    <task id="LOCAL-00099" summary="chapter 15 is complete">
+      <created>1654670871216</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1654670871216</updated>
+    </task>
+    <option name="localTasksCounter" value="100" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -501,7 +507,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add Address&#10;add HashMapDemo" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="add TreeMapDemo" />
     <MESSAGE value="add CompDemo and MyComp" />
     <MESSAGE value="work" />
@@ -526,7 +532,8 @@
     <MESSAGE value="work on chapter 15" />
     <MESSAGE value="Work work work)" />
     <MESSAGE value="Night commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Night commit" />
+    <MESSAGE value="chapter 15 is complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="chapter 15 is complete" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -545,6 +552,11 @@
           <url>file://$PROJECT_DIR$/src/chapter15/MyClass.java</url>
           <line>28</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/chapter20/ByteArrayInputStreamReset.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
