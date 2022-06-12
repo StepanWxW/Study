@@ -1,19 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="chapter 15 is complete">
-      <change afterPath="$PROJECT_DIR$/file1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/file2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/file3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter20/ByteArrayInputStreamReset.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter20/COPYRIGHT" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter20/DirList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter20/FileDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter20/FileInputStreamDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter20/FileOutputStreamDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter20/OnlyExt.java" afterDir="false" />
+    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="add&#10;ByteArrayInputStreamReset&#10;FileDe&#10;FileInputStreamDemo&#10;FileOutputStreamDemo">
+      <change afterPath="$PROJECT_DIR$/src/chapter20/BufferedInputStreamDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter20/ByteArrayOutputStreamDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/text.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter15/MyFunc7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter15/MyFunc7.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,9 +56,35 @@
       <recent name="addStudy.OOP.new10c" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ByteArrayInputStreamReset">
+  <component name="RunManager" selected="Application.BufferedInputStreamDemo">
+    <configuration name="BufferedInputStreamDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter20.BufferedInputStreamDemo" />
+      <module name="Study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapter20.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ByteArrayInputStreamReset" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chapter20.ByteArrayInputStreamReset" />
+      <module name="Study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapter20.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ByteArrayOutputStreamDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter20.ByteArrayOutputStreamDemo" />
       <module name="Study" />
       <extension name="coverage">
         <pattern>
@@ -104,39 +122,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileInputStreamDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter20.FileInputStreamDemo" />
-      <module name="Study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chapter20.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FileOutputStreamDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter20.FileOutputStreamDemo" />
-      <module name="Study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chapter20.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BufferedInputStreamDemo" />
         <item itemvalue="Application.ByteArrayInputStreamReset" />
+        <item itemvalue="Application.ByteArrayOutputStreamDemo" />
         <item itemvalue="Application.FileDemo" />
         <item itemvalue="Application.DirList" />
-        <item itemvalue="Application.FileOutputStreamDemo" />
-        <item itemvalue="Application.FileInputStreamDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -148,13 +140,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1652190441046</updated>
-    </task>
-    <task id="LOCAL-00051" summary="10b complete?">
-      <created>1653047114510</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1653047114510</updated>
     </task>
     <task id="LOCAL-00052" summary="10b save for next step">
       <created>1653213411219</created>
@@ -492,7 +477,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654670871216</updated>
     </task>
-    <option name="localTasksCounter" value="100" />
+    <task id="LOCAL-00100" summary="add&#10;ByteArrayInputStreamReset&#10;FileDe&#10;FileInputStreamDemo&#10;FileOutputStreamDemo">
+      <created>1655034410435</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1655034410435</updated>
+    </task>
+    <option name="localTasksCounter" value="101" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -508,7 +500,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="add TreeMapDemo" />
     <MESSAGE value="add CompDemo and MyComp" />
     <MESSAGE value="work" />
     <MESSAGE value="add&#10;ArraysDemo, StackDemo, VectorDemo" />
@@ -533,7 +524,8 @@
     <MESSAGE value="Work work work)" />
     <MESSAGE value="Night commit" />
     <MESSAGE value="chapter 15 is complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="chapter 15 is complete" />
+    <MESSAGE value="add&#10;ByteArrayInputStreamReset&#10;FileDe&#10;FileInputStreamDemo&#10;FileOutputStreamDemo" />
+    <option name="LAST_COMMIT_MESSAGE" value="add&#10;ByteArrayInputStreamReset&#10;FileDe&#10;FileInputStreamDemo&#10;FileOutputStreamDemo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -554,9 +546,9 @@
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/chapter20/ByteArrayInputStreamReset.java</url>
-          <line>7</line>
-          <option name="timeStamp" value="10" />
+          <url>file://$PROJECT_DIR$/src/chapter20/BufferedInputStreamDemo.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
