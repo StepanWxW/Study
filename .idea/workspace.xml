@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="add BufferedInputStreamDemo, ByteArrayOutputStreamDemo">
-      <change afterPath="$PROJECT_DIR$/src/chapter20/InputStreamEnumeration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter20/PushBackInputStreamDemo.java" afterDir="false" />
+    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="add InputStreamEnumeration&#10;PushBackInputStreamDemo">
+      <change afterPath="$PROJECT_DIR$/src/chapter20/DataIODemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter20/PrintfDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +55,7 @@
       <recent name="addStudy.OOP.new10c" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SequenceInputDemo">
+  <component name="RunManager" selected="Application.DataIODemo">
     <configuration name="BufferedInputStreamDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chapter20.BufferedInputStreamDemo" />
       <module name="Study" />
@@ -69,8 +69,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ByteArrayInputStreamReset" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter20.ByteArrayInputStreamReset" />
+    <configuration name="DataIODemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter20.DataIODemo" />
       <module name="Study" />
       <extension name="coverage">
         <pattern>
@@ -82,8 +82,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ByteArrayOutputStreamDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter20.ByteArrayOutputStreamDemo" />
+    <configuration name="PrintfDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter20.PrintfDemo" />
       <module name="Study" />
       <extension name="coverage">
         <pattern>
@@ -123,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DataIODemo" />
+        <item itemvalue="Application.PrintfDemo" />
         <item itemvalue="Application.SequenceInputDemo" />
         <item itemvalue="Application.PushBackInputStreamDemo" />
         <item itemvalue="Application.BufferedInputStreamDemo" />
-        <item itemvalue="Application.ByteArrayInputStreamReset" />
-        <item itemvalue="Application.ByteArrayOutputStreamDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -139,13 +139,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1652190441046</updated>
-    </task>
-    <task id="LOCAL-00053" summary="10c I don't know!">
-      <created>1653221164606</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1653221164606</updated>
     </task>
     <task id="LOCAL-00054" summary="commit)">
       <created>1653235337000</created>
@@ -483,7 +476,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655050311763</updated>
     </task>
-    <option name="localTasksCounter" value="102" />
+    <task id="LOCAL-00102" summary="add InputStreamEnumeration&#10;PushBackInputStreamDemo">
+      <created>1655739985102</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1655739985106</updated>
+    </task>
+    <option name="localTasksCounter" value="103" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -499,7 +499,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="work" />
     <MESSAGE value="add&#10;ArraysDemo, StackDemo, VectorDemo" />
     <MESSAGE value="add HtDemo" />
     <MESSAGE value="chapter19 is complete" />
@@ -524,7 +523,8 @@
     <MESSAGE value="chapter 15 is complete" />
     <MESSAGE value="add&#10;ByteArrayInputStreamReset&#10;FileDe&#10;FileInputStreamDemo&#10;FileOutputStreamDemo" />
     <MESSAGE value="add BufferedInputStreamDemo, ByteArrayOutputStreamDemo" />
-    <option name="LAST_COMMIT_MESSAGE" value="add BufferedInputStreamDemo, ByteArrayOutputStreamDemo" />
+    <MESSAGE value="add InputStreamEnumeration&#10;PushBackInputStreamDemo" />
+    <option name="LAST_COMMIT_MESSAGE" value="add InputStreamEnumeration&#10;PushBackInputStreamDemo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
