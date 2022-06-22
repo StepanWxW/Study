@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="add DataIODemo and PrintfDemo">
-      <change afterPath="$PROJECT_DIR$/Test.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter20/CharArrayReaderDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter20/CharArrayWriteDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter20/FileReaderDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter20/FileWriteDemo.java" afterDir="false" />
+    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="add CharArrayReaderDemo,&#10;CharArrayWriteDemo, FileReaderDemo,&#10;FileWriteDemo,">
+      <change afterPath="$PROJECT_DIR$/serial" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter20/BufferedReaderDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter20/ConsoleDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter20/ExplicitChannelRead.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter20/PushBAckReaderDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter20/SerializationDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/file1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/file1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/file2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/file2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/file3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/file3.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/text.txt" beforeDir="false" afterPath="$PROJECT_DIR$/text.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,9 +60,9 @@
       <recent name="addStudy.OOP.new10c" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CharArrayWriteDemo">
-    <configuration name="CharArrayReaderDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter20.CharArrayReaderDemo" />
+  <component name="RunManager" selected="Application.ExplicitChannelRead">
+    <configuration name="BufferedReaderDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter20.BufferedReaderDemo" />
       <module name="Study" />
       <extension name="coverage">
         <pattern>
@@ -76,8 +74,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CharArrayWriteDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter20.CharArrayWriteDemo" />
+    <configuration name="ConsoleDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter20.ConsoleDemo" />
       <module name="Study" />
       <extension name="coverage">
         <pattern>
@@ -89,8 +87,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DataIODemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter20.DataIODemo" />
+    <configuration name="ExplicitChannelRead" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter20.ExplicitChannelRead" />
       <module name="Study" />
       <extension name="coverage">
         <pattern>
@@ -102,8 +100,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileReaderDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter20.FileReaderDemo" />
+    <configuration name="PushBAckReaderDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter20.PushBAckReaderDemo" />
       <module name="Study" />
       <extension name="coverage">
         <pattern>
@@ -115,8 +113,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileWriteDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter20.FileWriteDemo" />
+    <configuration name="SerializationDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter20.SerializationDemo" />
       <module name="Study" />
       <extension name="coverage">
         <pattern>
@@ -130,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CharArrayWriteDemo" />
-        <item itemvalue="Application.CharArrayReaderDemo" />
-        <item itemvalue="Application.FileWriteDemo" />
-        <item itemvalue="Application.FileReaderDemo" />
-        <item itemvalue="Application.DataIODemo" />
+        <item itemvalue="Application.ExplicitChannelRead" />
+        <item itemvalue="Application.SerializationDemo" />
+        <item itemvalue="Application.ConsoleDemo" />
+        <item itemvalue="Application.PushBAckReaderDemo" />
+        <item itemvalue="Application.BufferedReaderDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -146,13 +144,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1652190441046</updated>
-    </task>
-    <task id="LOCAL-00055" summary="10c have a mistacke from class Start 14 line.">
-      <created>1653303627857</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1653303627857</updated>
     </task>
     <task id="LOCAL-00056" summary="Start chapter9">
       <created>1653314302047</created>
@@ -490,7 +481,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655780388259</updated>
     </task>
-    <option name="localTasksCounter" value="104" />
+    <task id="LOCAL-00104" summary="add CharArrayReaderDemo,&#10;CharArrayWriteDemo, FileReaderDemo,&#10;FileWriteDemo,">
+      <created>1655816793003</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1655816793011</updated>
+    </task>
+    <option name="localTasksCounter" value="105" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -506,7 +504,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="add HtDemo" />
     <MESSAGE value="chapter19 is complete" />
     <MESSAGE value="study &#10;lesson 1 is done!!!&#10;It is Winner!" />
     <MESSAGE value="study &#10;lesson 1 is with Collection in Array2" />
@@ -531,7 +528,8 @@
     <MESSAGE value="add BufferedInputStreamDemo, ByteArrayOutputStreamDemo" />
     <MESSAGE value="add InputStreamEnumeration&#10;PushBackInputStreamDemo" />
     <MESSAGE value="add DataIODemo and PrintfDemo" />
-    <option name="LAST_COMMIT_MESSAGE" value="add DataIODemo and PrintfDemo" />
+    <MESSAGE value="add CharArrayReaderDemo,&#10;CharArrayWriteDemo, FileReaderDemo,&#10;FileWriteDemo," />
+    <option name="LAST_COMMIT_MESSAGE" value="add CharArrayReaderDemo,&#10;CharArrayWriteDemo, FileReaderDemo,&#10;FileWriteDemo," />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -552,9 +550,9 @@
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/chapter20/BufferedInputStreamDemo.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="13" />
+          <url>file://$PROJECT_DIR$/src/chapter20/PushBAckReaderDemo.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
