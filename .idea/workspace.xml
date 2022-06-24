@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="add DirList1, ExplicitchannelWrite, MappedChanelRead, MappedChannelWrite, MyfileVisitor, NIOCo&#10;,NIOStreamWrite, ShowFile">
-      <change afterPath="$PROJECT_DIR$/src/chapter22/HttpURLDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter22/InetAdressTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter22/UCDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter22/URLDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter22/Whois.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter22/WriteServer.java" afterDir="false" />
+    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="chapter 22 is start and complete">
+      <change afterPath="$PROJECT_DIR$/src/chapter29/StreamDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter29/StreamDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter29/StreamDemo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter29/StreamDemo4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter29/StreamDemo5.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,13 +58,13 @@
       <recent name="addStudy.OOP.new10c" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WriteServer">
-    <configuration name="InetAdressTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter22.InetAdressTest" />
+  <component name="RunManager" selected="Application.StreamDemo5">
+    <configuration name="StreamDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter29.StreamDemo" />
       <module name="Study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter22.*" />
+          <option name="PATTERN" value="chapter29.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -73,12 +72,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UCDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter22.UCDemo" />
+    <configuration name="StreamDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter29.StreamDemo2" />
       <module name="Study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter22.*" />
+          <option name="PATTERN" value="chapter29.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,12 +85,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="URLDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter22.URLDemo" />
+    <configuration name="StreamDemo3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter29.StreamDemo3" />
       <module name="Study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter22.*" />
+          <option name="PATTERN" value="chapter29.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Whois" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter22.Whois" />
+    <configuration name="StreamDemo4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter29.StreamDemo4" />
       <module name="Study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter22.*" />
+          <option name="PATTERN" value="chapter29.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WriteServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter22.WriteServer" />
+    <configuration name="StreamDemo5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter29.StreamDemo5" />
       <module name="Study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter22.*" />
+          <option name="PATTERN" value="chapter29.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.WriteServer" />
-        <item itemvalue="Application.UCDemo" />
-        <item itemvalue="Application.URLDemo" />
-        <item itemvalue="Application.Whois" />
-        <item itemvalue="Application.InetAdressTest" />
+        <item itemvalue="Application.StreamDemo5" />
+        <item itemvalue="Application.StreamDemo4" />
+        <item itemvalue="Application.StreamDemo3" />
+        <item itemvalue="Application.StreamDemo2" />
+        <item itemvalue="Application.StreamDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -143,13 +142,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1652190441046</updated>
-    </task>
-    <task id="LOCAL-00058" summary="Fixed bug 10c">
-      <created>1653363044923</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1653363044923</updated>
     </task>
     <task id="LOCAL-00059" summary="Fixed bug ParceDemo">
       <created>1653364308609</created>
@@ -487,7 +479,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655988900590</updated>
     </task>
-    <option name="localTasksCounter" value="107" />
+    <task id="LOCAL-00107" summary="chapter 22 is start and complete">
+      <created>1656059158110</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1656059158118</updated>
+    </task>
+    <option name="localTasksCounter" value="108" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -503,7 +502,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="study &#10;lesson 1 is with Collection in Array2" />
     <MESSAGE value="study &#10;lesson 2 is complete!" />
     <MESSAGE value="study &#10;lesson 2 think about work2 with Hashset" />
     <MESSAGE value="study &#10;lesson 3" />
@@ -528,7 +526,8 @@
     <MESSAGE value="add CharArrayReaderDemo,&#10;CharArrayWriteDemo, FileReaderDemo,&#10;FileWriteDemo," />
     <MESSAGE value="add BufferedReaderDemo,&#10;ConsoleDemo, ExplicitChannelRead,&#10;PushBAckReaderDemo, SerializationDemo," />
     <MESSAGE value="add DirList1, ExplicitchannelWrite, MappedChanelRead, MappedChannelWrite, MyfileVisitor, NIOCo&#10;,NIOStreamWrite, ShowFile" />
-    <option name="LAST_COMMIT_MESSAGE" value="add DirList1, ExplicitchannelWrite, MappedChanelRead, MappedChannelWrite, MyfileVisitor, NIOCo&#10;,NIOStreamWrite, ShowFile" />
+    <MESSAGE value="chapter 22 is start and complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="chapter 22 is start and complete" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
