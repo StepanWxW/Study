@@ -1,18 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="add BufferedReaderDemo,&#10;ConsoleDemo, ExplicitChannelRead,&#10;PushBAckReaderDemo, SerializationDemo,">
-      <change afterPath="$PROJECT_DIR$/src/chapter20/DirList1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter20/ExplicitchannelWrite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter20/MappedChanelRead.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter20/MappedChannelWrite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter20/MyfileVisitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter20/NIOCopy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter20/NIOStreamWrite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter20/ShowFile.java" afterDir="false" />
+    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="add DirList1, ExplicitchannelWrite, MappedChanelRead, MappedChannelWrite, MyfileVisitor, NIOCo&#10;,NIOStreamWrite, ShowFile">
+      <change afterPath="$PROJECT_DIR$/src/chapter22/HttpURLDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter22/InetAdressTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter22/UCDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter22/URLDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter22/Whois.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter22/WriteServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/text.txt" beforeDir="false" afterPath="$PROJECT_DIR$/text.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,13 +59,13 @@
       <recent name="addStudy.OOP.new10c" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DirTreeList">
-    <configuration name="DirList1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter20.DirList1" />
+  <component name="RunManager" selected="Application.WriteServer">
+    <configuration name="InetAdressTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter22.InetAdressTest" />
       <module name="Study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter20.*" />
+          <option name="PATTERN" value="chapter22.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,12 +73,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DirTreeList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter20.DirTreeList" />
+    <configuration name="UCDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter22.UCDemo" />
       <module name="Study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter20.*" />
+          <option name="PATTERN" value="chapter22.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NIOCopy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter20.NIOCopy" />
+    <configuration name="URLDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter22.URLDemo" />
       <module name="Study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter20.*" />
+          <option name="PATTERN" value="chapter22.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NIOStreamWrite" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter20.NIOStreamWrite" />
+    <configuration name="Whois" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter22.Whois" />
       <module name="Study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter20.*" />
+          <option name="PATTERN" value="chapter22.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShowFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter20.ShowFile" />
+    <configuration name="WriteServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter22.WriteServer" />
       <module name="Study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter20.*" />
+          <option name="PATTERN" value="chapter22.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DirTreeList" />
-        <item itemvalue="Application.DirList1" />
-        <item itemvalue="Application.NIOStreamWrite" />
-        <item itemvalue="Application.ShowFile" />
-        <item itemvalue="Application.NIOCopy" />
+        <item itemvalue="Application.WriteServer" />
+        <item itemvalue="Application.UCDemo" />
+        <item itemvalue="Application.URLDemo" />
+        <item itemvalue="Application.Whois" />
+        <item itemvalue="Application.InetAdressTest" />
       </list>
     </recent_temporary>
   </component>
@@ -147,13 +143,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1652190441046</updated>
-    </task>
-    <task id="LOCAL-00057" summary="add StringConversion&#10;ParcelDemo always is error, work catch.&#10;Why?">
-      <created>1653321802012</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1653321802012</updated>
     </task>
     <task id="LOCAL-00058" summary="Fixed bug 10c">
       <created>1653363044923</created>
@@ -491,7 +480,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655895709331</updated>
     </task>
-    <option name="localTasksCounter" value="106" />
+    <task id="LOCAL-00106" summary="add DirList1, ExplicitchannelWrite, MappedChanelRead, MappedChannelWrite, MyfileVisitor, NIOCo&#10;,NIOStreamWrite, ShowFile">
+      <created>1655988900590</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1655988900590</updated>
+    </task>
+    <option name="localTasksCounter" value="107" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -507,7 +503,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="study &#10;lesson 1 is done!!!&#10;It is Winner!" />
     <MESSAGE value="study &#10;lesson 1 is with Collection in Array2" />
     <MESSAGE value="study &#10;lesson 2 is complete!" />
     <MESSAGE value="study &#10;lesson 2 think about work2 with Hashset" />
@@ -532,7 +527,8 @@
     <MESSAGE value="add DataIODemo and PrintfDemo" />
     <MESSAGE value="add CharArrayReaderDemo,&#10;CharArrayWriteDemo, FileReaderDemo,&#10;FileWriteDemo," />
     <MESSAGE value="add BufferedReaderDemo,&#10;ConsoleDemo, ExplicitChannelRead,&#10;PushBAckReaderDemo, SerializationDemo," />
-    <option name="LAST_COMMIT_MESSAGE" value="add BufferedReaderDemo,&#10;ConsoleDemo, ExplicitChannelRead,&#10;PushBAckReaderDemo, SerializationDemo," />
+    <MESSAGE value="add DirList1, ExplicitchannelWrite, MappedChanelRead, MappedChannelWrite, MyfileVisitor, NIOCo&#10;,NIOStreamWrite, ShowFile" />
+    <option name="LAST_COMMIT_MESSAGE" value="add DirList1, ExplicitchannelWrite, MappedChanelRead, MappedChannelWrite, MyfileVisitor, NIOCo&#10;,NIOStreamWrite, ShowFile" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
