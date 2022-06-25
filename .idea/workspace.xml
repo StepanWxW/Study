@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="chapter 22 is start and complete">
-      <change afterPath="$PROJECT_DIR$/src/chapter29/StreamDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter29/StreamDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter29/StreamDemo3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter29/StreamDemo4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter29/StreamDemo5.java" afterDir="false" />
+    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="start chapter29&#10;Add StreamDemo(1,2,3,4,5)">
+      <change afterPath="$PROJECT_DIR$/src/chapter29/StreamDemo10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter29/StreamDemo6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter29/StreamDemo7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter29/StreamDemo8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter29/StreamDemo9.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,9 +58,9 @@
       <recent name="addStudy.OOP.new10c" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StreamDemo5">
-    <configuration name="StreamDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter29.StreamDemo" />
+  <component name="RunManager" selected="Application.StreamDemo10">
+    <configuration name="StreamDemo10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter29.StreamDemo10" />
       <module name="Study" />
       <extension name="coverage">
         <pattern>
@@ -72,8 +72,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter29.StreamDemo2" />
+    <configuration name="StreamDemo6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter29.StreamDemo6" />
       <module name="Study" />
       <extension name="coverage">
         <pattern>
@@ -85,8 +85,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamDemo3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter29.StreamDemo3" />
+    <configuration name="StreamDemo7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter29.StreamDemo7" />
       <module name="Study" />
       <extension name="coverage">
         <pattern>
@@ -98,8 +98,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamDemo4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter29.StreamDemo4" />
+    <configuration name="StreamDemo8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter29.StreamDemo8" />
       <module name="Study" />
       <extension name="coverage">
         <pattern>
@@ -111,8 +111,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamDemo5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter29.StreamDemo5" />
+    <configuration name="StreamDemo9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter29.StreamDemo9" />
       <module name="Study" />
       <extension name="coverage">
         <pattern>
@@ -126,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StreamDemo5" />
-        <item itemvalue="Application.StreamDemo4" />
-        <item itemvalue="Application.StreamDemo3" />
-        <item itemvalue="Application.StreamDemo2" />
-        <item itemvalue="Application.StreamDemo" />
+        <item itemvalue="Application.StreamDemo10" />
+        <item itemvalue="Application.StreamDemo9" />
+        <item itemvalue="Application.StreamDemo8" />
+        <item itemvalue="Application.StreamDemo7" />
+        <item itemvalue="Application.StreamDemo6" />
       </list>
     </recent_temporary>
   </component>
@@ -142,13 +142,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1652190441046</updated>
-    </task>
-    <task id="LOCAL-00059" summary="Fixed bug ParceDemo">
-      <created>1653364308609</created>
-      <option name="number" value="00059" />
-      <option name="presentableId" value="LOCAL-00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1653364308609</updated>
     </task>
     <task id="LOCAL-00060" summary="add IsDemo&#10;add MemoryDemo">
       <created>1653367595965</created>
@@ -486,7 +479,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656059158118</updated>
     </task>
-    <option name="localTasksCounter" value="108" />
+    <task id="LOCAL-00108" summary="start chapter29&#10;Add StreamDemo(1,2,3,4,5)">
+      <created>1656071356109</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1656071356109</updated>
+    </task>
+    <option name="localTasksCounter" value="109" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -502,7 +502,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="study &#10;lesson 2 is complete!" />
     <MESSAGE value="study &#10;lesson 2 think about work2 with Hashset" />
     <MESSAGE value="study &#10;lesson 3" />
     <MESSAGE value="study work on 2" />
@@ -527,7 +526,8 @@
     <MESSAGE value="add BufferedReaderDemo,&#10;ConsoleDemo, ExplicitChannelRead,&#10;PushBAckReaderDemo, SerializationDemo," />
     <MESSAGE value="add DirList1, ExplicitchannelWrite, MappedChanelRead, MappedChannelWrite, MyfileVisitor, NIOCo&#10;,NIOStreamWrite, ShowFile" />
     <MESSAGE value="chapter 22 is start and complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="chapter 22 is start and complete" />
+    <MESSAGE value="start chapter29&#10;Add StreamDemo(1,2,3,4,5)" />
+    <option name="LAST_COMMIT_MESSAGE" value="start chapter29&#10;Add StreamDemo(1,2,3,4,5)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
