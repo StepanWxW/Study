@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="work on chapter11&#10;add NewThread (0,1,2)">
-      <change afterPath="$PROJECT_DIR$/src/chapter11/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter11/Callme.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter11/NewThread3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter11/NewThread4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter11/Q.java" afterDir="false" />
+    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="chapter 11 is complete">
+      <change afterPath="$PROJECT_DIR$/src/chapter28/CDLDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter28/Q.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter28/SemDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +56,20 @@
       <recent name="addStudy.OOP.new10c" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SuspendResume">
+  <component name="RunManager" selected="Application.CDLDemo">
+    <configuration name="CDLDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter28.CDLDemo" />
+      <module name="Study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapter28.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DeadLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chapter11.DeadLock" />
       <module name="Study" />
@@ -72,12 +83,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoJoin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter11.DemoJoin" />
+    <configuration name="ProdCon" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter28.ProdCon" />
       <module name="Study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter11.*" />
+          <option name="PATTERN" value="chapter28.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PCFixed" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter11.PCFixed" />
+    <configuration name="SemDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter28.SemDemo" />
       <module name="Study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter11.*" />
+          <option name="PATTERN" value="chapter28.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,26 +122,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Synch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter11.Synch" />
-      <module name="Study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chapter11.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CDLDemo" />
+        <item itemvalue="Application.ProdCon" />
+        <item itemvalue="Application.SemDemo" />
         <item itemvalue="Application.SuspendResume" />
         <item itemvalue="Application.DeadLock" />
-        <item itemvalue="Application.PCFixed" />
-        <item itemvalue="Application.Synch" />
-        <item itemvalue="Application.DemoJoin" />
       </list>
     </recent_temporary>
   </component>
@@ -142,13 +140,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1652190441046</updated>
-    </task>
-    <task id="LOCAL-00063" summary="work work work">
-      <created>1653376225999</created>
-      <option name="number" value="00063" />
-      <option name="presentableId" value="LOCAL-00063" />
-      <option name="project" value="LOCAL" />
-      <updated>1653376225999</updated>
     </task>
     <task id="LOCAL-00064" summary="add ArrayListDemo&#10;start chapter 19">
       <created>1653462732254</created>
@@ -486,7 +477,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656338992523</updated>
     </task>
-    <option name="localTasksCounter" value="112" />
+    <task id="LOCAL-00112" summary="chapter 11 is complete">
+      <created>1656397396046</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1656397396046</updated>
+    </task>
+    <option name="localTasksCounter" value="113" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -502,7 +500,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Lesson2 with Hashset" />
     <MESSAGE value="Lesson3 hashmap 40 min&#10;is done!" />
     <MESSAGE value="why protected see only &quot;public&quot;. Without public not see((" />
     <MESSAGE value="start chapter10" />
@@ -527,7 +524,8 @@
     <MESSAGE value="chapter29 is complete&#10;Add StreamDemo(6,7,8,9,10)" />
     <MESSAGE value="chapter 11 is start!&#10;add CurrentThreadDemo" />
     <MESSAGE value="work on chapter11&#10;add NewThread (0,1,2)" />
-    <option name="LAST_COMMIT_MESSAGE" value="work on chapter11&#10;add NewThread (0,1,2)" />
+    <MESSAGE value="chapter 11 is complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="chapter 11 is complete" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
