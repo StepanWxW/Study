@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="chapter 28 is start&#10;add CDLDemo, Q, SemDemo">
-      <change afterPath="$PROJECT_DIR$/src/Thread/lesson1/Foo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Thread/lesson1/MyThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Thread/lesson1/Start.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter28/BarDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter28/ExgrDemo.java" afterDir="false" />
+    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="add lesson one">
+      <change afterPath="$PROJECT_DIR$/src/Thread/lesson1v2/Foo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Thread/lesson1v2/Start.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Thread/lesson1v2/Work.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,25 +53,13 @@
       <recent name="C:\JavaCore1\Study\src\addStudy\OOP" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Thread.lesson1v2" />
       <recent name="addStudy.OOP.new10c" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Start">
+  <component name="RunManager" selected="Application.Thread.lesson1v2.Start">
     <configuration name="BarDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chapter28.BarDemo" />
-      <module name="Study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chapter28.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CDLDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter28.CDLDemo" />
       <module name="Study" />
       <extension name="coverage">
         <pattern>
@@ -124,13 +110,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Thread.lesson1v2.Start" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Thread.lesson1v2.Start" />
+      <module name="Study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Thread.lesson1v2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Thread.lesson1v2.Start" />
         <item itemvalue="Application.Start" />
         <item itemvalue="Application.ProdCon" />
         <item itemvalue="Application.ExgrDemo" />
         <item itemvalue="Application.BarDemo" />
-        <item itemvalue="Application.CDLDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -142,13 +141,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1652190441046</updated>
-    </task>
-    <task id="LOCAL-00065" summary="add &#10;start chapter 19">
-      <created>1653466612583</created>
-      <option name="number" value="00065" />
-      <option name="presentableId" value="LOCAL-00065" />
-      <option name="project" value="LOCAL" />
-      <updated>1653466612583</updated>
     </task>
     <task id="LOCAL-00066" summary="LinkedListDemo">
       <created>1653468090279</created>
@@ -486,7 +478,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656479175125</updated>
     </task>
-    <option name="localTasksCounter" value="114" />
+    <task id="LOCAL-00114" summary="add lesson one">
+      <created>1656488625402</created>
+      <option name="number" value="00114" />
+      <option name="presentableId" value="LOCAL-00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1656488625402</updated>
+    </task>
+    <option name="localTasksCounter" value="115" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -502,7 +501,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="why protected see only &quot;public&quot;. Without public not see((" />
     <MESSAGE value="start chapter10" />
     <MESSAGE value="add NestTry and MathNestTry" />
     <MESSAGE value="chapter 10 is complete" />
@@ -527,7 +525,8 @@
     <MESSAGE value="work on chapter11&#10;add NewThread (0,1,2)" />
     <MESSAGE value="chapter 11 is complete" />
     <MESSAGE value="chapter 28 is start&#10;add CDLDemo, Q, SemDemo" />
-    <option name="LAST_COMMIT_MESSAGE" value="chapter 28 is start&#10;add CDLDemo, Q, SemDemo" />
+    <MESSAGE value="add lesson one" />
+    <option name="LAST_COMMIT_MESSAGE" value="add lesson one" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -551,6 +550,11 @@
           <url>file://$PROJECT_DIR$/src/chapter20/PushBAckReaderDemo.java</url>
           <line>14</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Thread/lesson1v2/Work.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
