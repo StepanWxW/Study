@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="add Threadlesson1v2">
-      <change afterPath="$PROJECT_DIR$/src/chapter28/PhaserDemo.java" afterDir="false" />
+    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="add Threadlesson1v2 is work">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Thread/lesson1v2/Foo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/lesson1v2/Foo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Thread/lesson1v2/Work.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/lesson1v2/Work.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -140,13 +140,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1652190441046</updated>
-    </task>
-    <task id="LOCAL-00067" summary="add HashSet">
-      <created>1653468891267</created>
-      <option name="number" value="00067" />
-      <option name="presentableId" value="LOCAL-00067" />
-      <option name="project" value="LOCAL" />
-      <updated>1653468891267</updated>
     </task>
     <task id="LOCAL-00068" summary="add ArrayDequeDemo + TreeSetDemo">
       <created>1653488844511</created>
@@ -484,7 +477,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656500129784</updated>
     </task>
-    <option name="localTasksCounter" value="116" />
+    <task id="LOCAL-00116" summary="add Threadlesson1v2 is work">
+      <created>1656564292141</created>
+      <option name="number" value="00116" />
+      <option name="presentableId" value="LOCAL-00116" />
+      <option name="project" value="LOCAL" />
+      <updated>1656564292141</updated>
+    </task>
+    <option name="localTasksCounter" value="117" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -500,7 +500,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="add NestTry and MathNestTry" />
     <MESSAGE value="chapter 10 is complete" />
     <MESSAGE value="start is chapter 13" />
     <MESSAGE value="chapter 13 is complete" />
@@ -525,7 +524,8 @@
     <MESSAGE value="chapter 28 is start&#10;add CDLDemo, Q, SemDemo" />
     <MESSAGE value="add lesson one" />
     <MESSAGE value="add Threadlesson1v2" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Threadlesson1v2" />
+    <MESSAGE value="add Threadlesson1v2 is work" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Threadlesson1v2 is work" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
