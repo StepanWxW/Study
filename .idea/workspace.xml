@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="add Threadlesson1v2 is work">
+    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="add Threadlesson1v2 is work V2!!!">
+      <change afterPath="$PROJECT_DIR$/src/Thread/lesson1v3/Foo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Thread/lesson1v3/Start.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Thread/lesson1v2/Foo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/lesson1v2/Foo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Thread/lesson1v2/Work.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/lesson1v2/Work.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,24 +52,12 @@
       <recent name="C:\JavaCore1\Study\src\addStudy\OOP" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Thread.lesson1v3" />
       <recent name="Thread.lesson1v2" />
       <recent name="addStudy.OOP.new10c" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Thread.lesson1v2.Start">
-    <configuration name="BarDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter28.BarDemo" />
-      <module name="Study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chapter28.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Thread.lesson1v3.Start">
     <configuration name="ExgrDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chapter28.ExgrDemo" />
       <module name="Study" />
@@ -122,13 +110,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Thread.lesson1v3.Start" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Thread.lesson1v3.Start" />
+      <module name="Study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Thread.lesson1v3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Thread.lesson1v3.Start" />
         <item itemvalue="Application.Thread.lesson1v2.Start" />
         <item itemvalue="Application.Start" />
         <item itemvalue="Application.ProdCon" />
         <item itemvalue="Application.ExgrDemo" />
-        <item itemvalue="Application.BarDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -140,20 +141,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1652190441046</updated>
-    </task>
-    <task id="LOCAL-00068" summary="add ArrayDequeDemo + TreeSetDemo">
-      <created>1653488844511</created>
-      <option name="number" value="00068" />
-      <option name="presentableId" value="LOCAL-00068" />
-      <option name="project" value="LOCAL" />
-      <updated>1653488844511</updated>
-    </task>
-    <task id="LOCAL-00069" summary="add IteratorDemo">
-      <created>1653544369800</created>
-      <option name="number" value="00069" />
-      <option name="presentableId" value="LOCAL-00069" />
-      <option name="project" value="LOCAL" />
-      <updated>1653544369802</updated>
     </task>
     <task id="LOCAL-00070" summary="add ForEachDemo and SpliteratorDemo">
       <created>1653555914140</created>
@@ -484,7 +471,21 @@
       <option name="project" value="LOCAL" />
       <updated>1656564292141</updated>
     </task>
-    <option name="localTasksCounter" value="117" />
+    <task id="LOCAL-00117" summary="add Threadlesson1v2 is work">
+      <created>1656567662857</created>
+      <option name="number" value="00117" />
+      <option name="presentableId" value="LOCAL-00117" />
+      <option name="project" value="LOCAL" />
+      <updated>1656567662857</updated>
+    </task>
+    <task id="LOCAL-00118" summary="add Threadlesson1v2 is work V2!!!">
+      <created>1656567687324</created>
+      <option name="number" value="00118" />
+      <option name="presentableId" value="LOCAL-00118" />
+      <option name="project" value="LOCAL" />
+      <updated>1656567687324</updated>
+    </task>
+    <option name="localTasksCounter" value="119" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -500,7 +501,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="chapter 10 is complete" />
     <MESSAGE value="start is chapter 13" />
     <MESSAGE value="chapter 13 is complete" />
     <MESSAGE value="start is chapter 15" />
@@ -525,7 +525,8 @@
     <MESSAGE value="add lesson one" />
     <MESSAGE value="add Threadlesson1v2" />
     <MESSAGE value="add Threadlesson1v2 is work" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Threadlesson1v2 is work" />
+    <MESSAGE value="add Threadlesson1v2 is work V2!!!" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Threadlesson1v2 is work V2!!!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
