@@ -17,7 +17,7 @@ class MyPhaser extends Phaser {
     int numPhaser;
     MyPhaser (int parties, int phaseCount) {
         super(parties);
-        numPhaser = phaseCount - 1;
+        numPhaser = phaseCount;
     }
     protected boolean onAdvance(int p, int regParties) {
         return p == numPhaser || regParties == 0;
