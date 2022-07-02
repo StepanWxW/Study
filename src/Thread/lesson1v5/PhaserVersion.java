@@ -20,8 +20,7 @@ class MyPhaser extends Phaser {
         numPhaser = phaseCount - 1;
     }
     protected boolean onAdvance(int p, int regParties) {
-        if (p == numPhaser || regParties == 0) return true;
-        return false;
+        return p == numPhaser || regParties == 0;
     }
 }
 public class PhaserVersion {
