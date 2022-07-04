@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="chapter 28 is complete&#10;add AtomicDemo, LockDemo, SqrtTransform, Transform">
-      <change afterPath="$PROJECT_DIR$/src/Thread/lesson2/FizzBuzz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Thread/lesson2/MyThreadBuzz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Thread/lesson2/MyThreadFizz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Thread/lesson2/MyThreadFizzBuzz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Thread/lesson2/MyThreadNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Thread/lesson2/Start.java" afterDir="false" />
+    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="lesson 2 is complete">
+      <change afterPath="$PROJECT_DIR$/src/pattern/factory/Factory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/factory/Lada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/factory/Largus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/factory/LargusProductionLine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/factory/ProductionLine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/factory/Vesta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/factory/VestaProductionLine.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Thread/lesson1v5/PhaserVersion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/lesson1v5/PhaserVersion.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,9 +63,9 @@
       <recent name="addStudy.OOP.new10c" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Start">
-    <configuration name="AtomicDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter28.AtomicDemo" />
+  <component name="RunManager" selected="Application.Factory">
+    <configuration name="FJExperiment" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter28.FJExperiment" />
       <module name="Study" />
       <extension name="coverage">
         <pattern>
@@ -77,12 +77,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FJExperiment" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter28.FJExperiment" />
+    <configuration name="Factory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pattern.factory.Factory" />
       <module name="Study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter28.*" />
+          <option name="PATTERN" value="pattern.factory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Factory" />
         <item itemvalue="Application.Start" />
         <item itemvalue="Application.PhaserVersion" />
         <item itemvalue="Application.FJExperiment" />
         <item itemvalue="Application.ForJoinDemo" />
-        <item itemvalue="Application.AtomicDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -160,13 +160,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1652190441046</updated>
-    </task>
-    <task id="LOCAL-00074" summary="add CompDemo and MyComp">
-      <created>1653576119586</created>
-      <option name="number" value="00074" />
-      <option name="presentableId" value="LOCAL-00074" />
-      <option name="project" value="LOCAL" />
-      <updated>1653576119586</updated>
     </task>
     <task id="LOCAL-00075" summary="work">
       <created>1653631756204</created>
@@ -504,7 +497,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656745473436</updated>
     </task>
-    <option name="localTasksCounter" value="123" />
+    <task id="LOCAL-00123" summary="lesson 2 is complete">
+      <created>1656752919446</created>
+      <option name="number" value="00123" />
+      <option name="presentableId" value="LOCAL-00123" />
+      <option name="project" value="LOCAL" />
+      <updated>1656752919446</updated>
+    </task>
+    <option name="localTasksCounter" value="124" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -520,7 +520,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Work work work)" />
     <MESSAGE value="Night commit" />
     <MESSAGE value="chapter 15 is complete" />
     <MESSAGE value="add&#10;ByteArrayInputStreamReset&#10;FileDe&#10;FileInputStreamDemo&#10;FileOutputStreamDemo" />
@@ -545,7 +544,8 @@
     <MESSAGE value="Lesson ine is complete whit PhaserVersion" />
     <MESSAGE value="add CallableDemo,&#10;PhaserDemo2, SimpleExec" />
     <MESSAGE value="chapter 28 is complete&#10;add AtomicDemo, LockDemo, SqrtTransform, Transform" />
-    <option name="LAST_COMMIT_MESSAGE" value="chapter 28 is complete&#10;add AtomicDemo, LockDemo, SqrtTransform, Transform" />
+    <MESSAGE value="lesson 2 is complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson 2 is complete" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
