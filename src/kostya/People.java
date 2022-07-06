@@ -10,7 +10,7 @@ public class People {
     }
     @Override
     public String toString() {
-        return "People{" +
+        return "Thread.People{" +
                 "leg=" + leg +
                 ", age=" + age +
                 ", name='" + name + '\'' +
