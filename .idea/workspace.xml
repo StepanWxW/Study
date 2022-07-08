@@ -1,24 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="create Factory pattern">
-      <change afterPath="$PROJECT_DIR$/src/Thread/MyThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Thread/People.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pattern/abstractfactory/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pattern/abstractfactory/CarBody.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pattern/abstractfactory/CarEngine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pattern/abstractfactory/CarWheels.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pattern/abstractfactory/CreateCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pattern/abstractfactory/lada/LadaCarBody.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pattern/abstractfactory/lada/LadaCarEngine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pattern/abstractfactory/lada/LadaCarWheels.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pattern/abstractfactory/lada/LadaCreateCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pattern/abstractfactory/lexus/LexusCarBody.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pattern/abstractfactory/lexus/LexusCarEngine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pattern/abstractfactory/lexus/LexusCarWheels.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pattern/abstractfactory/lexus/LexusCreateCar.java" afterDir="false" />
+    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="create AbstractFactory pattern">
+      <change afterPath="$PROJECT_DIR$/src/pattern/builder/BmwCarBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/builder/BuildCarRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/builder/Buyer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/builder/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/builder/CarBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/builder/MercedesCarBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/builder/Model.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/prototype/CarProject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/prototype/CarProjectFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/prototype/Copyable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/prototype/VersionControlRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/singleton/Audi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/singleton/Start.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kostya/People.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kostya/People.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Thread/People.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/People.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,8 +26,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -61,6 +59,9 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="pattern.builder" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\JavaCore1\Study\src\addStudy\OOP\new10c" />
       <recent name="C:\JavaCore1\Study\src\addStudy\OOP" />
@@ -72,13 +73,13 @@
       <recent name="addStudy.OOP.new10c" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Car">
-    <configuration name="Car" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pattern.abstractfactory.Car" />
+  <component name="RunManager" selected="Application.VersionControlRunner">
+    <configuration name="BuildCarRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pattern.builder.BuildCarRunner" />
       <module name="Study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pattern.abstractfactory.*" />
+          <option name="PATTERN" value="pattern.builder.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Factory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pattern.factory.Factory" />
+    <configuration name="Car" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pattern.abstractfactory.Car" />
       <module name="Study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pattern.factory.*" />
+          <option name="PATTERN" value="pattern.abstractfactory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,12 +126,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PhaserVersion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Thread.lesson1v5.PhaserVersion" />
+    <configuration name="VersionControlRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pattern.prototype.VersionControlRunner" />
       <module name="Study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Thread.lesson1v5.*" />
+          <option name="PATTERN" value="pattern.prototype.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,12 +139,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Start" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Thread.lesson2.Start" />
+    <configuration name="pattern.singleton.Start" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pattern.singleton.Start" />
       <module name="Study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Thread.lesson2.*" />
+          <option name="PATTERN" value="pattern.singleton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.VersionControlRunner" />
+        <item itemvalue="Application.BuildCarRunner" />
+        <item itemvalue="Application.pattern.singleton.Start" />
         <item itemvalue="Application.Car" />
         <item itemvalue="Application.People" />
-        <item itemvalue="Application.Factory" />
-        <item itemvalue="Application.Start" />
-        <item itemvalue="Application.PhaserVersion" />
       </list>
     </recent_temporary>
   </component>
@@ -169,13 +170,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1652190441046</updated>
-    </task>
-    <task id="LOCAL-00076" summary="add&#10;ArraysDemo, StackDemo, VectorDemo">
-      <created>1653649823650</created>
-      <option name="number" value="00076" />
-      <option name="presentableId" value="LOCAL-00076" />
-      <option name="project" value="LOCAL" />
-      <updated>1653649823650</updated>
     </task>
     <task id="LOCAL-00077" summary="add HtDemo">
       <created>1653719866331</created>
@@ -513,7 +507,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656952322387</updated>
     </task>
-    <option name="localTasksCounter" value="125" />
+    <task id="LOCAL-00125" summary="create AbstractFactory pattern">
+      <created>1657079314481</created>
+      <option name="number" value="00125" />
+      <option name="presentableId" value="LOCAL-00125" />
+      <option name="project" value="LOCAL" />
+      <updated>1657079314497</updated>
+    </task>
+    <option name="localTasksCounter" value="126" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -529,7 +530,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="chapter 15 is complete" />
     <MESSAGE value="add&#10;ByteArrayInputStreamReset&#10;FileDe&#10;FileInputStreamDemo&#10;FileOutputStreamDemo" />
     <MESSAGE value="add BufferedInputStreamDemo, ByteArrayOutputStreamDemo" />
     <MESSAGE value="add InputStreamEnumeration&#10;PushBackInputStreamDemo" />
@@ -554,7 +554,8 @@
     <MESSAGE value="chapter 28 is complete&#10;add AtomicDemo, LockDemo, SqrtTransform, Transform" />
     <MESSAGE value="lesson 2 is complete" />
     <MESSAGE value="create Factory pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="create Factory pattern" />
+    <MESSAGE value="create AbstractFactory pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="create AbstractFactory pattern" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
