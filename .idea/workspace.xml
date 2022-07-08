@@ -1,22 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="create AbstractFactory pattern">
-      <change afterPath="$PROJECT_DIR$/src/pattern/builder/BmwCarBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pattern/builder/BuildCarRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pattern/builder/Buyer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pattern/builder/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pattern/builder/CarBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pattern/builder/MercedesCarBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pattern/builder/Model.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pattern/prototype/CarProject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pattern/prototype/CarProjectFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pattern/prototype/Copyable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pattern/prototype/VersionControlRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pattern/singleton/Audi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pattern/singleton/Start.java" afterDir="false" />
+    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="add Builder, Prototype, Singleton">
+      <change afterPath="$PROJECT_DIR$/src/pattern/adapter/Adapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/adapter/Crud.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/adapter/DataBaeRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/adapter/JavaApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/bridge/CarFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/bridge/Conveyor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/bridge/FirstConveyor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/bridge/Granta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/bridge/Model.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/bridge/SecondConveyor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/bridge/Vesta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/composite/PeopleTrainCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/composite/RestranTrainCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/composite/StartTrain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/composite/Train.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/composite/TrainCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/composite/TreeTrainCar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Thread/People.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/People.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,8 +29,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -60,6 +63,8 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="pattern.composite" />
+      <recent name="pattern.bridge" />
       <recent name="pattern.builder" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -73,7 +78,7 @@
       <recent name="addStudy.OOP.new10c" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.VersionControlRunner">
+  <component name="RunManager" selected="Application.StartTrain">
     <configuration name="BuildCarRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pattern.builder.BuildCarRunner" />
       <module name="Study" />
@@ -87,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Car" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pattern.abstractfactory.Car" />
+    <configuration name="CarFactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pattern.bridge.CarFactory" />
       <module name="Study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pattern.abstractfactory.*" />
+          <option name="PATTERN" value="pattern.bridge.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="People" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Thread.People" />
+    <configuration name="DataBaeRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pattern.adapter.DataBaeRunner" />
       <module name="Study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Thread.*" />
+          <option name="PATTERN" value="pattern.adapter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,6 +131,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StartTrain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pattern.composite.StartTrain" />
+      <module name="Study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pattern.composite.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="VersionControlRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pattern.prototype.VersionControlRunner" />
       <module name="Study" />
@@ -139,26 +157,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="pattern.singleton.Start" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pattern.singleton.Start" />
-      <module name="Study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pattern.singleton.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StartTrain" />
+        <item itemvalue="Application.CarFactory" />
+        <item itemvalue="Application.DataBaeRunner" />
         <item itemvalue="Application.VersionControlRunner" />
         <item itemvalue="Application.BuildCarRunner" />
-        <item itemvalue="Application.pattern.singleton.Start" />
-        <item itemvalue="Application.Car" />
-        <item itemvalue="Application.People" />
       </list>
     </recent_temporary>
   </component>
@@ -170,13 +175,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1652190441046</updated>
-    </task>
-    <task id="LOCAL-00077" summary="add HtDemo">
-      <created>1653719866331</created>
-      <option name="number" value="00077" />
-      <option name="presentableId" value="LOCAL-00077" />
-      <option name="project" value="LOCAL" />
-      <updated>1653719866331</updated>
     </task>
     <task id="LOCAL-00078" summary="chapter19 is complete">
       <created>1653726561989</created>
@@ -514,7 +512,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657079314497</updated>
     </task>
-    <option name="localTasksCounter" value="126" />
+    <task id="LOCAL-00126" summary="add Builder, Prototype, Singleton">
+      <created>1657261298701</created>
+      <option name="number" value="00126" />
+      <option name="presentableId" value="LOCAL-00126" />
+      <option name="project" value="LOCAL" />
+      <updated>1657261298701</updated>
+    </task>
+    <option name="localTasksCounter" value="127" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -530,7 +535,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="add&#10;ByteArrayInputStreamReset&#10;FileDe&#10;FileInputStreamDemo&#10;FileOutputStreamDemo" />
     <MESSAGE value="add BufferedInputStreamDemo, ByteArrayOutputStreamDemo" />
     <MESSAGE value="add InputStreamEnumeration&#10;PushBackInputStreamDemo" />
     <MESSAGE value="add DataIODemo and PrintfDemo" />
@@ -555,7 +559,8 @@
     <MESSAGE value="lesson 2 is complete" />
     <MESSAGE value="create Factory pattern" />
     <MESSAGE value="create AbstractFactory pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="create AbstractFactory pattern" />
+    <MESSAGE value="add Builder, Prototype, Singleton" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Builder, Prototype, Singleton" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
