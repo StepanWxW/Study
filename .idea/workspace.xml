@@ -1,24 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="add Builder, Prototype, Singleton">
-      <change afterPath="$PROJECT_DIR$/src/pattern/adapter/Adapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pattern/adapter/Crud.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pattern/adapter/DataBaeRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pattern/adapter/JavaApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pattern/bridge/CarFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pattern/bridge/Conveyor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pattern/bridge/FirstConveyor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pattern/bridge/Granta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pattern/bridge/Model.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pattern/bridge/SecondConveyor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pattern/bridge/Vesta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pattern/composite/PeopleTrainCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pattern/composite/RestranTrainCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pattern/composite/StartTrain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pattern/composite/Train.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pattern/composite/TrainCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pattern/composite/TreeTrainCar.java" afterDir="false" />
+    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="add Pattern:&#10;bridge, composite, adapter">
+      <change afterPath="$PROJECT_DIR$/src/pattern/decorator/BossSupervisorTVSalesman.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/decorator/DirectorBossSupervisorTVSalesman.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/decorator/Salesman.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/decorator/SupervisorTVSalesman.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/decorator/TVSalesman.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/decorator/buyer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,20 +67,7 @@
       <recent name="addStudy.OOP.new10c" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StartTrain">
-    <configuration name="BuildCarRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pattern.builder.BuildCarRunner" />
-      <module name="Study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pattern.builder.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.buyer">
     <configuration name="CarFactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pattern.bridge.CarFactory" />
       <module name="Study" />
@@ -157,13 +133,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="buyer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pattern.decorator.buyer" />
+      <module name="Study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pattern.decorator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.buyer" />
         <item itemvalue="Application.StartTrain" />
         <item itemvalue="Application.CarFactory" />
         <item itemvalue="Application.DataBaeRunner" />
         <item itemvalue="Application.VersionControlRunner" />
-        <item itemvalue="Application.BuildCarRunner" />
       </list>
     </recent_temporary>
   </component>
@@ -175,13 +164,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1652190441046</updated>
-    </task>
-    <task id="LOCAL-00078" summary="chapter19 is complete">
-      <created>1653726561989</created>
-      <option name="number" value="00078" />
-      <option name="presentableId" value="LOCAL-00078" />
-      <option name="project" value="LOCAL" />
-      <updated>1653726561989</updated>
     </task>
     <task id="LOCAL-00079" summary="study &#10;lesson 1 is done!!!&#10;It is Winner!">
       <created>1653755727144</created>
@@ -519,7 +501,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657261298701</updated>
     </task>
-    <option name="localTasksCounter" value="127" />
+    <task id="LOCAL-00127" summary="add Pattern:&#10;bridge, composite">
+      <created>1657277482206</created>
+      <option name="number" value="00127" />
+      <option name="presentableId" value="LOCAL-00127" />
+      <option name="project" value="LOCAL" />
+      <updated>1657277482206</updated>
+    </task>
+    <option name="localTasksCounter" value="128" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -535,7 +524,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="add BufferedInputStreamDemo, ByteArrayOutputStreamDemo" />
     <MESSAGE value="add InputStreamEnumeration&#10;PushBackInputStreamDemo" />
     <MESSAGE value="add DataIODemo and PrintfDemo" />
     <MESSAGE value="add CharArrayReaderDemo,&#10;CharArrayWriteDemo, FileReaderDemo,&#10;FileWriteDemo," />
@@ -560,7 +548,8 @@
     <MESSAGE value="create Factory pattern" />
     <MESSAGE value="create AbstractFactory pattern" />
     <MESSAGE value="add Builder, Prototype, Singleton" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Builder, Prototype, Singleton" />
+    <MESSAGE value="add Pattern:&#10;bridge, composite" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Pattern:&#10;bridge, composite" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
