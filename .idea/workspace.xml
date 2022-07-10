@@ -1,14 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="add Pattern:&#10;chain">
-      <change afterPath="$PROJECT_DIR$/src/pattern/command/BuyCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pattern/command/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pattern/command/Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pattern/command/Database.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pattern/command/FixCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pattern/command/SellCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pattern/command/UpdateCar.java" afterDir="false" />
+    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="add Pattern:&#10;Command">
+      <change afterPath="$PROJECT_DIR$/src/pattern/interpretetor/AndExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/interpretetor/Expression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/interpretetor/InterpreterRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/interpretetor/OrExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/interpretetor/TerminalExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/iterator/Collection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/iterator/Iterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/iterator/Lada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/iterator/LadaRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/mediator/Admin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/mediator/Chat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/mediator/SimpleChatRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/mediator/SimpleTextChat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/mediator/SimpleUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/mediator/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,6 +61,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="pattern.mediator" />
       <recent name="pattern.composite" />
       <recent name="pattern.bridge" />
       <recent name="pattern.builder" />
@@ -68,7 +77,7 @@
       <recent name="addStudy.OOP.new10c" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CarShop">
+  <component name="RunManager" selected="Application.SimpleChatRunner">
     <configuration name="CarShop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pattern.command.CarShop" />
       <module name="Study" />
@@ -95,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Customer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pattern.flyweight.Customer" />
+    <configuration name="InterpreterRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pattern.interpretetor.InterpreterRunner" />
       <module name="Study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pattern.flyweight.*" />
+          <option name="PATTERN" value="pattern.interpretetor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,12 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Line" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pattern.facade.Line" />
+    <configuration name="LadaRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pattern.iterator.LadaRunner" />
       <module name="Study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pattern.facade.*" />
+          <option name="PATTERN" value="pattern.iterator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,12 +143,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="pattern.proxy.ProjectRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pattern.proxy.ProjectRunner" />
+    <configuration name="SimpleChatRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pattern.mediator.SimpleChatRunner" />
       <module name="Study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pattern.proxy.*" />
+          <option name="PATTERN" value="pattern.mediator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SimpleChatRunner" />
+        <item itemvalue="Application.LadaRunner" />
+        <item itemvalue="Application.InterpreterRunner" />
         <item itemvalue="Application.CarShop" />
         <item itemvalue="Application.Consumer" />
-        <item itemvalue="Application.pattern.proxy.ProjectRunner" />
-        <item itemvalue="Application.Customer" />
-        <item itemvalue="Application.Line" />
       </list>
     </recent_temporary>
   </component>
@@ -165,13 +174,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1652190441046</updated>
-    </task>
-    <task id="LOCAL-00082" summary="study &#10;lesson 2 think about work2 with Hashset">
-      <created>1653840504418</created>
-      <option name="number" value="00082" />
-      <option name="presentableId" value="LOCAL-00082" />
-      <option name="project" value="LOCAL" />
-      <updated>1653840504434</updated>
     </task>
     <task id="LOCAL-00083" summary="study &#10;lesson 3">
       <created>1653891060317</created>
@@ -509,7 +511,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657388063641</updated>
     </task>
-    <option name="localTasksCounter" value="131" />
+    <task id="LOCAL-00131" summary="add Pattern:&#10;Command">
+      <created>1657446166498</created>
+      <option name="number" value="00131" />
+      <option name="presentableId" value="LOCAL-00131" />
+      <option name="project" value="LOCAL" />
+      <updated>1657446166499</updated>
+    </task>
+    <option name="localTasksCounter" value="132" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -525,7 +534,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="add BufferedReaderDemo,&#10;ConsoleDemo, ExplicitChannelRead,&#10;PushBAckReaderDemo, SerializationDemo," />
     <MESSAGE value="add DirList1, ExplicitchannelWrite, MappedChanelRead, MappedChannelWrite, MyfileVisitor, NIOCo&#10;,NIOStreamWrite, ShowFile" />
     <MESSAGE value="chapter 22 is start and complete" />
     <MESSAGE value="start chapter29&#10;Add StreamDemo(1,2,3,4,5)" />
@@ -550,7 +558,8 @@
     <MESSAGE value="add Pattern:&#10;decorator" />
     <MESSAGE value="add Pattern:&#10;facade, flyweight, proxy" />
     <MESSAGE value="add Pattern:&#10;chain" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Pattern:&#10;chain" />
+    <MESSAGE value="add Pattern:&#10;Command" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Pattern:&#10;Command" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -574,6 +583,11 @@
           <url>file://$PROJECT_DIR$/src/chapter20/PushBAckReaderDemo.java</url>
           <line>14</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/pattern/iterator/LadaRunner.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
