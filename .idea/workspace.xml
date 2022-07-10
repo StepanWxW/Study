@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="add Pattern:&#10;facade, flyweight, proxy">
-      <change afterPath="$PROJECT_DIR$/src/pattern/chain/Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pattern/chain/Equipment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pattern/chain/GrantaEconomy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pattern/chain/GrantaLuxe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pattern/chain/GrantaNormal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pattern/chain/Lada.java" afterDir="false" />
+    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="add Pattern:&#10;chain">
+      <change afterPath="$PROJECT_DIR$/src/pattern/command/BuyCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/command/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/command/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/command/Database.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/command/FixCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/command/SellCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/command/UpdateCar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,7 +68,20 @@
       <recent name="addStudy.OOP.new10c" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Consumer">
+  <component name="RunManager" selected="Application.CarShop">
+    <configuration name="CarShop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pattern.command.CarShop" />
+      <module name="Study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pattern.command.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Consumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pattern.chain.Consumer" />
       <module name="Study" />
@@ -120,19 +134,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="buyer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pattern.decorator.buyer" />
-      <module name="Study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pattern.decorator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="pattern.proxy.ProjectRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pattern.proxy.ProjectRunner" />
       <module name="Study" />
@@ -148,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CarShop" />
         <item itemvalue="Application.Consumer" />
         <item itemvalue="Application.pattern.proxy.ProjectRunner" />
         <item itemvalue="Application.Customer" />
         <item itemvalue="Application.Line" />
-        <item itemvalue="Application.buyer" />
       </list>
     </recent_temporary>
   </component>
@@ -164,13 +165,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1652190441046</updated>
-    </task>
-    <task id="LOCAL-00081" summary="study &#10;lesson 2 is complete!">
-      <created>1653808017994</created>
-      <option name="number" value="00081" />
-      <option name="presentableId" value="LOCAL-00081" />
-      <option name="project" value="LOCAL" />
-      <updated>1653808017994</updated>
     </task>
     <task id="LOCAL-00082" summary="study &#10;lesson 2 think about work2 with Hashset">
       <created>1653840504418</created>
@@ -508,7 +502,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657346222667</updated>
     </task>
-    <option name="localTasksCounter" value="130" />
+    <task id="LOCAL-00130" summary="add Pattern:&#10;chain">
+      <created>1657388063641</created>
+      <option name="number" value="00130" />
+      <option name="presentableId" value="LOCAL-00130" />
+      <option name="project" value="LOCAL" />
+      <updated>1657388063641</updated>
+    </task>
+    <option name="localTasksCounter" value="131" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -524,7 +525,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="add CharArrayReaderDemo,&#10;CharArrayWriteDemo, FileReaderDemo,&#10;FileWriteDemo," />
     <MESSAGE value="add BufferedReaderDemo,&#10;ConsoleDemo, ExplicitChannelRead,&#10;PushBAckReaderDemo, SerializationDemo," />
     <MESSAGE value="add DirList1, ExplicitchannelWrite, MappedChanelRead, MappedChannelWrite, MyfileVisitor, NIOCo&#10;,NIOStreamWrite, ShowFile" />
     <MESSAGE value="chapter 22 is start and complete" />
@@ -549,7 +549,8 @@
     <MESSAGE value="add Pattern:&#10;bridge, composite" />
     <MESSAGE value="add Pattern:&#10;decorator" />
     <MESSAGE value="add Pattern:&#10;facade, flyweight, proxy" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Pattern:&#10;facade, flyweight, proxy" />
+    <MESSAGE value="add Pattern:&#10;chain" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Pattern:&#10;chain" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
