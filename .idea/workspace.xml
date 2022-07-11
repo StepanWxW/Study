@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="add Pattern:&#10;Iterator, Interpreter, Mediator">
-      <change afterPath="$PROJECT_DIR$/src/pattern/memento/GithubRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pattern/memento/Project.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pattern/memento/Save.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pattern/memento/SaveProjectRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="add Pattern:&#10;memento">
+      <change afterPath="$PROJECT_DIR$/src/pattern/observer/JavaDeveloperJobSite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/observer/JobSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/observer/Observed.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/observer/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/observer/Subscriber.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,13 +66,13 @@
       <recent name="addStudy.OOP.new10c" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SaveProjectRunner">
-    <configuration name="CarShop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pattern.command.CarShop" />
+  <component name="RunManager" selected="Application.JobSearch">
+    <configuration name="InterpreterRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pattern.interpretetor.InterpreterRunner" />
       <module name="Study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pattern.command.*" />
+          <option name="PATTERN" value="pattern.interpretetor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,12 +80,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InterpreterRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pattern.interpretetor.InterpreterRunner" />
+    <configuration name="JobSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pattern.observer.JobSearch" />
       <module name="Study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pattern.interpretetor.*" />
+          <option name="PATTERN" value="pattern.observer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JobSearch" />
         <item itemvalue="Application.SaveProjectRunner" />
         <item itemvalue="Application.SimpleChatRunner" />
         <item itemvalue="Application.LadaRunner" />
         <item itemvalue="Application.InterpreterRunner" />
-        <item itemvalue="Application.CarShop" />
       </list>
     </recent_temporary>
   </component>
@@ -163,13 +163,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1652190441046</updated>
-    </task>
-    <task id="LOCAL-00084" summary="study work on 2">
-      <created>1653899412868</created>
-      <option name="number" value="00084" />
-      <option name="presentableId" value="LOCAL-00084" />
-      <option name="project" value="LOCAL" />
-      <updated>1653899412868</updated>
     </task>
     <task id="LOCAL-00085" summary="Lesson2 with Hashset">
       <created>1653914577388</created>
@@ -507,7 +500,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657471240218</updated>
     </task>
-    <option name="localTasksCounter" value="133" />
+    <task id="LOCAL-00133" summary="add Pattern:&#10;memento">
+      <created>1657511667961</created>
+      <option name="number" value="00133" />
+      <option name="presentableId" value="LOCAL-00133" />
+      <option name="project" value="LOCAL" />
+      <updated>1657511667969</updated>
+    </task>
+    <option name="localTasksCounter" value="134" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -523,7 +523,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="chapter 22 is start and complete" />
     <MESSAGE value="start chapter29&#10;Add StreamDemo(1,2,3,4,5)" />
     <MESSAGE value="chapter29 is complete&#10;Add StreamDemo(6,7,8,9,10)" />
     <MESSAGE value="chapter 11 is start!&#10;add CurrentThreadDemo" />
@@ -548,7 +547,8 @@
     <MESSAGE value="add Pattern:&#10;chain" />
     <MESSAGE value="add Pattern:&#10;Command" />
     <MESSAGE value="add Pattern:&#10;Iterator, Interpreter, Mediator" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Pattern:&#10;Iterator, Interpreter, Mediator" />
+    <MESSAGE value="add Pattern:&#10;memento" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Pattern:&#10;memento" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
