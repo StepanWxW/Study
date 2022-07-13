@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="add Pattern:&#10;Observer">
-      <change afterPath="$PROJECT_DIR$/src/pattern/state/Activity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pattern/state/Coding.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pattern/state/Developer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pattern/state/DeveloperDay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pattern/state/Reading.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pattern/state/Sleeping.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pattern/state/Training.java" afterDir="false" />
+    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="add Pattern:&#10;State">
+      <change afterPath="$PROJECT_DIR$/src/pattern/strategy/Activity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/strategy/Coding.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/strategy/Developer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/strategy/DeveloperRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/strategy/Reading.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/strategy/Sleeping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/strategy/Training.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,18 +39,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/JavaCore1/Study&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "create.test.in.the.same.root": "true",
+    "last_opened_file_path": "C:/JavaCore1/Study/src/pattern/strategy",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="pattern.mediator" />
@@ -58,17 +59,19 @@
       <recent name="pattern.builder" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\JavaCore1\Study\src\pattern\strategy" />
       <recent name="C:\JavaCore1\Study\src\addStudy\OOP\new10c" />
       <recent name="C:\JavaCore1\Study\src\addStudy\OOP" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="pattern.strategy" />
       <recent name="Thread.lesson1v4" />
       <recent name="Thread.lesson1v3" />
       <recent name="Thread.lesson1v2" />
       <recent name="addStudy.OOP.new10c" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DeveloperDay">
+  <component name="RunManager" selected="Application.DeveloperRunner">
     <configuration name="DeveloperDay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pattern.state.DeveloperDay" />
       <module name="Study" />
@@ -82,12 +85,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JobSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pattern.observer.JobSearch" />
+    <configuration name="DeveloperRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pattern.strategy.DeveloperRunner" />
       <module name="Study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pattern.observer.*" />
+          <option name="PATTERN" value="pattern.strategy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LadaRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pattern.iterator.LadaRunner" />
+    <configuration name="JobSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pattern.observer.JobSearch" />
       <module name="Study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pattern.iterator.*" />
+          <option name="PATTERN" value="pattern.observer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DeveloperRunner" />
         <item itemvalue="Application.DeveloperDay" />
         <item itemvalue="Application.JobSearch" />
         <item itemvalue="Application.SaveProjectRunner" />
         <item itemvalue="Application.SimpleChatRunner" />
-        <item itemvalue="Application.LadaRunner" />
       </list>
     </recent_temporary>
   </component>
@@ -165,13 +168,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1652190441046</updated>
-    </task>
-    <task id="LOCAL-00086" summary="Lesson3 hashmap 40 min&#10;is done!">
-      <created>1653999722934</created>
-      <option name="number" value="00086" />
-      <option name="presentableId" value="LOCAL-00086" />
-      <option name="project" value="LOCAL" />
-      <updated>1653999722950</updated>
     </task>
     <task id="LOCAL-00087" summary="why protected see only &quot;public&quot;. Without public not see((">
       <created>1654160765902</created>
@@ -509,7 +505,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657520581718</updated>
     </task>
-    <option name="localTasksCounter" value="135" />
+    <task id="LOCAL-00135" summary="add Pattern:&#10;State">
+      <created>1657542746106</created>
+      <option name="number" value="00135" />
+      <option name="presentableId" value="LOCAL-00135" />
+      <option name="project" value="LOCAL" />
+      <updated>1657542746106</updated>
+    </task>
+    <option name="localTasksCounter" value="136" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -525,7 +528,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="chapter29 is complete&#10;Add StreamDemo(6,7,8,9,10)" />
     <MESSAGE value="chapter 11 is start!&#10;add CurrentThreadDemo" />
     <MESSAGE value="work on chapter11&#10;add NewThread (0,1,2)" />
     <MESSAGE value="chapter 11 is complete" />
@@ -550,7 +552,8 @@
     <MESSAGE value="add Pattern:&#10;Iterator, Interpreter, Mediator" />
     <MESSAGE value="add Pattern:&#10;memento" />
     <MESSAGE value="add Pattern:&#10;Observer" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Pattern:&#10;Observer" />
+    <MESSAGE value="add Pattern:&#10;State" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Pattern:&#10;State" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -579,6 +582,11 @@
           <url>file://$PROJECT_DIR$/src/pattern/iterator/LadaRunner.java</url>
           <line>9</line>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/pattern/state/DeveloperDay.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
