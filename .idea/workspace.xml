@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="add Pattern:&#10;Strategy">
-      <change afterPath="$PROJECT_DIR$/src/pattern/template/ConsumerRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pattern/template/Granta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pattern/template/Lada.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pattern/template/Vesta.java" afterDir="false" />
+    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="add Pattern:&#10;template">
+      <change afterPath="$PROJECT_DIR$/src/pattern/visitor/Database.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/visitor/Developer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/visitor/ProjectClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/visitor/ProjectElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/visitor/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,13 +165,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1652190441046</updated>
-    </task>
-    <task id="LOCAL-00088" summary="start chapter10">
-      <created>1654331110759</created>
-      <option name="number" value="00088" />
-      <option name="presentableId" value="LOCAL-00088" />
-      <option name="project" value="LOCAL" />
-      <updated>1654331110769</updated>
     </task>
     <task id="LOCAL-00089" summary="start chapter10">
       <created>1654331456817</created>
@@ -508,7 +502,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657712200238</updated>
     </task>
-    <option name="localTasksCounter" value="137" />
+    <task id="LOCAL-00137" summary="add Pattern:&#10;template">
+      <created>1657712891632</created>
+      <option name="number" value="00137" />
+      <option name="presentableId" value="LOCAL-00137" />
+      <option name="project" value="LOCAL" />
+      <updated>1657712891632</updated>
+    </task>
+    <option name="localTasksCounter" value="138" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -524,7 +525,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="work on chapter11&#10;add NewThread (0,1,2)" />
     <MESSAGE value="chapter 11 is complete" />
     <MESSAGE value="chapter 28 is start&#10;add CDLDemo, Q, SemDemo" />
     <MESSAGE value="add lesson one" />
@@ -549,7 +549,8 @@
     <MESSAGE value="add Pattern:&#10;Observer" />
     <MESSAGE value="add Pattern:&#10;State" />
     <MESSAGE value="add Pattern:&#10;Strategy" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Pattern:&#10;Strategy" />
+    <MESSAGE value="add Pattern:&#10;template" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Pattern:&#10;template" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
