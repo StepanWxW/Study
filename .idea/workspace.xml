@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="add Pattern:&#10;template">
-      <change afterPath="$PROJECT_DIR$/src/pattern/visitor/Database.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pattern/visitor/Developer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pattern/visitor/ProjectClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pattern/visitor/ProjectElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pattern/visitor/Test.java" afterDir="false" />
+    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="add Pattern:&#10;Visitor (start)">
+      <change afterPath="$PROJECT_DIR$/src/pattern/visitor/JuniorDeveloper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/visitor/Project.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/visitor/ProjectRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/visitor/SeniorDeveloper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +68,7 @@
       <recent name="addStudy.OOP.new10c" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ConsumerRunner">
+  <component name="RunManager" selected="Application.ProjectRunner">
     <configuration name="ConsumerRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pattern.template.ConsumerRunner" />
       <module name="Study" />
@@ -134,12 +134,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SaveProjectRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pattern.memento.SaveProjectRunner" />
+    <configuration name="ProjectRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pattern.visitor.ProjectRunner" />
       <module name="Study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pattern.memento.*" />
+          <option name="PATTERN" value="pattern.visitor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ProjectRunner" />
         <item itemvalue="Application.ConsumerRunner" />
         <item itemvalue="Application.DeveloperRunner" />
         <item itemvalue="Application.DeveloperDay" />
         <item itemvalue="Application.JobSearch" />
-        <item itemvalue="Application.SaveProjectRunner" />
       </list>
     </recent_temporary>
   </component>
@@ -165,13 +165,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1652190441046</updated>
-    </task>
-    <task id="LOCAL-00089" summary="start chapter10">
-      <created>1654331456817</created>
-      <option name="number" value="00089" />
-      <option name="presentableId" value="LOCAL-00089" />
-      <option name="project" value="LOCAL" />
-      <updated>1654331456817</updated>
     </task>
     <task id="LOCAL-00090" summary="add NestTry and MathNestTry">
       <created>1654339538004</created>
@@ -509,7 +502,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657712891632</updated>
     </task>
-    <option name="localTasksCounter" value="138" />
+    <task id="LOCAL-00138" summary="add Pattern:&#10;Visitor (start)">
+      <created>1657797274334</created>
+      <option name="number" value="00138" />
+      <option name="presentableId" value="LOCAL-00138" />
+      <option name="project" value="LOCAL" />
+      <updated>1657797274334</updated>
+    </task>
+    <option name="localTasksCounter" value="139" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -525,7 +525,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="chapter 11 is complete" />
     <MESSAGE value="chapter 28 is start&#10;add CDLDemo, Q, SemDemo" />
     <MESSAGE value="add lesson one" />
     <MESSAGE value="add Threadlesson1v2" />
@@ -550,7 +549,8 @@
     <MESSAGE value="add Pattern:&#10;State" />
     <MESSAGE value="add Pattern:&#10;Strategy" />
     <MESSAGE value="add Pattern:&#10;template" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Pattern:&#10;template" />
+    <MESSAGE value="add Pattern:&#10;Visitor (start)" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Pattern:&#10;Visitor (start)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
