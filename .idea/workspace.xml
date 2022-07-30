@@ -1,12 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="add Pattern:&#10;Visitor (start)">
-      <change afterPath="$PROJECT_DIR$/src/pattern/visitor/JuniorDeveloper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pattern/visitor/Project.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pattern/visitor/ProjectRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pattern/visitor/SeniorDeveloper.java" afterDir="false" />
+    <list default="true" id="1259949b-5604-4790-a008-954c585fb191" name="Changes" comment="add Readme.md">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study.iml" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter19/Study.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/file1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter20/file1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/file2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter20/file2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/file3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter20/file3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RPSv2/Field.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RPS/RPSv2/Field.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RPSv2/GameField.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RPS/RPSv2/GameField.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RPSv2/GameLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RPS/RPSv2/GameLogic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RPSv2/GameRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RPS/RPSv2/GameRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/BlackBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kostya/main/BlackBox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/DemoBlackBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kostya/main/DemoBlackBox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter20/test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/text.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter20/text.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +28,7 @@
         <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="FxmlFile" />
       </list>
     </option>
   </component>
@@ -42,7 +52,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "create.test.in.the.same.root": "true",
-    "last_opened_file_path": "C:/JavaCore1/Study/src/pattern/strategy",
+    "last_opened_file_path": "C:/JavaCore1/Study",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
@@ -59,6 +69,10 @@
       <recent name="C:\JavaCore1\Study\src\pattern\strategy" />
       <recent name="C:\JavaCore1\Study\src\addStudy\OOP\new10c" />
       <recent name="C:\JavaCore1\Study\src\addStudy\OOP" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\JavaCore1\Study\src\chapter20" />
+      <recent name="C:\JavaCore1\Study\src\chapter19" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="pattern.strategy" />
@@ -165,13 +179,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1652190441046</updated>
-    </task>
-    <task id="LOCAL-00090" summary="add NestTry and MathNestTry">
-      <created>1654339538004</created>
-      <option name="number" value="00090" />
-      <option name="presentableId" value="LOCAL-00090" />
-      <option name="project" value="LOCAL" />
-      <updated>1654339538004</updated>
     </task>
     <task id="LOCAL-00091" summary="chapter 10 is complete">
       <created>1654414646364</created>
@@ -509,7 +516,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657797274334</updated>
     </task>
-    <option name="localTasksCounter" value="139" />
+    <task id="LOCAL-00139" summary="add Pattern:&#10;Visitor finish">
+      <created>1657975587191</created>
+      <option name="number" value="00139" />
+      <option name="presentableId" value="LOCAL-00139" />
+      <option name="project" value="LOCAL" />
+      <updated>1657975587193</updated>
+    </task>
+    <option name="localTasksCounter" value="140" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -525,8 +539,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="chapter 28 is start&#10;add CDLDemo, Q, SemDemo" />
-    <MESSAGE value="add lesson one" />
     <MESSAGE value="add Threadlesson1v2" />
     <MESSAGE value="add Threadlesson1v2 is work" />
     <MESSAGE value="add Threadlesson1v2 is work V2!!!" />
@@ -550,7 +562,9 @@
     <MESSAGE value="add Pattern:&#10;Strategy" />
     <MESSAGE value="add Pattern:&#10;template" />
     <MESSAGE value="add Pattern:&#10;Visitor (start)" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Pattern:&#10;Visitor (start)" />
+    <MESSAGE value="add Pattern:&#10;Visitor finish" />
+    <MESSAGE value="add Readme.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Readme.md" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

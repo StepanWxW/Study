@@ -1,4 +1,4 @@
-package main;
+package kostya.main;
 
 public class DemoBlackBox {
     int varA;

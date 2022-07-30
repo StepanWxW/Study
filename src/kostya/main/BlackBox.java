@@ -1,4 +1,4 @@
-package main;
+package kostya.main;
 
 public class BlackBox {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package RPSv2;
+package RPS.RPSv2;
 
 public class GameRunner {
     public static void main(String[] args) {

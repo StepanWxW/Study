@@ -1,9 +1,7 @@
-package RPSv2;
+package RPS.RPSv2;
 
 import java.util.Random;
 import java.util.Scanner;
-
-import static RPSv2.GameField.PAPER;
 
 public class GameLogic {
 

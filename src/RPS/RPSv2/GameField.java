@@ -1,4 +1,4 @@
-package RPSv2;
+package RPS.RPSv2;
 
 public enum GameField {
     STONE, PAPER, SCISSORS;

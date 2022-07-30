@@ -1,4 +1,4 @@
-package RPSv2;
+package RPS.RPSv2;
 
 public class Field {
     private GameField computer;
